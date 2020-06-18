@@ -64,7 +64,7 @@ def fetch_one_pokemon(html):
             a_type = re.search(r'data/type-(\d+)', a.get('href'))
             types.append(int(a_type.group(1)))    
         if len(types) < 1 or len(types) > 2:
-            raise pokedex_exception.NoneType_Exception("Types Not Found in href. Page = {0}".format(page))
+            raise pokedex_exception.PropertyLength_Exception("Types Not Found in href. Page = {0}".format(page))
     except pokedex_exception.PropertyLength_Exception:
         except_logging()
 
