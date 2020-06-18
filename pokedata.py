@@ -1,4 +1,5 @@
 from json import dump, load
+from enum import IntEnum
 import poke_utils
 
 class PokemonData(dict):
@@ -80,3 +81,12 @@ def confirm_dynamax_power(move_name, move_type, move_power):
             return 150
         else:
             return 100
+
+class Move_Target(IntEnum):
+    Single = 1
+    All_Foe = 2
+    All_Allies = 3
+    Single_Ally = 4
+    Self = 5
+    Random = 6
+    Field = 7

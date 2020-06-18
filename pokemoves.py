@@ -6,7 +6,7 @@ import re
 import json
 
 url = 'https://wiki.xn--rckteqa2e.com/wiki/%E3%82%8F%E3%81%96%E4%B8%80%E8%A6%A7_(%E7%AC%AC%E5%85%AB%E4%B8%96%E4%BB%A3)'
-json_filename = 'poke_moves.json'
+json_filename = 'poke_moves_prep.json'
 moves_list = []
 
 def main():
