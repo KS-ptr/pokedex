@@ -1,32 +1,22 @@
 from pokedata import Move_Target
 import pokedex_exception
-import poke_utils
+import utils
 import lxml.html
-import urllib.request
-import re
 import json
 
-json_filename = "poke_moves.json"
-moves_list_sup = []
+json_filename = "moves.json"
+new_moves_list = []
 
 def main():
     for i in range(1, 11):
         url = 'https://pente.koro-pokemon.com/data/waza-list-{0}.shtml'.format(i)
-        html = fetch(url)
+        html = utils.fetch_url(url)
         process(html)
     
-    save(json_filename)
-
-def fetch(url):
-    header = {"User-Agent": "Mozzila/5.0"}
-    req = urllib.request.Request(url, headers=header)
-    res = urllib.request.urlopen(req)
-
-    encoding = res.info().get_content_charset(failobj="utf-8")
-    html = res.read().decode(encoding)
-    return html
+    utils.save(json_filename, new_moves_list)
 
 def process(html):
+    moves_list_prep = []
     parsed_html = lxml.html.fromstring(html)
     moves_table = parsed_html.cssselect('#leftcontent > table > tbody > tr')
     for move_tr in moves_table:
@@ -61,7 +51,7 @@ def process(html):
                     raise pokedex_exception.Pokedex_Exception("Target Not Detected. Target said {0}. Move Name = {1}".format(move_target, move_name))
             except pokedex_exception.Pokedex_Exception:
                 move_target = "None"
-                poke_utils.except_logging()
+                utils.except_logging()
     
         move_contact = move_tr[7].text
         if move_contact == "○":
@@ -71,15 +61,13 @@ def process(html):
         move_dict["name"] = move_name
         move_dict["target"] = move_target
         move_dict["contact"] = move_contact
-        moves_list_sup.append(move_dict)
+        moves_list_prep.append(move_dict)
 
-def save(filename):
-    new_moves_list = []
-    with open("poke_moves_prep.json", encoding="utf-8") as f:
+    with open("moves_prep.json", encoding="utf-8") as f:
         moves_list = json.load(f)
 
     for move in moves_list:
-        for move_sup in moves_list_sup:
+        for move_sup in moves_list_prep:
             if move_sup["name"] == move["name"]:
                 move["target"] = move_sup["target"]
                 move["contact"] = move_sup["contact"]
@@ -87,8 +75,9 @@ def save(filename):
             else:
                 continue
 
-    with open(filename, mode="w", encoding="utf-8") as f:
-        json.dump(new_moves_list, f, ensure_ascii=False, indent=4, sort_keys=True, separators=(",", ": "))
+# def new_move_save(filename):
+#     with open(filename, mode="w", encoding="utf-8") as f:
+#         json.dump(new_moves_list, f, ensure_ascii=False, indent=4, sort_keys=True, separators=(",", ": "))
 
 if __name__ == "__main__":
     main()

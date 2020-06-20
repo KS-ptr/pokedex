@@ -1,6 +1,6 @@
 from json import dump, load
 from enum import IntEnum
-import poke_utils
+import utils
 
 class PokemonData(dict):
     def __init__(self, number: int, name: str, height: float, weight: float, types: list, abilities: list, egg_groups: list, final_exp: int, HP: int, Attack: int, Defence: int, SpAttack: int, SpDefence: int, Speed: int, OverAll: int, moves: list):
@@ -25,7 +25,7 @@ class PokemonMoves(dict):
     def __init__(self, id: int, name: str, types: str, category: int, power: int, accuracy: int, pp: int):
         self["id"] = id
         self["name"] = name
-        int_types = poke_utils.get_int_types(types)
+        int_types = utils.get_int_types(types)
         self["types"] = int_types
         self["category"] = category
         self["power"] = power

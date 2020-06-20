@@ -1,4 +1,5 @@
 import lxml.html
+import utils
 import pokedex_exception
 import urllib.request
 import re
@@ -9,18 +10,9 @@ json_filename = 'special_case_dynamax_power.json'
 moves_list = []
 
 def main():
-    html = fetch(url)
+    html = utils.fetch_url(url)
     process(html)
-    save(json_filename)
-
-def fetch(html):
-    header = {"User-Agent": "Mozzila/5.0"}
-    req = urllib.request.Request(url, headers=header)
-    res = urllib.request.urlopen(req)
-
-    encoding = res.info().get_content_charset(failobj="utf-8")
-    html = res.read().decode(encoding)
-    return html
+    utils.save(json_filename, moves_list)
 
 def process(html):
     parsed_html = lxml.html.fromstring(html)
@@ -37,10 +29,6 @@ def process(html):
                     moves_list.append(move)
             except IndexError:
                 continue
-
-def save(filename):
-    with open(filename, mode="w", encoding="utf-8") as f:
-        json.dump(moves_list, f, ensure_ascii=False, indent=4, sort_keys=True, separators=(",", ": "))
 
 if __name__ == "__main__":
     main()

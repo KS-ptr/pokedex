@@ -1,27 +1,16 @@
 # タイプとIDの関係を示すJSONファイルをダンプするスクリプト
+import utils
 import lxml.html
-import json
-import urllib.request
 import re
 
 url = 'https://pente.koro-pokemon.com/data/type.shtml'
-json_filename = "poke_types.json"
+json_filename = "types.json"
 types = []
 
 def main():
-    html = fetch(url)
+    html = utils.fetch_url(url)
     process(html)
-    save(json_filename)
-
-def fetch(url):
-    header = {"User-Agent": "Mozzila/5.0"}
-    req = urllib.request.Request(url, headers=header)
-    res = urllib.request.urlopen(req)
-
-    encoding = res.info().get_content_charset(failobj="utf-8")
-    html = res.read().decode(encoding=encoding)
-
-    return html
+    utils.save(json_filename, types)
 
 def process(html):
     parsed_html = lxml.html.fromstring(html)
@@ -37,10 +26,6 @@ def process(html):
             types.append(types_dict)
         else:
             continue
-
-def save(filename):
-    with open(filename, mode="w", encoding="utf-8") as f:
-        json.dump(types, f, ensure_ascii=False, indent=4, sort_keys=True, separators=(",", ": "))
 
 if __name__ == "__main__":
     main()

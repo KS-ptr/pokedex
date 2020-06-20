@@ -1,65 +1,5 @@
 [
     {
-        "accuracy": 95,
-        "category": "physical",
-        "contact": 1,
-        "dynamax_power": 130,
-        "id": 1,
-        "name": "10まんばりき",
-        "power": 95,
-        "pp": 10,
-        "target": 1,
-        "types": 9
-    },
-    {
-        "accuracy": 100,
-        "category": "special",
-        "contact": 0,
-        "dynamax_power": 130,
-        "id": 2,
-        "name": "10まんボルト",
-        "power": 90,
-        "pp": 15,
-        "target": 1,
-        "types": 5
-    },
-    {
-        "accuracy": 100,
-        "category": "physical",
-        "contact": 1,
-        "dynamax_power": 130,
-        "id": 3,
-        "name": "DDラリアット",
-        "power": 85,
-        "pp": 10,
-        "target": 1,
-        "types": 16
-    },
-    {
-        "accuracy": 100,
-        "category": "physical",
-        "contact": 0,
-        "dynamax_power": 130,
-        "id": 4,
-        "name": "Gのちから",
-        "power": 80,
-        "pp": 10,
-        "target": 1,
-        "types": 4
-    },
-    {
-        "accuracy": 95,
-        "category": "physical",
-        "contact": 1,
-        "dynamax_power": 150,
-        "id": 5,
-        "name": "Vジェネレート",
-        "power": 180,
-        "pp": 5,
-        "target": 1,
-        "types": 2
-    },
-    {
         "accuracy": 90,
         "category": "physical",
         "contact": 1,
@@ -2076,6 +2016,42 @@
         "types": 1
     },
     {
+        "accuracy": 95,
+        "category": "physical",
+        "contact": 1,
+        "dynamax_power": 130,
+        "id": 1,
+        "name": "10まんばりき",
+        "power": 95,
+        "pp": 10,
+        "target": 1,
+        "types": 9
+    },
+    {
+        "accuracy": 100,
+        "category": "special",
+        "contact": 0,
+        "dynamax_power": 130,
+        "id": 2,
+        "name": "10まんボルト",
+        "power": 90,
+        "pp": 15,
+        "target": 1,
+        "types": 5
+    },
+    {
+        "accuracy": 100,
+        "category": "physical",
+        "contact": 0,
+        "dynamax_power": 130,
+        "id": 4,
+        "name": "Gのちから",
+        "power": 80,
+        "pp": 10,
+        "target": 1,
+        "types": 4
+    },
+    {
         "accuracy": 100,
         "category": "special",
         "contact": 0,
@@ -3046,6 +3022,18 @@
         "pp": 15,
         "target": 1,
         "types": 10
+    },
+    {
+        "accuracy": 100,
+        "category": "physical",
+        "contact": 1,
+        "dynamax_power": 130,
+        "id": 3,
+        "name": "DDラリアット",
+        "power": 85,
+        "pp": 10,
+        "target": 1,
+        "types": 16
     },
     {
         "accuracy": 100,
@@ -4690,6 +4678,18 @@
         "pp": 10,
         "target": "Self",
         "types": 1
+    },
+    {
+        "accuracy": 95,
+        "category": "physical",
+        "contact": 1,
+        "dynamax_power": 150,
+        "id": 5,
+        "name": "Vジェネレート",
+        "power": 180,
+        "pp": 5,
+        "target": 1,
+        "types": 2
     },
     {
         "accuracy": 95,
