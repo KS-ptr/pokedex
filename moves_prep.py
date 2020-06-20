@@ -1,10 +1,7 @@
-import pokedata
+from pokedata import PokemonMoves
 import utils
 import pokedex_exception
 import lxml.html
-import urllib.request
-import re
-import json
 
 url = 'https://wiki.xn--rckteqa2e.com/wiki/%E3%82%8F%E3%81%96%E4%B8%80%E8%A6%A7_(%E7%AC%AC%E5%85%AB%E4%B8%96%E4%BB%A3)'
 json_filename = 'moves_prep.json'
@@ -14,15 +11,6 @@ def main():
     html = utils.fetch_url(url)
     process(html)
     utils.save(json_filename, moves_list)
-
-# def fetch(html):
-#     header = {"User-Agent": "Mozzila/5.0"}
-#     req = urllib.request.Request(url, headers=header)
-#     res = urllib.request.urlopen(req)
-
-#     encoding = res.info().get_content_charset(failobj="utf-8")
-#     html = res.read().decode(encoding)
-#     return html
 
 def process(html):
     parsed_html = lxml.html.fromstring(html)
@@ -50,12 +38,8 @@ def process(html):
                 move_power = -1
                 move_accuracy = -1
                 move_pp = -1
-            move = pokedata.PokemonMoves(move_id, move_name, move_type, move_category, move_power, move_accuracy, move_pp)
+            move = PokemonMoves(move_id, move_name, move_type, move_category, move_power, move_accuracy, move_pp)
             moves_list.append(move)
-
-# def save(filename):
-#     with open(filename, mode="w", encoding="utf-8") as f:
-#         json.dump(moves_list, f, ensure_ascii=False, indent=4, sort_keys=True, separators=(",", ": "))
 
 if __name__ == "__main__":
     main()

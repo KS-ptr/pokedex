@@ -2,7 +2,7 @@ from pokedata import Move_Target
 import pokedex_exception
 import utils
 import lxml.html
-import json
+from json import load
 
 json_filename = "moves.json"
 new_moves_list = []
@@ -64,7 +64,7 @@ def process(html):
         moves_list_prep.append(move_dict)
 
     with open("moves_prep.json", encoding="utf-8") as f:
-        moves_list = json.load(f)
+        moves_list = load(f)
 
     for move in moves_list:
         for move_sup in moves_list_prep:
@@ -74,10 +74,6 @@ def process(html):
                 new_moves_list.append(move)
             else:
                 continue
-
-# def new_move_save(filename):
-#     with open(filename, mode="w", encoding="utf-8") as f:
-#         json.dump(new_moves_list, f, ensure_ascii=False, indent=4, sort_keys=True, separators=(",", ": "))
 
 if __name__ == "__main__":
     main()

@@ -1,16 +1,14 @@
 from pokedata import PokemonData
 import utils
 import lxml.html
-import urllib.request
-import json
 import re
 import sys
 import pokedex_exception
 
 web_directry_string = 'https://pente.koro-pokemon.com/zukan/'
 # page = '001.shtml'
-page = 'xy/pumpkaboo.shtml'
-# page = "goruugu.shtml"
+# page = 'xy/pumpkaboo.shtml'
+page = "goruugu.shtml"
 dex_filename = "pokedex.json"
 dex_list = []
 
@@ -20,15 +18,6 @@ def main():
     html = utils.fetch_url(url)
     process(html)
     utils.save(dex_filename ,dex_list)
-
-# def fetch(url):
-#     header = {"User-Agent": "Mozzila/5.0"}
-#     req = urllib.request.Request(url=url, headers=header)
-#     res = urllib.request.urlopen(req)
-
-#     encoding = res.info().get_content_charset(failobj="utf-8")
-#     html = res.read().decode(encoding=encoding)
-#     return html
 
 def process(html):
     parsed_html = lxml.html.fromstring(html)
@@ -123,10 +112,6 @@ def process(html):
         
     # リストに追加する
     dex_list.append(one_pokemon)
-
-# def save(file, dlist):
-#     with open(dex_filename, mode="w", encoding="utf-8") as f:
-#         json.dump(dlist, f, ensure_ascii=False)
 
 if __name__ == "__main__":
     main()

@@ -24,10 +24,12 @@ def fetch_url(url):
     html = res.read().decode(encoding)
     return html
 
+# 取得したデータをJSON形式にダンプする
 def save(filename, dict_list):
     with open(filename, mode="w", encoding="utf-8") as f:
         json.dump(dict_list, f, ensure_ascii=False, indent=4, sort_keys=True, separators=(",", ": "))
 
+# 例外をログ出力する
 def except_logging():
     with open("exception.log", encoding="utf-8", mode="a") as ef:
         ef.write(datetime.datetime.now().strftime('%Y/%m/%d %H:%M:%S'))
