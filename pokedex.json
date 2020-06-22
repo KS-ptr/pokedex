@@ -1,0 +1,32 @@
+[
+    {
+        "Attack": 80,
+        "Defence": 44,
+        "HP": 150,
+        "OverAll": 498,
+        "SpAttack": 90,
+        "SpDefence": 54,
+        "Speed": 80,
+        "abilities": [
+            84,
+            106,
+            138
+        ],
+        "banned": 0,
+        "eggGroups": [
+            10
+        ],
+        "finalExp": 1640000,
+        "height": 1.2,
+        "moves": [],
+        "name": "フワライド",
+        "number": 426,
+        "on_galar": 1,
+        "side_name": "",
+        "types": [
+            14,
+            10
+        ],
+        "weight": 15.0
+    }
+]

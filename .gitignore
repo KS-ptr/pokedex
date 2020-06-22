@@ -1,4 +1,8 @@
 __pycache__
 *.log
+*.bat
+config.ini
 .vscode
 dummy*
+pokemon_url_list.txt
+banned_list.txt

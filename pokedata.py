@@ -3,9 +3,12 @@ from enum import IntEnum
 import utils
 
 class PokemonData(dict):
-    def __init__(self, number: int, name: str, height: float, weight: float, types: list, abilities: list, egg_groups: list, final_exp: int, HP: int, Attack: int, Defence: int, SpAttack: int, SpDefence: int, Speed: int, OverAll: int, moves: list):
+    def __init__(self, number: int, name: str, side_name: str, on_galar: int, banned: int,height: float, weight: float, types: list, abilities: list, egg_groups: list, final_exp: int, HP: int, Attack: int, Defence: int, SpAttack: int, SpDefence: int, Speed: int, OverAll: int, moves: list):
         self["number"] = number
         self["name"] = name
+        self["side_name"] = side_name
+        self["on_galar"] = on_galar
+        self["banned"] = banned
         self["height"] = height
         self["weight"] = weight
         self["types"] = types

@@ -2,32 +2,59 @@ from pokedata import PokemonData
 import utils
 import lxml.html
 import re
-import sys
 import pokedex_exception
 
 web_directry_string = 'https://pente.koro-pokemon.com/zukan/'
-# page = '001.shtml'
 # page = 'xy/pumpkaboo.shtml'
-page = "goruugu.shtml"
+pages_file = 'pokemon_url_list.txt'
+# page = "swordshield/jiguzagumag.shtml"
+page = '426.shtml'
 dex_filename = "pokedex.json"
 dex_list = []
 
-# メインの処理、ここをループさせる
 def main():
     url = web_directry_string + page
     html = utils.fetch_url(url)
     process(html)
-    utils.save(dex_filename ,dex_list)
+    utils.save(dex_filename, dex_list)
 
 def process(html):
     parsed_html = lxml.html.fromstring(html)
+
     # 図鑑番号と名前
     try:
         number = re.search(r'(\d+)' ,parsed_html.cssselect('#col1 > table.ta1.f10mpef14mpk > tbody > tr:nth-child(1) > th')[0].text)
         number = int(number.group(1))
-        name = parsed_html.cssselect('h1')[0].text
-    except ValueError("Couldn't get Dex Number. Page = {0}".format(page)):
+        h1_text = parsed_html.cssselect('h1')[0].text
+        name_full = re.search(r'(\w+)\s*(\(\w+\))', h1_text)
+        if name_full is None:
+            name = h1_text
+            side_name = ""
+        else:
+            name = name_full.group(1)
+            side_name = str.strip(name_full.group(2), '(').strip(')')
+    except AttributeError:
+        raise pokedex_exception.Pokedex_Exception("Page = {0}".format(page))
+    except pokedex_exception.Pokedex_Exception:
         utils.except_logging()
+
+    # ガラルに登場するか否か
+    try:
+        on_galar = parsed_html.cssselect('#content_int > p > span')[0].text
+        if str.startswith(on_galar, "[ガラル地方に登場"):
+            on_galar = 1
+        else:
+            on_galar = 0
+    except pokedex_exception.Pokedex_Exception:
+        utils.except_logging()
+    
+    # 禁止伝説か否か
+    with open('banned_list.txt', encoding="utf-8") as f:
+        lines = f.read().split('\n')
+        if name in lines:
+            banned = 1
+        else:
+            banned = 0
 
     # 高さ、重さ
     try:    
@@ -53,13 +80,19 @@ def process(html):
             raise pokedex_exception.PropertyLength_Exception("Types Not Found in href. Page = {0}".format(page))
     except pokedex_exception.PropertyLength_Exception:
         utils.except_logging()
-
+    
+    # 特性
     try:
-        # 特性
         abilities = []
         abilities_href = parsed_html.cssselect('#col1 > table.ta1.f10mpef14mpk > tbody > tr > td.wsm121414m')
         for ability in abilities_href:
-            abilities.append(ability.text)
+            ability_name = ability.text
+            if ability_name != '-':
+                ability_id = utils.number_property(1, ability_name)
+                if ability_id == None:
+                    raise pokedex_exception.AbilityID_NotFound("Page = {0}, Ability = {1}.".format(page, ability_name))
+                else:
+                    abilities.append(ability_id)
         if len(abilities) < 1 or len(abilities) > 3:
             raise pokedex_exception.PropertyLength_Exception
     except pokedex_exception.PropertyLength_Exception:
@@ -69,9 +102,10 @@ def process(html):
 
     # 最終経験値, タマゴグループ
     try:
-        exp_index = 16 + len(abilities)
-        final_exp = int(parsed_html.cssselect("#col1 > table.ta1.f10mpef14mpk > tbody > tr > td.f12m")[exp_index].text)
-    except ValueError("expected final_exp td is not showing number value. Page = {0}".format(page)):
+        final_exp = int(parsed_html.cssselect("#col1 > table.ta1.f10mpef14mpk > tbody > tr > td.f12m")[-6].text)
+    except ValueError:
+        raise pokedex_exception.Pokedex_Exception("Final Exp Not Found. Page = {0}".format(page))
+    except pokedex_exception.Pokedex_Exception:
         utils.except_logging()
 
     try:
@@ -94,21 +128,28 @@ def process(html):
         SpDefence = int(parsed_html.cssselect('#col1 > table.ta1.f10mpef14mpk > tbody > tr:nth-child(4) > td:nth-child(1) > table > tbody > tr:nth-child(5) > td:nth-child(2)')[0].text)
         Speed = int(parsed_html.cssselect('#col1 > table.ta1.f10mpef14mpk > tbody > tr:nth-child(4) > td:nth-child(1) > table > tbody > tr:nth-child(6) > td:nth-child(2)')[0].text)
         OverAll = int(parsed_html.cssselect('#col1 > table.ta1.f10mpef14mpk > tbody > tr:nth-child(4) > td:nth-child(1) > table > tbody > tr:nth-child(7) > td:nth-child(2)')[0].text)
-    except ValueError("Stats Error. Page = {0}".format(page)):
+    except ValueError:
         utils.except_logging()
 
     # 覚える技
-    try:
-        td_moves = parsed_html.cssselect('#waza4 > table > tbody > tr > td:nth-child(2)')
-        moves = []
-        for move in td_moves:
-            if move.text not in moves:
-                moves.append(move.text)
-    except pokedex_exception.MoveID_NotFound("Page = {0}".format(page)):
-        utils.except_logging()
+    td_moves = parsed_html.cssselect('#waza4 > table tbody > tr > td:nth-child(2)')
+    moves = []
+    for move in td_moves:
+        try:
+            move_name = move.text
+            move_id = utils.number_property(2, move_name)
+            if move_id not in moves:
+                if move_id == None:
+                    raise pokedex_exception.MoveID_NotFound("Page = {0}, Move = {1}".format(page, move_name))
+                    continue
+                else:
+                    moves.append(move_id)
+            moves.sort()
+        except pokedex_exception.MoveID_NotFound:
+            utils.except_logging()
     
     # 読み込み終えたら辞書として値を格納
-    one_pokemon = PokemonData(number, name, height, weight, types, abilities, egg_groups, final_exp, HP, Attack, Defence, SpAttack, SpDefence, Speed, OverAll, moves)
+    one_pokemon = PokemonData(number, name, side_name, on_galar, banned, height, weight, types, abilities, egg_groups, final_exp, HP, Attack, Defence, SpAttack, SpDefence, Speed, OverAll, moves)
         
     # リストに追加する
     dex_list.append(one_pokemon)
