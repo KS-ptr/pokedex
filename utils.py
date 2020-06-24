@@ -26,16 +26,6 @@ def fetch_url(url):
     res.close()
     return html
 
-# ポケモンのデータをクローリングして取得する
-def crawling(url_list: list):
-    config = configparser.ConfigParser()
-    config.read('config.ini')
-    mail_address = config.get("User-Agent", "mail_address")
-    ses = requests.Session()
-    ses.headers.update({"User-Agent": "Mozzila/5.0@{0}".format(mail_address)})
-    for url in url_list:
-        res = ses.get(url)
-
 # 特性、技の名前からIDを取得する
 def number_property(property_type: int, name: str) -> int:
     # 取得する対象が特性の場合
@@ -54,7 +44,7 @@ def number_property(property_type: int, name: str) -> int:
                     return move["id"]
 
 # 取得したデータをJSON形式にダンプする
-def save(filename, dict_list):
+def save_json(filename, dict_list):
     with open(filename, mode="w", encoding="utf-8") as f:
         dump(dict_list, f, ensure_ascii=False, indent=4, sort_keys=True, separators=(",", ": "))
 

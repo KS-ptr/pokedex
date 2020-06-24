@@ -13,7 +13,7 @@ def main():
         html = utils.fetch_url(url)
         process(html)
     
-    utils.save(json_filename, new_moves_list)
+    utils.save_json(json_filename, new_moves_list)
 
 def process(html):
     moves_list_prep = []

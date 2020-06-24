@@ -10,7 +10,7 @@ types = []
 def main():
     html = utils.fetch_url(url)
     process(html)
-    utils.save(json_filename, types)
+    utils.save_json(json_filename, types)
 
 def process(html):
     parsed_html = lxml.html.fromstring(html)

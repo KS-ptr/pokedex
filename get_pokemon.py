@@ -3,22 +3,21 @@ import utils
 import lxml.html
 import re
 import pokedex_exception
+from bs4 import BeautifulSoup
 
 web_directry_string = 'https://pente.koro-pokemon.com/zukan/'
-# page = 'xy/pumpkaboo.shtml'
 pages_file = 'pokemon_url_list.txt'
-# page = "swordshield/jiguzagumag.shtml"
-page = '426.shtml'
+page = '445.shtml'
 dex_filename = "pokedex.json"
 dex_list = []
 
 def main():
     url = web_directry_string + page
     html = utils.fetch_url(url)
-    process(html)
-    utils.save(dex_filename, dex_list)
+    get_pokemon(html)
+    utils.save_json(dex_filename, dex_list)
 
-def process(html):
+def get_pokemon(html) -> dict:
     parsed_html = lxml.html.fromstring(html)
 
     # 図鑑番号と名前
@@ -132,7 +131,22 @@ def process(html):
         utils.except_logging()
 
     # 覚える技
-    td_moves = parsed_html.cssselect('#waza4 > table tbody > tr > td:nth-child(2)')
+    moves = get_moves_list(html)
+    
+    # 読み込み終えたら辞書として値を格納
+    one_pokemon = PokemonData(number, name, side_name, on_galar, banned, height, weight, types, abilities, egg_groups, final_exp, HP, Attack, Defence, SpAttack, SpDefence, Speed, OverAll, moves)
+    
+    # リストに追加する
+    dex_list.append(one_pokemon)
+
+    return one_pokemon
+
+# ポケモンが覚える技のリストを取得する
+def get_moves_list(html) -> list:
+    soup = BeautifulSoup(html, 'html.parser')
+    td_moves = soup.select('#waza4 > table  tbody > tr > td:nth-child(2)')
+    if len(td_moves) == 0:
+        td_moves = soup.select('#waza3 > table  tbody > tr > td:nth-child(2)')
     moves = []
     for move in td_moves:
         try:
@@ -141,18 +155,9 @@ def process(html):
             if move_id not in moves:
                 if move_id == None:
                     raise pokedex_exception.MoveID_NotFound("Page = {0}, Move = {1}".format(page, move_name))
-                    continue
                 else:
                     moves.append(move_id)
         except pokedex_exception.MoveID_NotFound:
             utils.except_logging()
     moves.sort()
-    
-    # 読み込み終えたら辞書として値を格納
-    one_pokemon = PokemonData(number, name, side_name, on_galar, banned, height, weight, types, abilities, egg_groups, final_exp, HP, Attack, Defence, SpAttack, SpDefence, Speed, OverAll, moves)
-        
-    # リストに追加する
-    dex_list.append(one_pokemon)
-
-if __name__ == "__main__":
-    main()
+    return moves

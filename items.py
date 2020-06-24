@@ -9,7 +9,7 @@ json_filename = 'items.json'
 def main():
     html = utils.fetch_url(url)
     process(html)
-    utils.save(json_filename, items_list)
+    utils.save_json(json_filename, items_list)
 
 def process(html):
     html = html[html.find('対戦用のアイテムと効果と入手方法'):html.find('同じわざしか出せなくなる代わりに')]

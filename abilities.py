@@ -9,7 +9,7 @@ json_filename = 'abilities.json'
 def main():
     html = utils.fetch_url(url)
     process(html)
-    utils.save(json_filename, abilities_list)
+    utils.save_json(json_filename, abilities_list)
 
 def process(html):
     parsed_html = lxml.html.fromstring(html)

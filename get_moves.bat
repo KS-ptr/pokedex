@@ -18,6 +18,6 @@ echo "moves_prep.json done."
 exit /b
 
 :get_moves
-call python %~dp0\moves.py
+call python %~dp0\moves_2.py
 echo "moves.json done."
 exit /b
