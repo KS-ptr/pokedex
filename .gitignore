@@ -1,6 +1,5 @@
 __pycache__
 *.log
-*.bat
 config.ini
 .vscode
 dummy*

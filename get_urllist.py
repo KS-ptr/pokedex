@@ -5,6 +5,7 @@ import utils
 url_1 = 'https://pente.koro-pokemon.com/zukan/'
 url_2 = 'https://pente.koro-pokemon.com/zukan/region-form.shtml'
 url_3 = 'https://pente.koro-pokemon.com/zukan/multi-form.shtml'
+url_4 = 'https://pente.koro-pokemon.com/zukan/form-change.shtml'
 url_list = []
 txt_filename = 'pokemon_url_list.txt'
 
@@ -12,9 +13,11 @@ def main():
     html1 = utils.fetch_url(url_1)
     html2 = utils.fetch_url(url_2)
     html3 = utils.fetch_url(url_3)
+    html4 = utils.fetch_url(url_4)
     process1(html1)
     process2(html2)
     process3(html3)
+    process3(html4)
     save(txt_filename, url_list)
 
 def process1(html):

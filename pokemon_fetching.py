@@ -32,7 +32,7 @@ def process(html):
             side_name = ""
         else:
             name = name_full.group(1)
-            side_name = str.strip(name_full.group(2), '(').strip(')')
+            side_name = name_full.group(2)
     except AttributeError:
         raise pokedex_exception.Pokedex_Exception("Page = {0}".format(page))
     except pokedex_exception.Pokedex_Exception:
@@ -144,9 +144,9 @@ def process(html):
                     continue
                 else:
                     moves.append(move_id)
-            moves.sort()
         except pokedex_exception.MoveID_NotFound:
             utils.except_logging()
+    moves.sort()
     
     # 読み込み終えたら辞書として値を格納
     one_pokemon = PokemonData(number, name, side_name, on_galar, banned, height, weight, types, abilities, egg_groups, final_exp, HP, Attack, Defence, SpAttack, SpDefence, Speed, OverAll, moves)
