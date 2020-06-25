@@ -58,6 +58,9 @@ def process(html):
             move_contact = 1
         else:
             move_contact = 0
+
+        if str.startswith(move_name, "のろい"):
+            move_name = "のろい"
         move_dict["name"] = move_name
         move_dict["target"] = move_target
         move_dict["contact"] = move_contact

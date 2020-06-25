@@ -7,17 +7,17 @@ from bs4 import BeautifulSoup
 
 web_directry_string = 'https://pente.koro-pokemon.com/zukan/'
 pages_file = 'pokemon_url_list.txt'
-page = '445.shtml'
+page = '003.shtml'
 dex_filename = "pokedex.json"
 dex_list = []
 
 def main():
     url = web_directry_string + page
     html = utils.fetch_url(url)
-    get_pokemon(html)
+    get_pokemon(html, page)
     utils.save_json(dex_filename, dex_list)
 
-def get_pokemon(html) -> dict:
+def get_pokemon(html, page: str) -> dict:
     parsed_html = lxml.html.fromstring(html)
 
     # 図鑑番号と名前
@@ -145,19 +145,24 @@ def get_pokemon(html) -> dict:
 def get_moves_list(html) -> list:
     soup = BeautifulSoup(html, 'html.parser')
     td_moves = soup.select('#waza4 > table  tbody > tr > td:nth-child(2)')
+    sm_moves = False
     if len(td_moves) == 0:
         td_moves = soup.select('#waza3 > table  tbody > tr > td:nth-child(2)')
+        sm_moves = True
     moves = []
     for move in td_moves:
         try:
             move_name = move.text
             move_id = utils.number_property(2, move_name)
             if move_id not in moves:
-                if move_id == None:
+                if move_id == None and not sm_moves:
                     raise pokedex_exception.MoveID_NotFound("Page = {0}, Move = {1}".format(page, move_name))
-                else:
+                elif move_id != None:
                     moves.append(move_id)
         except pokedex_exception.MoveID_NotFound:
             utils.except_logging()
     moves.sort()
     return moves
+
+if __name__ == "__main__":
+    main()

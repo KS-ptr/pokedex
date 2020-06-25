@@ -2,6 +2,7 @@ from pokedata import PokemonMoves
 import utils
 import pokedex_exception
 import lxml.html
+from json import load
 
 url = 'https://wiki.xn--rckteqa2e.com/wiki/%E3%82%8F%E3%81%96%E4%B8%80%E8%A6%A7_(%E7%AC%AC%E5%85%AB%E4%B8%96%E4%BB%A3)'
 json_filename = 'moves_prep.json'
@@ -9,10 +10,12 @@ moves_list = []
 
 def main():
     html = utils.fetch_url(url)
-    process(html)
+    with open('remarked_moves.json', encoding="utf-8") as f:
+        remarked_moves = load(f)
+    process(html, remarked_moves)
     utils.save_json(json_filename, moves_list)
 
-def process(html):
+def process(html, remarked_moves):
     parsed_html = lxml.html.fromstring(html)
     moves_table = parsed_html.cssselect('#mw-content-text > div > table:nth-child(5) > tbody > tr')
     move_id = 0
@@ -38,7 +41,13 @@ def process(html):
                 move_power = -1
                 move_accuracy = -1
                 move_pp = -1
-            move = PokemonMoves(move_id, move_name, move_type, move_category, move_power, move_accuracy, move_pp)
+            
+            remarks = []
+            for key in remarked_moves.keys():
+                if move_name in remarked_moves[key]:
+                    remarks.append(key)
+            
+            move = PokemonMoves(move_id, move_name, move_type, move_category, move_power, move_accuracy, move_pp, remarks)
             moves_list.append(move)
 
 if __name__ == "__main__":

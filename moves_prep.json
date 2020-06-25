@@ -7,6 +7,7 @@
         "name": "10まんばりき",
         "power": 95,
         "pp": 10,
+        "remarks": [],
         "types": 9
     },
     {
@@ -17,6 +18,9 @@
         "name": "10まんボルト",
         "power": 90,
         "pp": 15,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 5
     },
     {
@@ -27,6 +31,7 @@
         "name": "DDラリアット",
         "power": 85,
         "pp": 10,
+        "remarks": [],
         "types": 16
     },
     {
@@ -37,6 +42,9 @@
         "name": "Gのちから",
         "power": 80,
         "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 4
     },
     {
@@ -47,6 +55,7 @@
         "name": "Vジェネレート",
         "power": 180,
         "pp": 5,
+        "remarks": [],
         "types": 2
     },
     {
@@ -57,6 +66,9 @@
         "name": "アームハンマー",
         "power": 100,
         "pp": 10,
+        "remarks": [
+            "punch"
+        ],
         "types": 7
     },
     {
@@ -67,6 +79,9 @@
         "name": "アイアンテール",
         "power": 100,
         "pp": 15,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 17
     },
     {
@@ -77,6 +92,9 @@
         "name": "アイアンヘッド",
         "power": 80,
         "pp": 15,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 17
     },
     {
@@ -87,6 +105,7 @@
         "name": "アイアンローラー",
         "power": 130,
         "pp": 5,
+        "remarks": [],
         "types": 17
     },
     {
@@ -97,6 +116,7 @@
         "name": "あおいほのお",
         "power": 130,
         "pp": 5,
+        "remarks": [],
         "types": 2
     },
     {
@@ -107,6 +127,7 @@
         "name": "アクアジェット",
         "power": 40,
         "pp": 20,
+        "remarks": [],
         "types": 3
     },
     {
@@ -117,6 +138,7 @@
         "name": "アクアテール",
         "power": 90,
         "pp": 10,
+        "remarks": [],
         "types": 3
     },
     {
@@ -127,6 +149,9 @@
         "name": "アクアブレイク",
         "power": 85,
         "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 3
     },
     {
@@ -137,6 +162,7 @@
         "name": "アクアリング",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 3
     },
     {
@@ -147,6 +173,7 @@
         "name": "アクセルロック",
         "power": 40,
         "pp": 20,
+        "remarks": [],
         "types": 13
     },
     {
@@ -157,6 +184,10 @@
         "name": "あくのはどう",
         "power": 80,
         "pp": 15,
+        "remarks": [
+            "pulse",
+            "sheer_force"
+        ],
         "types": 16
     },
     {
@@ -167,6 +198,7 @@
         "name": "あくび",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 1
     },
     {
@@ -177,6 +209,7 @@
         "name": "アクロバット",
         "power": 55,
         "pp": 15,
+        "remarks": [],
         "types": 10
     },
     {
@@ -187,6 +220,7 @@
         "name": "あさのひざし",
         "power": 0,
         "pp": 5,
+        "remarks": [],
         "types": 1
     },
     {
@@ -197,6 +231,7 @@
         "name": "アシストギア",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 17
     },
     {
@@ -207,6 +242,7 @@
         "name": "アシストパワー",
         "power": 20,
         "pp": 10,
+        "remarks": [],
         "types": 11
     },
     {
@@ -217,6 +253,10 @@
         "name": "アシッドボム",
         "power": 40,
         "pp": 20,
+        "remarks": [
+            "bullet",
+            "sheer_force"
+        ],
         "types": 8
     },
     {
@@ -227,6 +267,7 @@
         "name": "あてみなげ",
         "power": 70,
         "pp": 10,
+        "remarks": [],
         "types": 7
     },
     {
@@ -237,6 +278,7 @@
         "name": "あなをほる",
         "power": 80,
         "pp": 10,
+        "remarks": [],
         "types": 9
     },
     {
@@ -247,6 +289,7 @@
         "name": "あばれる",
         "power": 120,
         "pp": 10,
+        "remarks": [],
         "types": 1
     },
     {
@@ -257,6 +300,7 @@
         "name": "あまいかおり",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 1
     },
     {
@@ -267,6 +311,7 @@
         "name": "あまえる",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 18
     },
     {
@@ -277,6 +322,7 @@
         "name": "あまごい",
         "power": 0,
         "pp": 5,
+        "remarks": [],
         "types": 3
     },
     {
@@ -287,6 +333,7 @@
         "name": "あやしいひかり",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 14
     },
     {
@@ -297,6 +344,7 @@
         "name": "あられ",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 6
     },
     {
@@ -307,6 +355,7 @@
         "name": "アロマセラピー",
         "power": 0,
         "pp": 5,
+        "remarks": [],
         "types": 4
     },
     {
@@ -317,6 +366,7 @@
         "name": "アロマミスト",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 18
     },
     {
@@ -327,6 +377,9 @@
         "name": "アンカーショット",
         "power": 80,
         "pp": 20,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 17
     },
     {
@@ -337,6 +390,7 @@
         "name": "アンコール",
         "power": 0,
         "pp": 5,
+        "remarks": [],
         "types": 1
     },
     {
@@ -347,6 +401,7 @@
         "name": "あんこくきょうだ",
         "power": 80,
         "pp": 5,
+        "remarks": [],
         "types": 16
     },
     {
@@ -357,6 +412,7 @@
         "name": "いあいぎり",
         "power": 50,
         "pp": 30,
+        "remarks": [],
         "types": 1
     },
     {
@@ -367,6 +423,7 @@
         "name": "いえき",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 8
     },
     {
@@ -377,6 +434,7 @@
         "name": "イカサマ",
         "power": 95,
         "pp": 15,
+        "remarks": [],
         "types": 16
     },
     {
@@ -387,6 +445,7 @@
         "name": "いかりのこな",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 12
     },
     {
@@ -397,6 +456,7 @@
         "name": "いかりのまえば",
         "power": 1,
         "pp": 10,
+        "remarks": [],
         "types": 1
     },
     {
@@ -407,6 +467,7 @@
         "name": "いたみわけ",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 1
     },
     {
@@ -417,6 +478,7 @@
         "name": "いちゃもん",
         "power": 0,
         "pp": 15,
+        "remarks": [],
         "types": 16
     },
     {
@@ -427,6 +489,7 @@
         "name": "いてつくしせん",
         "power": -1,
         "pp": -1,
+        "remarks": [],
         "types": 11
     },
     {
@@ -437,6 +500,7 @@
         "name": "いとをはく",
         "power": 0,
         "pp": 40,
+        "remarks": [],
         "types": 12
     },
     {
@@ -447,6 +511,7 @@
         "name": "いのちがけ",
         "power": 1,
         "pp": 5,
+        "remarks": [],
         "types": 7
     },
     {
@@ -457,6 +522,7 @@
         "name": "いのちのしずく",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 3
     },
     {
@@ -467,6 +533,7 @@
         "name": "いばる",
         "power": 0,
         "pp": 15,
+        "remarks": [],
         "types": 1
     },
     {
@@ -477,6 +544,10 @@
         "name": "いびき",
         "power": 50,
         "pp": 15,
+        "remarks": [
+            "sheer_force",
+            "sound"
+        ],
         "types": 1
     },
     {
@@ -487,6 +558,9 @@
         "name": "いやしのすず",
         "power": 0,
         "pp": 5,
+        "remarks": [
+            "sound"
+        ],
         "types": 1
     },
     {
@@ -497,6 +571,7 @@
         "name": "いやしのねがい",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 11
     },
     {
@@ -507,6 +582,7 @@
         "name": "いやしのはどう",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 11
     },
     {
@@ -517,6 +593,9 @@
         "name": "いやなおと",
         "power": 0,
         "pp": 40,
+        "remarks": [
+            "sound"
+        ],
         "types": 1
     },
     {
@@ -527,6 +606,7 @@
         "name": "いわおとし",
         "power": 50,
         "pp": 15,
+        "remarks": [],
         "types": 13
     },
     {
@@ -537,6 +617,9 @@
         "name": "いわくだき",
         "power": 40,
         "pp": 15,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 7
     },
     {
@@ -547,6 +630,9 @@
         "name": "いわなだれ",
         "power": 75,
         "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 13
     },
     {
@@ -557,6 +643,7 @@
         "name": "インファイト",
         "power": 120,
         "pp": 5,
+        "remarks": [],
         "types": 7
     },
     {
@@ -567,6 +654,9 @@
         "name": "ウェザーボール",
         "power": 50,
         "pp": 10,
+        "remarks": [
+            "bullet"
+        ],
         "types": 1
     },
     {
@@ -577,6 +667,7 @@
         "name": "うずしお",
         "power": 35,
         "pp": 15,
+        "remarks": [],
         "types": 3
     },
     {
@@ -587,6 +678,7 @@
         "name": "うそなき",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 16
     },
     {
@@ -597,6 +689,9 @@
         "name": "うたう",
         "power": 0,
         "pp": 15,
+        "remarks": [
+            "sound"
+        ],
         "types": 1
     },
     {
@@ -607,6 +702,10 @@
         "name": "うたかたのアリア",
         "power": 90,
         "pp": 10,
+        "remarks": [
+            "sheer_force",
+            "sound"
+        ],
         "types": 3
     },
     {
@@ -617,6 +716,7 @@
         "name": "うちおとす",
         "power": 50,
         "pp": 15,
+        "remarks": [],
         "types": 13
     },
     {
@@ -627,6 +727,9 @@
         "name": "ウッドハンマー",
         "power": 120,
         "pp": 15,
+        "remarks": [
+            "reckless"
+        ],
         "types": 4
     },
     {
@@ -637,6 +740,7 @@
         "name": "ウッドホーン",
         "power": 75,
         "pp": 10,
+        "remarks": [],
         "types": 4
     },
     {
@@ -647,6 +751,7 @@
         "name": "うっぷんばらし",
         "power": 75,
         "pp": 5,
+        "remarks": [],
         "types": 16
     },
     {
@@ -657,6 +762,7 @@
         "name": "うらみ",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 14
     },
     {
@@ -667,6 +773,7 @@
         "name": "エアカッター",
         "power": 60,
         "pp": 25,
+        "remarks": [],
         "types": 10
     },
     {
@@ -677,6 +784,9 @@
         "name": "エアスラッシュ",
         "power": 75,
         "pp": 15,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 10
     },
     {
@@ -687,6 +797,9 @@
         "name": "エコーボイス",
         "power": 40,
         "pp": 15,
+        "remarks": [
+            "sound"
+        ],
         "types": 1
     },
     {
@@ -697,6 +810,7 @@
         "name": "えだづき",
         "power": 40,
         "pp": 40,
+        "remarks": [],
         "types": 4
     },
     {
@@ -707,6 +821,10 @@
         "name": "エナジーボール",
         "power": 90,
         "pp": 10,
+        "remarks": [
+            "bullet",
+            "sheer_force"
+        ],
         "types": 4
     },
     {
@@ -717,6 +835,9 @@
         "name": "エラがみ",
         "power": 85,
         "pp": 10,
+        "remarks": [
+            "biting"
+        ],
         "types": 3
     },
     {
@@ -727,6 +848,9 @@
         "name": "エレキネット",
         "power": 55,
         "pp": 15,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 5
     },
     {
@@ -737,6 +861,7 @@
         "name": "エレキフィールド",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 5
     },
     {
@@ -747,6 +872,9 @@
         "name": "エレキボール",
         "power": 1,
         "pp": 10,
+        "remarks": [
+            "bullet"
+        ],
         "types": 5
     },
     {
@@ -757,6 +885,7 @@
         "name": "えんまく",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 1
     },
     {
@@ -767,6 +896,7 @@
         "name": "おいかぜ",
         "power": 0,
         "pp": 15,
+        "remarks": [],
         "types": 10
     },
     {
@@ -777,6 +907,7 @@
         "name": "おいわい",
         "power": 0,
         "pp": 40,
+        "remarks": [],
         "types": 1
     },
     {
@@ -787,6 +918,9 @@
         "name": "オーバードライブ",
         "power": 80,
         "pp": 10,
+        "remarks": [
+            "sound"
+        ],
         "types": 5
     },
     {
@@ -797,6 +931,7 @@
         "name": "オーバーヒート",
         "power": 130,
         "pp": 5,
+        "remarks": [],
         "types": 2
     },
     {
@@ -807,6 +942,9 @@
         "name": "オーラぐるま",
         "power": 110,
         "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 5
     },
     {
@@ -817,6 +955,9 @@
         "name": "オーロラビーム",
         "power": 65,
         "pp": 20,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 6
     },
     {
@@ -827,6 +968,7 @@
         "name": "オーロラベール",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 6
     },
     {
@@ -837,6 +979,7 @@
         "name": "おきみやげ",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 16
     },
     {
@@ -847,6 +990,10 @@
         "name": "オクタンほう",
         "power": 65,
         "pp": 10,
+        "remarks": [
+            "bullet",
+            "sheer_force"
+        ],
         "types": 3
     },
     {
@@ -857,6 +1004,7 @@
         "name": "おさきにどうぞ",
         "power": 0,
         "pp": 15,
+        "remarks": [],
         "types": 1
     },
     {
@@ -867,6 +1015,9 @@
         "name": "おたけび",
         "power": 0,
         "pp": 30,
+        "remarks": [
+            "sound"
+        ],
         "types": 1
     },
     {
@@ -877,6 +1028,7 @@
         "name": "おだてる",
         "power": 0,
         "pp": 15,
+        "remarks": [],
         "types": 16
     },
     {
@@ -887,6 +1039,7 @@
         "name": "おちゃかい",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 1
     },
     {
@@ -897,6 +1050,9 @@
         "name": "おどろかす",
         "power": 30,
         "pp": 15,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 14
     },
     {
@@ -907,6 +1063,7 @@
         "name": "おにび",
         "power": 0,
         "pp": 15,
+        "remarks": [],
         "types": 2
     },
     {
@@ -917,6 +1074,7 @@
         "name": "おんねん",
         "power": 0,
         "pp": 5,
+        "remarks": [],
         "types": 14
     },
     {
@@ -927,6 +1085,7 @@
         "name": "ガードシェア",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 11
     },
     {
@@ -937,6 +1096,7 @@
         "name": "ガードスワップ",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 11
     },
     {
@@ -947,6 +1107,7 @@
         "name": "かいでんぱ",
         "power": 0,
         "pp": 15,
+        "remarks": [],
         "types": 5
     },
     {
@@ -957,6 +1118,7 @@
         "name": "かいりき",
         "power": 80,
         "pp": 15,
+        "remarks": [],
         "types": 1
     },
     {
@@ -967,6 +1129,7 @@
         "name": "カウンター",
         "power": 1,
         "pp": 20,
+        "remarks": [],
         "types": 7
     },
     {
@@ -977,6 +1140,7 @@
         "name": "かえんぐるま",
         "power": 60,
         "pp": 25,
+        "remarks": [],
         "types": 2
     },
     {
@@ -987,6 +1151,9 @@
         "name": "かえんほうしゃ",
         "power": 90,
         "pp": 15,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 2
     },
     {
@@ -997,6 +1164,10 @@
         "name": "かえんボール",
         "power": 120,
         "pp": 5,
+        "remarks": [
+            "bullet",
+            "sheer_force"
+        ],
         "types": 2
     },
     {
@@ -1007,6 +1178,7 @@
         "name": "かげうち",
         "power": 40,
         "pp": 30,
+        "remarks": [],
         "types": 14
     },
     {
@@ -1017,6 +1189,9 @@
         "name": "かげぬい",
         "power": 80,
         "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 14
     },
     {
@@ -1027,6 +1202,7 @@
         "name": "かげぶんしん",
         "power": 0,
         "pp": 15,
+        "remarks": [],
         "types": 1
     },
     {
@@ -1037,6 +1213,7 @@
         "name": "かぜおこし",
         "power": 40,
         "pp": 35,
+        "remarks": [],
         "types": 10
     },
     {
@@ -1047,6 +1224,7 @@
         "name": "かたきうち",
         "power": 70,
         "pp": 5,
+        "remarks": [],
         "types": 1
     },
     {
@@ -1057,6 +1235,7 @@
         "name": "かたくなる",
         "power": 0,
         "pp": 30,
+        "remarks": [],
         "types": 1
     },
     {
@@ -1067,6 +1246,7 @@
         "name": "かなしばり",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 1
     },
     {
@@ -1077,6 +1257,9 @@
         "name": "かふんだんご",
         "power": 90,
         "pp": 15,
+        "remarks": [
+            "bullet"
+        ],
         "types": 12
     },
     {
@@ -1087,6 +1270,10 @@
         "name": "かみくだく",
         "power": 80,
         "pp": 15,
+        "remarks": [
+            "biting",
+            "sheer_force"
+        ],
         "types": 16
     },
     {
@@ -1097,6 +1284,10 @@
         "name": "かみつく",
         "power": 60,
         "pp": 25,
+        "remarks": [
+            "biting",
+            "sheer_force"
+        ],
         "types": 16
     },
     {
@@ -1107,6 +1298,9 @@
         "name": "かみなり",
         "power": 110,
         "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 5
     },
     {
@@ -1117,6 +1311,10 @@
         "name": "かみなりのキバ",
         "power": 65,
         "pp": 15,
+        "remarks": [
+            "biting",
+            "sheer_force"
+        ],
         "types": 5
     },
     {
@@ -1127,6 +1325,10 @@
         "name": "かみなりパンチ",
         "power": 75,
         "pp": 15,
+        "remarks": [
+            "punch",
+            "sheer_force"
+        ],
         "types": 5
     },
     {
@@ -1137,6 +1339,7 @@
         "name": "がむしゃら",
         "power": 1,
         "pp": 5,
+        "remarks": [],
         "types": 1
     },
     {
@@ -1147,6 +1350,7 @@
         "name": "からげんき",
         "power": 70,
         "pp": 20,
+        "remarks": [],
         "types": 1
     },
     {
@@ -1157,6 +1361,7 @@
         "name": "からにこもる",
         "power": 0,
         "pp": 40,
+        "remarks": [],
         "types": 3
     },
     {
@@ -1167,6 +1372,7 @@
         "name": "からをやぶる",
         "power": 0,
         "pp": 15,
+        "remarks": [],
         "types": 1
     },
     {
@@ -1177,6 +1383,7 @@
         "name": "かわらわり",
         "power": 75,
         "pp": 15,
+        "remarks": [],
         "types": 7
     },
     {
@@ -1187,6 +1394,9 @@
         "name": "がんせきふうじ",
         "power": 60,
         "pp": 15,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 13
     },
     {
@@ -1197,6 +1407,9 @@
         "name": "がんせきほう",
         "power": 150,
         "pp": 5,
+        "remarks": [
+            "bullet"
+        ],
         "types": 13
     },
     {
@@ -1207,6 +1420,10 @@
         "name": "きあいだま",
         "power": 120,
         "pp": 5,
+        "remarks": [
+            "bullet",
+            "sheer_force"
+        ],
         "types": 7
     },
     {
@@ -1217,6 +1434,7 @@
         "name": "きあいだめ",
         "power": 0,
         "pp": 30,
+        "remarks": [],
         "types": 1
     },
     {
@@ -1227,6 +1445,9 @@
         "name": "きあいパンチ",
         "power": 150,
         "pp": 20,
+        "remarks": [
+            "punch"
+        ],
         "types": 7
     },
     {
@@ -1237,6 +1458,7 @@
         "name": "ギアソーサー",
         "power": 50,
         "pp": 15,
+        "remarks": [],
         "types": 17
     },
     {
@@ -1247,6 +1469,7 @@
         "name": "ギアチェンジ",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 17
     },
     {
@@ -1257,6 +1480,7 @@
         "name": "ギガインパクト",
         "power": 150,
         "pp": 5,
+        "remarks": [],
         "types": 1
     },
     {
@@ -1267,6 +1491,7 @@
         "name": "ギガドレイン",
         "power": 75,
         "pp": 10,
+        "remarks": [],
         "types": 4
     },
     {
@@ -1277,6 +1502,7 @@
         "name": "きしかいせい",
         "power": 1,
         "pp": 15,
+        "remarks": [],
         "types": 7
     },
     {
@@ -1287,6 +1513,7 @@
         "name": "キノコのほうし",
         "power": 0,
         "pp": 15,
+        "remarks": [],
         "types": 4
     },
     {
@@ -1297,6 +1524,7 @@
         "name": "きゅうけつ",
         "power": 80,
         "pp": 10,
+        "remarks": [],
         "types": 12
     },
     {
@@ -1307,6 +1535,7 @@
         "name": "きょじゅうざん",
         "power": 100,
         "pp": 5,
+        "remarks": [],
         "types": 17
     },
     {
@@ -1317,6 +1546,7 @@
         "name": "きょじゅうだん",
         "power": 100,
         "pp": 5,
+        "remarks": [],
         "types": 17
     },
     {
@@ -1327,6 +1557,7 @@
         "name": "きりさく",
         "power": 70,
         "pp": 20,
+        "remarks": [],
         "types": 1
     },
     {
@@ -1337,6 +1568,7 @@
         "name": "きりばらい",
         "power": 0,
         "pp": 15,
+        "remarks": [],
         "types": 10
     },
     {
@@ -1347,6 +1579,7 @@
         "name": "キングシールド",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 17
     },
     {
@@ -1357,6 +1590,9 @@
         "name": "きんぞくおん",
         "power": 0,
         "pp": 40,
+        "remarks": [
+            "sound"
+        ],
         "types": 17
     },
     {
@@ -1367,6 +1603,7 @@
         "name": "クイックターン",
         "power": 60,
         "pp": 20,
+        "remarks": [],
         "types": 3
     },
     {
@@ -1377,6 +1614,7 @@
         "name": "くさのちかい",
         "power": 80,
         "pp": 10,
+        "remarks": [],
         "types": 4
     },
     {
@@ -1387,6 +1625,7 @@
         "name": "くさむすび",
         "power": 1,
         "pp": 20,
+        "remarks": [],
         "types": 4
     },
     {
@@ -1397,6 +1636,7 @@
         "name": "くすぐる",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 1
     },
     {
@@ -1407,6 +1647,9 @@
         "name": "くらいつく",
         "power": 80,
         "pp": 10,
+        "remarks": [
+            "biting"
+        ],
         "types": 16
     },
     {
@@ -1417,6 +1660,7 @@
         "name": "グラススライダー",
         "power": 70,
         "pp": 20,
+        "remarks": [],
         "types": 4
     },
     {
@@ -1427,6 +1671,7 @@
         "name": "グラスフィールド",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 4
     },
     {
@@ -1437,6 +1682,9 @@
         "name": "グラスミキサー",
         "power": 65,
         "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 4
     },
     {
@@ -1447,6 +1695,7 @@
         "name": "クラブハンマー",
         "power": 100,
         "pp": 10,
+        "remarks": [],
         "types": 3
     },
     {
@@ -1457,6 +1706,7 @@
         "name": "クリアスモッグ",
         "power": 50,
         "pp": 15,
+        "remarks": [],
         "types": 8
     },
     {
@@ -1467,6 +1717,7 @@
         "name": "くろいきり",
         "power": 0,
         "pp": 30,
+        "remarks": [],
         "types": 6
     },
     {
@@ -1477,6 +1728,7 @@
         "name": "くろいまなざし",
         "power": 0,
         "pp": 5,
+        "remarks": [],
         "types": 1
     },
     {
@@ -1487,6 +1739,10 @@
         "name": "グロウパンチ",
         "power": 40,
         "pp": 20,
+        "remarks": [
+            "punch",
+            "sheer_force"
+        ],
         "types": 7
     },
     {
@@ -1497,6 +1753,7 @@
         "name": "クロスサンダー",
         "power": 100,
         "pp": 5,
+        "remarks": [],
         "types": 5
     },
     {
@@ -1507,6 +1764,7 @@
         "name": "クロスチョップ",
         "power": 100,
         "pp": 5,
+        "remarks": [],
         "types": 7
     },
     {
@@ -1517,6 +1775,7 @@
         "name": "クロスフレイム",
         "power": 100,
         "pp": 5,
+        "remarks": [],
         "types": 2
     },
     {
@@ -1527,6 +1786,9 @@
         "name": "クロスポイズン",
         "power": 70,
         "pp": 20,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 8
     },
     {
@@ -1537,6 +1799,7 @@
         "name": "げきりん",
         "power": 120,
         "pp": 10,
+        "remarks": [],
         "types": 15
     },
     {
@@ -1547,6 +1810,9 @@
         "name": "けたぐり",
         "power": 1,
         "pp": 20,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 7
     },
     {
@@ -1557,6 +1823,7 @@
         "name": "ゲップ",
         "power": 120,
         "pp": 10,
+        "remarks": [],
         "types": 8
     },
     {
@@ -1567,6 +1834,9 @@
         "name": "げんしのちから",
         "power": 60,
         "pp": 5,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 13
     },
     {
@@ -1577,6 +1847,7 @@
         "name": "こうげきしれい",
         "power": 90,
         "pp": 15,
+        "remarks": [],
         "types": 12
     },
     {
@@ -1587,6 +1858,7 @@
         "name": "こうごうせい",
         "power": 0,
         "pp": 5,
+        "remarks": [],
         "types": 4
     },
     {
@@ -1597,6 +1869,7 @@
         "name": "こうそくいどう",
         "power": 0,
         "pp": 30,
+        "remarks": [],
         "types": 11
     },
     {
@@ -1607,6 +1880,9 @@
         "name": "こうそくスピン",
         "power": 50,
         "pp": 40,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 1
     },
     {
@@ -1617,6 +1893,7 @@
         "name": "ゴーストダイブ",
         "power": 90,
         "pp": 10,
+        "remarks": [],
         "types": 14
     },
     {
@@ -1627,6 +1904,7 @@
         "name": "コーチング",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 7
     },
     {
@@ -1637,6 +1915,7 @@
         "name": "コートチェンジ",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 1
     },
     {
@@ -1647,6 +1926,7 @@
         "name": "こおりのいぶき",
         "power": 60,
         "pp": 10,
+        "remarks": [],
         "types": 6
     },
     {
@@ -1657,6 +1937,10 @@
         "name": "こおりのキバ",
         "power": 65,
         "pp": 15,
+        "remarks": [
+            "biting",
+            "sheer_force"
+        ],
         "types": 6
     },
     {
@@ -1667,6 +1951,7 @@
         "name": "こおりのつぶて",
         "power": 40,
         "pp": 30,
+        "remarks": [],
         "types": 6
     },
     {
@@ -1677,6 +1962,9 @@
         "name": "コールドフレア",
         "power": 140,
         "pp": 5,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 6
     },
     {
@@ -1687,6 +1975,9 @@
         "name": "こごえるかぜ",
         "power": 55,
         "pp": 15,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 6
     },
     {
@@ -1697,6 +1988,9 @@
         "name": "こごえるせかい",
         "power": 65,
         "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 6
     },
     {
@@ -1707,6 +2001,7 @@
         "name": "こころのめ",
         "power": 0,
         "pp": 5,
+        "remarks": [],
         "types": 1
     },
     {
@@ -1717,6 +2012,7 @@
         "name": "コスモパワー",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 11
     },
     {
@@ -1727,6 +2023,9 @@
         "name": "ゴッドバード",
         "power": 140,
         "pp": 5,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 10
     },
     {
@@ -1737,6 +2036,7 @@
         "name": "コットンガード",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 4
     },
     {
@@ -1747,6 +2047,9 @@
         "name": "こなゆき",
         "power": 40,
         "pp": 25,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 6
     },
     {
@@ -1757,6 +2060,7 @@
         "name": "このは",
         "power": 40,
         "pp": 40,
+        "remarks": [],
         "types": 4
     },
     {
@@ -1767,6 +2071,7 @@
         "name": "このゆびとまれ",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 1
     },
     {
@@ -1777,6 +2082,10 @@
         "name": "コメットパンチ",
         "power": 90,
         "pp": 10,
+        "remarks": [
+            "punch",
+            "sheer_force"
+        ],
         "types": 17
     },
     {
@@ -1787,6 +2096,7 @@
         "name": "こらえる",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 1
     },
     {
@@ -1797,6 +2107,7 @@
         "name": "ころがる",
         "power": 30,
         "pp": 20,
+        "remarks": [],
         "types": 13
     },
     {
@@ -1807,6 +2118,7 @@
         "name": "こわいかお",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 1
     },
     {
@@ -1817,6 +2129,9 @@
         "name": "サイケこうせん",
         "power": 65,
         "pp": 20,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 11
     },
     {
@@ -1827,6 +2142,7 @@
         "name": "サイコカッター",
         "power": 70,
         "pp": 20,
+        "remarks": [],
         "types": 11
     },
     {
@@ -1837,6 +2153,9 @@
         "name": "サイコキネシス",
         "power": 90,
         "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 11
     },
     {
@@ -1847,6 +2166,7 @@
         "name": "サイコシフト",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 11
     },
     {
@@ -1857,6 +2177,7 @@
         "name": "サイコショック",
         "power": 80,
         "pp": 10,
+        "remarks": [],
         "types": 11
     },
     {
@@ -1867,6 +2188,9 @@
         "name": "サイコファング",
         "power": 85,
         "pp": 10,
+        "remarks": [
+            "biting"
+        ],
         "types": 11
     },
     {
@@ -1877,6 +2201,7 @@
         "name": "サイコフィールド",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 11
     },
     {
@@ -1887,6 +2212,7 @@
         "name": "サイコブレイク",
         "power": 100,
         "pp": 10,
+        "remarks": [],
         "types": 11
     },
     {
@@ -1897,6 +2223,7 @@
         "name": "サイドチェンジ",
         "power": 0,
         "pp": 15,
+        "remarks": [],
         "types": 11
     },
     {
@@ -1907,6 +2234,7 @@
         "name": "さいはい",
         "power": 0,
         "pp": 15,
+        "remarks": [],
         "types": 11
     },
     {
@@ -1917,6 +2245,7 @@
         "name": "さいみんじゅつ",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 11
     },
     {
@@ -1927,6 +2256,7 @@
         "name": "さきおくり",
         "power": 0,
         "pp": 15,
+        "remarks": [],
         "types": 16
     },
     {
@@ -1937,6 +2267,9 @@
         "name": "さわぐ",
         "power": 90,
         "pp": 10,
+        "remarks": [
+            "sound"
+        ],
         "types": 1
     },
     {
@@ -1947,6 +2280,7 @@
         "name": "サンダープリズン",
         "power": -1,
         "pp": -1,
+        "remarks": [],
         "types": 5
     },
     {
@@ -1957,6 +2291,7 @@
         "name": "シェルアームズ",
         "power": 90,
         "pp": 10,
+        "remarks": [],
         "types": 8
     },
     {
@@ -1967,6 +2302,9 @@
         "name": "シェルブレード",
         "power": 75,
         "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 3
     },
     {
@@ -1977,6 +2315,7 @@
         "name": "しおふき",
         "power": 150,
         "pp": 5,
+        "remarks": [],
         "types": 3
     },
     {
@@ -1987,6 +2326,7 @@
         "name": "しおみず",
         "power": 65,
         "pp": 10,
+        "remarks": [],
         "types": 3
     },
     {
@@ -1997,6 +2337,7 @@
         "name": "じこあんじ",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 1
     },
     {
@@ -2007,6 +2348,9 @@
         "name": "じごくぐるま",
         "power": 80,
         "pp": 20,
+        "remarks": [
+            "reckless"
+        ],
         "types": 7
     },
     {
@@ -2017,6 +2361,9 @@
         "name": "じごくづき",
         "power": 80,
         "pp": 15,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 16
     },
     {
@@ -2027,6 +2374,7 @@
         "name": "じこさいせい",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 1
     },
     {
@@ -2037,6 +2385,7 @@
         "name": "シザークロス",
         "power": 80,
         "pp": 15,
+        "remarks": [],
         "types": 12
     },
     {
@@ -2047,6 +2396,7 @@
         "name": "じしん",
         "power": 100,
         "pp": 10,
+        "remarks": [],
         "types": 9
     },
     {
@@ -2057,6 +2407,7 @@
         "name": "しぜんのちから",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 1
     },
     {
@@ -2067,6 +2418,7 @@
         "name": "したでなめる",
         "power": 30,
         "pp": 30,
+        "remarks": [],
         "types": 14
     },
     {
@@ -2077,6 +2429,7 @@
         "name": "じたばた",
         "power": 1,
         "pp": 15,
+        "remarks": [],
         "types": 1
     },
     {
@@ -2087,6 +2440,7 @@
         "name": "じだんだ",
         "power": 75,
         "pp": 10,
+        "remarks": [],
         "types": 9
     },
     {
@@ -2097,6 +2451,7 @@
         "name": "しっとのほのお",
         "power": 70,
         "pp": 5,
+        "remarks": [],
         "types": 2
     },
     {
@@ -2107,6 +2462,7 @@
         "name": "しっぺがえし",
         "power": 50,
         "pp": 10,
+        "remarks": [],
         "types": 16
     },
     {
@@ -2117,6 +2473,7 @@
         "name": "しっぽをふる",
         "power": 0,
         "pp": 30,
+        "remarks": [],
         "types": 1
     },
     {
@@ -2127,6 +2484,9 @@
         "name": "じならし",
         "power": 60,
         "pp": 20,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 9
     },
     {
@@ -2137,6 +2497,9 @@
         "name": "しねんのずつき",
         "power": 80,
         "pp": 15,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 11
     },
     {
@@ -2147,6 +2510,7 @@
         "name": "じばく",
         "power": 200,
         "pp": 5,
+        "remarks": [],
         "types": 1
     },
     {
@@ -2157,6 +2521,7 @@
         "name": "じばそうさ",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 5
     },
     {
@@ -2167,6 +2532,7 @@
         "name": "しびれごな",
         "power": 0,
         "pp": 30,
+        "remarks": [],
         "types": 4
     },
     {
@@ -2177,6 +2543,7 @@
         "name": "しめつける",
         "power": 15,
         "pp": 20,
+        "remarks": [],
         "types": 1
     },
     {
@@ -2187,6 +2554,9 @@
         "name": "ジャイロボール",
         "power": 1,
         "pp": 5,
+        "remarks": [
+            "bullet"
+        ],
         "types": 17
     },
     {
@@ -2197,6 +2567,7 @@
         "name": "シャドークロー",
         "power": 70,
         "pp": 15,
+        "remarks": [],
         "types": 14
     },
     {
@@ -2207,6 +2578,7 @@
         "name": "シャドースチール",
         "power": 90,
         "pp": 10,
+        "remarks": [],
         "types": 14
     },
     {
@@ -2217,6 +2589,9 @@
         "name": "シャドーパンチ",
         "power": 60,
         "pp": 20,
+        "remarks": [
+            "punch"
+        ],
         "types": 14
     },
     {
@@ -2227,6 +2602,10 @@
         "name": "シャドーボール",
         "power": 80,
         "pp": 15,
+        "remarks": [
+            "bullet",
+            "sheer_force"
+        ],
         "types": 14
     },
     {
@@ -2237,6 +2616,7 @@
         "name": "シャドーレイ",
         "power": 100,
         "pp": 5,
+        "remarks": [],
         "types": 14
     },
     {
@@ -2247,6 +2627,9 @@
         "name": "じゃれつく",
         "power": 90,
         "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 18
     },
     {
@@ -2257,6 +2640,7 @@
         "name": "ジャングルヒール",
         "power": -1,
         "pp": -1,
+        "remarks": [],
         "types": 4
     },
     {
@@ -2267,6 +2651,7 @@
         "name": "じゅうでん",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 5
     },
     {
@@ -2277,6 +2662,7 @@
         "name": "じゅうりょく",
         "power": 0,
         "pp": 5,
+        "remarks": [],
         "types": 11
     },
     {
@@ -2287,6 +2673,7 @@
         "name": "じょうか",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 8
     },
     {
@@ -2297,6 +2684,7 @@
         "name": "しろいきり",
         "power": 0,
         "pp": 30,
+        "remarks": [],
         "types": 6
     },
     {
@@ -2307,6 +2695,7 @@
         "name": "じわれ",
         "power": 1,
         "pp": 5,
+        "remarks": [],
         "types": 9
     },
     {
@@ -2317,6 +2706,7 @@
         "name": "しんくうは",
         "power": 40,
         "pp": 30,
+        "remarks": [],
         "types": 7
     },
     {
@@ -2327,6 +2717,7 @@
         "name": "しんそく",
         "power": 80,
         "pp": 5,
+        "remarks": [],
         "types": 1
     },
     {
@@ -2337,6 +2728,9 @@
         "name": "じんつうりき",
         "power": 80,
         "pp": 20,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 11
     },
     {
@@ -2347,6 +2741,7 @@
         "name": "しんぴのつるぎ",
         "power": 85,
         "pp": 10,
+        "remarks": [],
         "types": 7
     },
     {
@@ -2357,6 +2752,7 @@
         "name": "しんぴのまもり",
         "power": 0,
         "pp": 25,
+        "remarks": [],
         "types": 1
     },
     {
@@ -2367,6 +2763,7 @@
         "name": "シンプルビーム",
         "power": 0,
         "pp": 15,
+        "remarks": [],
         "types": 1
     },
     {
@@ -2377,6 +2774,7 @@
         "name": "スイープビンタ",
         "power": 25,
         "pp": 10,
+        "remarks": [],
         "types": 1
     },
     {
@@ -2387,6 +2785,7 @@
         "name": "すいとる",
         "power": 20,
         "pp": 25,
+        "remarks": [],
         "types": 4
     },
     {
@@ -2397,6 +2796,7 @@
         "name": "すいりゅうれんだ",
         "power": 25,
         "pp": 5,
+        "remarks": [],
         "types": 3
     },
     {
@@ -2407,6 +2807,7 @@
         "name": "スキルスワップ",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 11
     },
     {
@@ -2417,6 +2818,7 @@
         "name": "スケイルショット",
         "power": 25,
         "pp": 20,
+        "remarks": [],
         "types": 15
     },
     {
@@ -2427,6 +2829,9 @@
         "name": "スケイルノイズ",
         "power": 110,
         "pp": 5,
+        "remarks": [
+            "sound"
+        ],
         "types": 15
     },
     {
@@ -2437,6 +2842,7 @@
         "name": "スターアサルト",
         "power": 150,
         "pp": 5,
+        "remarks": [],
         "types": 7
     },
     {
@@ -2447,6 +2853,9 @@
         "name": "ずつき",
         "power": 70,
         "pp": 15,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 1
     },
     {
@@ -2457,6 +2866,9 @@
         "name": "すてゼリフ",
         "power": 0,
         "pp": 20,
+        "remarks": [
+            "sound"
+        ],
         "types": 16
     },
     {
@@ -2467,6 +2879,9 @@
         "name": "すてみタックル",
         "power": 120,
         "pp": 15,
+        "remarks": [
+            "reckless"
+        ],
         "types": 1
     },
     {
@@ -2477,6 +2892,7 @@
         "name": "ステルスロック",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 13
     },
     {
@@ -2487,6 +2903,7 @@
         "name": "ストーンエッジ",
         "power": 100,
         "pp": 5,
+        "remarks": [],
         "types": 13
     },
     {
@@ -2497,6 +2914,7 @@
         "name": "すなあらし",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 13
     },
     {
@@ -2507,6 +2925,7 @@
         "name": "すなかけ",
         "power": 0,
         "pp": 15,
+        "remarks": [],
         "types": 9
     },
     {
@@ -2517,6 +2936,7 @@
         "name": "すなじごく",
         "power": 35,
         "pp": 15,
+        "remarks": [],
         "types": 9
     },
     {
@@ -2527,6 +2947,9 @@
         "name": "スパーク",
         "power": 65,
         "pp": 20,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 5
     },
     {
@@ -2537,6 +2960,7 @@
         "name": "スピードスター",
         "power": 60,
         "pp": 20,
+        "remarks": [],
         "types": 1
     },
     {
@@ -2547,6 +2971,7 @@
         "name": "スピードスワップ",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 11
     },
     {
@@ -2557,6 +2982,7 @@
         "name": "スマートホーン",
         "power": 70,
         "pp": 10,
+        "remarks": [],
         "types": 17
     },
     {
@@ -2567,6 +2993,9 @@
         "name": "スモッグ",
         "power": 30,
         "pp": 20,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 8
     },
     {
@@ -2577,6 +3006,7 @@
         "name": "すりかえ",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 16
     },
     {
@@ -2587,6 +3017,7 @@
         "name": "せいちょう",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 1
     },
     {
@@ -2597,6 +3028,7 @@
         "name": "せいなるつるぎ",
         "power": 90,
         "pp": 15,
+        "remarks": [],
         "types": 7
     },
     {
@@ -2607,6 +3039,7 @@
         "name": "ぜったいれいど",
         "power": 1,
         "pp": 5,
+        "remarks": [],
         "types": 6
     },
     {
@@ -2617,6 +3050,7 @@
         "name": "そうでん",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 5
     },
     {
@@ -2627,6 +3061,9 @@
         "name": "ソウルクラッシュ",
         "power": 75,
         "pp": 15,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 18
     },
     {
@@ -2637,6 +3074,9 @@
         "name": "ソウルビート",
         "power": 0,
         "pp": 5,
+        "remarks": [
+            "sound"
+        ],
         "types": 15
     },
     {
@@ -2647,6 +3087,7 @@
         "name": "ソーラービーム",
         "power": 120,
         "pp": 10,
+        "remarks": [],
         "types": 4
     },
     {
@@ -2657,6 +3098,7 @@
         "name": "ソーラーブレード",
         "power": 125,
         "pp": 10,
+        "remarks": [],
         "types": 4
     },
     {
@@ -2667,6 +3109,7 @@
         "name": "そらをとぶ",
         "power": 90,
         "pp": 15,
+        "remarks": [],
         "types": 10
     },
     {
@@ -2677,6 +3120,7 @@
         "name": "タールショット",
         "power": 0,
         "pp": 15,
+        "remarks": [],
         "types": 13
     },
     {
@@ -2687,6 +3131,7 @@
         "name": "たいあたり",
         "power": 40,
         "pp": 35,
+        "remarks": [],
         "types": 1
     },
     {
@@ -2697,6 +3142,9 @@
         "name": "だいちのちから",
         "power": 90,
         "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 9
     },
     {
@@ -2707,6 +3155,9 @@
         "name": "だいちのはどう",
         "power": 50,
         "pp": 10,
+        "remarks": [
+            "pulse"
+        ],
         "types": 1
     },
     {
@@ -2717,6 +3168,7 @@
         "name": "だいばくはつ",
         "power": 250,
         "pp": 5,
+        "remarks": [],
         "types": 1
     },
     {
@@ -2727,6 +3179,7 @@
         "name": "ダイビング",
         "power": 80,
         "pp": 10,
+        "remarks": [],
         "types": 3
     },
     {
@@ -2737,6 +3190,7 @@
         "name": "ダイマックスほう",
         "power": 100,
         "pp": 5,
+        "remarks": [],
         "types": 15
     },
     {
@@ -2747,6 +3201,9 @@
         "name": "だいもんじ",
         "power": 110,
         "pp": 5,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 2
     },
     {
@@ -2757,6 +3214,9 @@
         "name": "たきのぼり",
         "power": 80,
         "pp": 15,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 3
     },
     {
@@ -2767,6 +3227,9 @@
         "name": "だくりゅう",
         "power": 90,
         "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 3
     },
     {
@@ -2777,6 +3240,7 @@
         "name": "たくわえる",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 1
     },
     {
@@ -2787,6 +3251,7 @@
         "name": "たこがため",
         "power": 0,
         "pp": 15,
+        "remarks": [],
         "types": 7
     },
     {
@@ -2797,6 +3262,9 @@
         "name": "ダストシュート",
         "power": 120,
         "pp": 5,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 8
     },
     {
@@ -2807,6 +3275,7 @@
         "name": "たたきつける",
         "power": 80,
         "pp": 20,
+        "remarks": [],
         "types": 1
     },
     {
@@ -2817,6 +3286,7 @@
         "name": "たたみがえし",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 7
     },
     {
@@ -2827,6 +3297,7 @@
         "name": "たたりめ",
         "power": 65,
         "pp": 10,
+        "remarks": [],
         "types": 14
     },
     {
@@ -2837,6 +3308,9 @@
         "name": "たつまき",
         "power": 40,
         "pp": 20,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 15
     },
     {
@@ -2847,6 +3321,9 @@
         "name": "タネばくだん",
         "power": 80,
         "pp": 15,
+        "remarks": [
+            "bullet"
+        ],
         "types": 4
     },
     {
@@ -2857,6 +3334,9 @@
         "name": "タネマシンガン",
         "power": 25,
         "pp": 30,
+        "remarks": [
+            "bullet"
+        ],
         "types": 4
     },
     {
@@ -2867,6 +3347,7 @@
         "name": "ダブルアタック",
         "power": 35,
         "pp": 10,
+        "remarks": [],
         "types": 1
     },
     {
@@ -2877,6 +3358,7 @@
         "name": "ダブルウイング",
         "power": 40,
         "pp": 10,
+        "remarks": [],
         "types": 10
     },
     {
@@ -2887,6 +3369,7 @@
         "name": "ダブルチョップ",
         "power": 40,
         "pp": 15,
+        "remarks": [],
         "types": 15
     },
     {
@@ -2897,6 +3380,10 @@
         "name": "ダブルパンツァー",
         "power": 60,
         "pp": 5,
+        "remarks": [
+            "punch",
+            "sheer_force"
+        ],
         "types": 17
     },
     {
@@ -2907,6 +3394,7 @@
         "name": "タマゴうみ",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 1
     },
     {
@@ -2917,6 +3405,7 @@
         "name": "ダメおし",
         "power": 60,
         "pp": 10,
+        "remarks": [],
         "types": 16
     },
     {
@@ -2927,6 +3416,7 @@
         "name": "ちいさくなる",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 1
     },
     {
@@ -2937,6 +3427,7 @@
         "name": "ちからをすいとる",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 4
     },
     {
@@ -2947,6 +3438,7 @@
         "name": "ちきゅうなげ",
         "power": 1,
         "pp": 20,
+        "remarks": [],
         "types": 7
     },
     {
@@ -2957,6 +3449,9 @@
         "name": "チャージビーム",
         "power": 50,
         "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 5
     },
     {
@@ -2967,6 +3462,9 @@
         "name": "チャームボイス",
         "power": 40,
         "pp": 15,
+        "remarks": [
+            "sound"
+        ],
         "types": 18
     },
     {
@@ -2977,6 +3475,9 @@
         "name": "ちょうおんぱ",
         "power": 0,
         "pp": 20,
+        "remarks": [
+            "sound"
+        ],
         "types": 1
     },
     {
@@ -2987,6 +3488,7 @@
         "name": "ちょうのまい",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 12
     },
     {
@@ -2997,6 +3499,7 @@
         "name": "ちょうはつ",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 16
     },
     {
@@ -3007,6 +3510,7 @@
         "name": "ついばむ",
         "power": 60,
         "pp": 20,
+        "remarks": [],
         "types": 10
     },
     {
@@ -3017,6 +3521,7 @@
         "name": "つきのひかり",
         "power": 0,
         "pp": 5,
+        "remarks": [],
         "types": 18
     },
     {
@@ -3027,6 +3532,7 @@
         "name": "つけあがる",
         "power": 20,
         "pp": 10,
+        "remarks": [],
         "types": 16
     },
     {
@@ -3037,6 +3543,7 @@
         "name": "つじぎり",
         "power": 70,
         "pp": 15,
+        "remarks": [],
         "types": 16
     },
     {
@@ -3047,6 +3554,7 @@
         "name": "つつく",
         "power": 35,
         "pp": 35,
+        "remarks": [],
         "types": 10
     },
     {
@@ -3057,6 +3565,7 @@
         "name": "つっぱり",
         "power": 15,
         "pp": 20,
+        "remarks": [],
         "types": 7
     },
     {
@@ -3067,6 +3576,7 @@
         "name": "つのでつく",
         "power": 65,
         "pp": 25,
+        "remarks": [],
         "types": 1
     },
     {
@@ -3077,6 +3587,7 @@
         "name": "つのドリル",
         "power": 1,
         "pp": 5,
+        "remarks": [],
         "types": 1
     },
     {
@@ -3087,6 +3598,7 @@
         "name": "つばさでうつ",
         "power": 60,
         "pp": 35,
+        "remarks": [],
         "types": 10
     },
     {
@@ -3097,6 +3609,7 @@
         "name": "つばめがえし",
         "power": 60,
         "pp": 20,
+        "remarks": [],
         "types": 10
     },
     {
@@ -3107,6 +3620,7 @@
         "name": "つぶらなひとみ",
         "power": 0,
         "pp": 30,
+        "remarks": [],
         "types": 18
     },
     {
@@ -3117,6 +3631,7 @@
         "name": "つぼをつく",
         "power": 0,
         "pp": 30,
+        "remarks": [],
         "types": 1
     },
     {
@@ -3127,6 +3642,7 @@
         "name": "つめとぎ",
         "power": 0,
         "pp": 15,
+        "remarks": [],
         "types": 16
     },
     {
@@ -3137,6 +3653,9 @@
         "name": "つららおとし",
         "power": 85,
         "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 6
     },
     {
@@ -3147,6 +3666,7 @@
         "name": "つららばり",
         "power": 25,
         "pp": 30,
+        "remarks": [],
         "types": 6
     },
     {
@@ -3157,6 +3677,7 @@
         "name": "つるぎのまい",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 1
     },
     {
@@ -3167,6 +3688,7 @@
         "name": "つるのムチ",
         "power": 45,
         "pp": 25,
+        "remarks": [],
         "types": 4
     },
     {
@@ -3177,6 +3699,7 @@
         "name": "であいがしら",
         "power": 90,
         "pp": 10,
+        "remarks": [],
         "types": 12
     },
     {
@@ -3187,6 +3710,7 @@
         "name": "てかげん",
         "power": 40,
         "pp": 40,
+        "remarks": [],
         "types": 1
     },
     {
@@ -3197,6 +3721,7 @@
         "name": "デコレーション",
         "power": 0,
         "pp": 15,
+        "remarks": [],
         "types": 18
     },
     {
@@ -3207,6 +3732,7 @@
         "name": "てだすけ",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 1
     },
     {
@@ -3217,6 +3743,7 @@
         "name": "てっていこうせん",
         "power": 140,
         "pp": 5,
+        "remarks": [],
         "types": 17
     },
     {
@@ -3227,6 +3754,7 @@
         "name": "てっぺき",
         "power": 0,
         "pp": 15,
+        "remarks": [],
         "types": 17
     },
     {
@@ -3237,6 +3765,7 @@
         "name": "テレポート",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 11
     },
     {
@@ -3247,6 +3776,7 @@
         "name": "てをつなぐ",
         "power": 0,
         "pp": 40,
+        "remarks": [],
         "types": 1
     },
     {
@@ -3257,6 +3787,9 @@
         "name": "でんきショック",
         "power": 40,
         "pp": 30,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 5
     },
     {
@@ -3267,6 +3800,7 @@
         "name": "でんげきくちばし",
         "power": 85,
         "pp": 10,
+        "remarks": [],
         "types": 5
     },
     {
@@ -3277,6 +3811,7 @@
         "name": "でんげきは",
         "power": 60,
         "pp": 20,
+        "remarks": [],
         "types": 5
     },
     {
@@ -3287,6 +3822,7 @@
         "name": "でんこうせっか",
         "power": 40,
         "pp": 30,
+        "remarks": [],
         "types": 1
     },
     {
@@ -3297,6 +3833,7 @@
         "name": "てんしのキッス",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 18
     },
     {
@@ -3307,6 +3844,7 @@
         "name": "でんじは",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 5
     },
     {
@@ -3317,6 +3855,7 @@
         "name": "でんじふゆう",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 5
     },
     {
@@ -3327,6 +3866,10 @@
         "name": "でんじほう",
         "power": 120,
         "pp": 5,
+        "remarks": [
+            "bullet",
+            "sheer_force"
+        ],
         "types": 5
     },
     {
@@ -3337,6 +3880,7 @@
         "name": "とおせんぼう",
         "power": 0,
         "pp": 5,
+        "remarks": [],
         "types": 1
     },
     {
@@ -3347,6 +3891,7 @@
         "name": "トーチカ",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 8
     },
     {
@@ -3357,6 +3902,9 @@
         "name": "とおぼえ",
         "power": 0,
         "pp": 40,
+        "remarks": [
+            "sound"
+        ],
         "types": 1
     },
     {
@@ -3367,6 +3915,7 @@
         "name": "とぎすます",
         "power": 0,
         "pp": 30,
+        "remarks": [],
         "types": 1
     },
     {
@@ -3377,6 +3926,7 @@
         "name": "どくガス",
         "power": 0,
         "pp": 40,
+        "remarks": [],
         "types": 8
     },
     {
@@ -3387,6 +3937,9 @@
         "name": "どくづき",
         "power": 80,
         "pp": 20,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 8
     },
     {
@@ -3397,6 +3950,7 @@
         "name": "どくどく",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 8
     },
     {
@@ -3407,6 +3961,10 @@
         "name": "どくどくのキバ",
         "power": 50,
         "pp": 15,
+        "remarks": [
+            "biting",
+            "sheer_force"
+        ],
         "types": 8
     },
     {
@@ -3417,6 +3975,7 @@
         "name": "どくのこな",
         "power": 0,
         "pp": 35,
+        "remarks": [],
         "types": 8
     },
     {
@@ -3427,6 +3986,9 @@
         "name": "どくばり",
         "power": 15,
         "pp": 35,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 8
     },
     {
@@ -3437,6 +3999,7 @@
         "name": "どくびし",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 8
     },
     {
@@ -3447,6 +4010,7 @@
         "name": "とぐろをまく",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 8
     },
     {
@@ -3457,6 +4021,7 @@
         "name": "どげざつき",
         "power": 80,
         "pp": 10,
+        "remarks": [],
         "types": 16
     },
     {
@@ -3467,6 +4032,7 @@
         "name": "とける",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 8
     },
     {
@@ -3477,6 +4043,9 @@
         "name": "とっしん",
         "power": 90,
         "pp": 20,
+        "remarks": [
+            "reckless"
+        ],
         "types": 1
     },
     {
@@ -3487,6 +4056,7 @@
         "name": "とっておき",
         "power": 140,
         "pp": 5,
+        "remarks": [],
         "types": 1
     },
     {
@@ -3497,6 +4067,7 @@
         "name": "とどめばり",
         "power": 50,
         "pp": 25,
+        "remarks": [],
         "types": 12
     },
     {
@@ -3507,6 +4078,9 @@
         "name": "とびかかる",
         "power": 80,
         "pp": 15,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 12
     },
     {
@@ -3517,6 +4091,9 @@
         "name": "とびはねる",
         "power": 85,
         "pp": 5,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 10
     },
     {
@@ -3527,6 +4104,9 @@
         "name": "とびひざげり",
         "power": 130,
         "pp": 10,
+        "remarks": [
+            "reckless"
+        ],
         "types": 7
     },
     {
@@ -3537,6 +4117,7 @@
         "name": "ともえなげ",
         "power": 60,
         "pp": 10,
+        "remarks": [],
         "types": 7
     },
     {
@@ -3547,6 +4128,9 @@
         "name": "トライアタック",
         "power": 80,
         "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 1
     },
     {
@@ -3557,6 +4141,7 @@
         "name": "ドラゴンアロー",
         "power": 50,
         "pp": 10,
+        "remarks": [],
         "types": 15
     },
     {
@@ -3567,6 +4152,7 @@
         "name": "ドラゴンエナジー",
         "power": -1,
         "pp": -1,
+        "remarks": [],
         "types": 0
     },
     {
@@ -3577,6 +4163,7 @@
         "name": "ドラゴンクロー",
         "power": 80,
         "pp": 15,
+        "remarks": [],
         "types": 15
     },
     {
@@ -3587,6 +4174,9 @@
         "name": "ドラゴンダイブ",
         "power": 100,
         "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 15
     },
     {
@@ -3597,6 +4187,7 @@
         "name": "ドラゴンテール",
         "power": 60,
         "pp": 10,
+        "remarks": [],
         "types": 15
     },
     {
@@ -3607,6 +4198,7 @@
         "name": "トラップシェル",
         "power": 150,
         "pp": 5,
+        "remarks": [],
         "types": 2
     },
     {
@@ -3617,6 +4209,7 @@
         "name": "トラバサミ",
         "power": 35,
         "pp": 15,
+        "remarks": [],
         "types": 4
     },
     {
@@ -3627,6 +4220,9 @@
         "name": "ドラムアタック",
         "power": 80,
         "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 4
     },
     {
@@ -3637,6 +4233,7 @@
         "name": "トリック",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 11
     },
     {
@@ -3647,6 +4244,7 @@
         "name": "トリックガード",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 18
     },
     {
@@ -3657,6 +4255,7 @@
         "name": "トリックルーム",
         "power": 0,
         "pp": 5,
+        "remarks": [],
         "types": 11
     },
     {
@@ -3667,6 +4266,7 @@
         "name": "トリプルアクセル",
         "power": 20,
         "pp": 10,
+        "remarks": [],
         "types": 6
     },
     {
@@ -3677,6 +4277,7 @@
         "name": "トリプルキック",
         "power": 10,
         "pp": 10,
+        "remarks": [],
         "types": 7
     },
     {
@@ -3687,6 +4288,7 @@
         "name": "ドリルくちばし",
         "power": 80,
         "pp": 20,
+        "remarks": [],
         "types": 10
     },
     {
@@ -3697,6 +4299,7 @@
         "name": "ドリルライナー",
         "power": 80,
         "pp": 10,
+        "remarks": [],
         "types": 9
     },
     {
@@ -3707,6 +4310,7 @@
         "name": "ドレインキッス",
         "power": 50,
         "pp": 10,
+        "remarks": [],
         "types": 18
     },
     {
@@ -3717,6 +4321,9 @@
         "name": "ドレインパンチ",
         "power": 75,
         "pp": 10,
+        "remarks": [
+            "punch"
+        ],
         "types": 7
     },
     {
@@ -3727,6 +4334,9 @@
         "name": "どろかけ",
         "power": 20,
         "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 9
     },
     {
@@ -3737,6 +4347,9 @@
         "name": "トロピカルキック",
         "power": 70,
         "pp": 15,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 4
     },
     {
@@ -3747,6 +4360,7 @@
         "name": "どろぼう",
         "power": 60,
         "pp": 25,
+        "remarks": [],
         "types": 16
     },
     {
@@ -3757,6 +4371,7 @@
         "name": "ドわすれ",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 11
     },
     {
@@ -3767,6 +4382,7 @@
         "name": "とんぼがえり",
         "power": 70,
         "pp": 20,
+        "remarks": [],
         "types": 12
     },
     {
@@ -3777,6 +4393,9 @@
         "name": "ないしょばなし",
         "power": 0,
         "pp": 20,
+        "remarks": [
+            "sound"
+        ],
         "types": 1
     },
     {
@@ -3787,6 +4406,9 @@
         "name": "ナイトバースト",
         "power": 85,
         "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 16
     },
     {
@@ -3797,6 +4419,7 @@
         "name": "ナイトヘッド",
         "power": 1,
         "pp": 15,
+        "remarks": [],
         "types": 14
     },
     {
@@ -3807,6 +4430,7 @@
         "name": "なかまづくり",
         "power": 0,
         "pp": 15,
+        "remarks": [],
         "types": 1
     },
     {
@@ -3817,6 +4441,7 @@
         "name": "なかよくする",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 1
     },
     {
@@ -3827,6 +4452,9 @@
         "name": "なきごえ",
         "power": 0,
         "pp": 40,
+        "remarks": [
+            "sound"
+        ],
         "types": 1
     },
     {
@@ -3837,6 +4465,9 @@
         "name": "なげつける",
         "power": 1,
         "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 16
     },
     {
@@ -3847,6 +4478,7 @@
         "name": "なまける",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 1
     },
     {
@@ -3857,6 +4489,7 @@
         "name": "なみだめ",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 1
     },
     {
@@ -3867,6 +4500,7 @@
         "name": "なみのり",
         "power": 90,
         "pp": 15,
+        "remarks": [],
         "types": 3
     },
     {
@@ -3877,6 +4511,7 @@
         "name": "なやみのタネ",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 4
     },
     {
@@ -3887,6 +4522,7 @@
         "name": "なりきり",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 11
     },
     {
@@ -3897,6 +4533,7 @@
         "name": "ニードルガード",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 4
     },
     {
@@ -3907,6 +4544,7 @@
         "name": "にどげり",
         "power": 30,
         "pp": 30,
+        "remarks": [],
         "types": 7
     },
     {
@@ -3917,6 +4555,9 @@
         "name": "ニトロチャージ",
         "power": 50,
         "pp": 20,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 2
     },
     {
@@ -3927,6 +4568,7 @@
         "name": "にほんばれ",
         "power": 0,
         "pp": 5,
+        "remarks": [],
         "types": 2
     },
     {
@@ -3937,6 +4579,7 @@
         "name": "にらみつける",
         "power": 0,
         "pp": 30,
+        "remarks": [],
         "types": 1
     },
     {
@@ -3947,6 +4590,7 @@
         "name": "ねがいごと",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 1
     },
     {
@@ -3957,6 +4601,9 @@
         "name": "ねこだまし",
         "power": 40,
         "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 1
     },
     {
@@ -3967,6 +4614,7 @@
         "name": "ねごと",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 1
     },
     {
@@ -3977,6 +4625,7 @@
         "name": "ネコにこばん",
         "power": 40,
         "pp": 20,
+        "remarks": [],
         "types": 1
     },
     {
@@ -3987,6 +4636,7 @@
         "name": "ねっさのだいち",
         "power": 70,
         "pp": 10,
+        "remarks": [],
         "types": 9
     },
     {
@@ -3997,6 +4647,9 @@
         "name": "ねっとう",
         "power": 80,
         "pp": 15,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 3
     },
     {
@@ -4007,6 +4660,9 @@
         "name": "ねっぷう",
         "power": 95,
         "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 2
     },
     {
@@ -4017,6 +4673,7 @@
         "name": "ねばねばネット",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 12
     },
     {
@@ -4027,6 +4684,7 @@
         "name": "ねむりごな",
         "power": 0,
         "pp": 15,
+        "remarks": [],
         "types": 4
     },
     {
@@ -4037,6 +4695,7 @@
         "name": "ねむる",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 11
     },
     {
@@ -4047,6 +4706,7 @@
         "name": "ねらいうち",
         "power": 80,
         "pp": 15,
+        "remarks": [],
         "types": 3
     },
     {
@@ -4057,6 +4717,7 @@
         "name": "ねをはる",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 4
     },
     {
@@ -4067,6 +4728,9 @@
         "name": "ねんりき",
         "power": 50,
         "pp": 25,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 11
     },
     {
@@ -4077,6 +4741,9 @@
         "name": "のしかかり",
         "power": 85,
         "pp": 15,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 1
     },
     {
@@ -4087,6 +4754,7 @@
         "name": "のみこむ",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 1
     },
     {
@@ -4097,6 +4765,7 @@
         "name": "のろい",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 14
     },
     {
@@ -4107,6 +4776,10 @@
         "name": "バークアウト",
         "power": 55,
         "pp": 15,
+        "remarks": [
+            "sheer_force",
+            "sound"
+        ],
         "types": 16
     },
     {
@@ -4117,6 +4790,7 @@
         "name": "ハードプラント",
         "power": 150,
         "pp": 5,
+        "remarks": [],
         "types": 4
     },
     {
@@ -4127,6 +4801,7 @@
         "name": "はいすいのじん",
         "power": 0,
         "pp": 5,
+        "remarks": [],
         "types": 7
     },
     {
@@ -4137,6 +4812,7 @@
         "name": "ハイドロカノン",
         "power": 150,
         "pp": 5,
+        "remarks": [],
         "types": 3
     },
     {
@@ -4147,6 +4823,7 @@
         "name": "ハイドロポンプ",
         "power": 110,
         "pp": 5,
+        "remarks": [],
         "types": 3
     },
     {
@@ -4157,6 +4834,9 @@
         "name": "ハイパーボイス",
         "power": 90,
         "pp": 10,
+        "remarks": [
+            "sound"
+        ],
         "types": 1
     },
     {
@@ -4167,6 +4847,7 @@
         "name": "はいよるいちげき",
         "power": 70,
         "pp": 10,
+        "remarks": [],
         "types": 12
     },
     {
@@ -4177,6 +4858,7 @@
         "name": "はかいこうせん",
         "power": 150,
         "pp": 5,
+        "remarks": [],
         "types": 1
     },
     {
@@ -4187,6 +4869,7 @@
         "name": "ばかぢから",
         "power": 120,
         "pp": 5,
+        "remarks": [],
         "types": 7
     },
     {
@@ -4197,6 +4880,9 @@
         "name": "はがねのつばさ",
         "power": 70,
         "pp": 25,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 17
     },
     {
@@ -4207,6 +4893,7 @@
         "name": "はきだす",
         "power": 1,
         "pp": 10,
+        "remarks": [],
         "types": 1
     },
     {
@@ -4217,6 +4904,9 @@
         "name": "ばくおんぱ",
         "power": 140,
         "pp": 10,
+        "remarks": [
+            "sound"
+        ],
         "types": 1
     },
     {
@@ -4227,6 +4917,10 @@
         "name": "ばくれつパンチ",
         "power": 100,
         "pp": 5,
+        "remarks": [
+            "punch",
+            "sheer_force"
+        ],
         "types": 7
     },
     {
@@ -4237,6 +4931,7 @@
         "name": "ハサミギロチン",
         "power": 1,
         "pp": 5,
+        "remarks": [],
         "types": 1
     },
     {
@@ -4247,6 +4942,7 @@
         "name": "はさむ",
         "power": 55,
         "pp": 30,
+        "remarks": [],
         "types": 1
     },
     {
@@ -4257,6 +4953,7 @@
         "name": "はたきおとす",
         "power": 65,
         "pp": 20,
+        "remarks": [],
         "types": 16
     },
     {
@@ -4267,6 +4964,7 @@
         "name": "はたく",
         "power": 40,
         "pp": 35,
+        "remarks": [],
         "types": 1
     },
     {
@@ -4277,6 +4975,9 @@
         "name": "はっけい",
         "power": 60,
         "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 7
     },
     {
@@ -4287,6 +4988,7 @@
         "name": "はっぱカッター",
         "power": 55,
         "pp": 25,
+        "remarks": [],
         "types": 4
     },
     {
@@ -4297,6 +4999,7 @@
         "name": "ハッピータイム",
         "power": 0,
         "pp": 30,
+        "remarks": [],
         "types": 1
     },
     {
@@ -4307,6 +5010,10 @@
         "name": "はどうだん",
         "power": 80,
         "pp": 20,
+        "remarks": [
+            "bullet",
+            "pulse"
+        ],
         "types": 7
     },
     {
@@ -4317,6 +5024,7 @@
         "name": "バトンタッチ",
         "power": 0,
         "pp": 40,
+        "remarks": [],
         "types": 1
     },
     {
@@ -4327,6 +5035,7 @@
         "name": "はなびらのまい",
         "power": 120,
         "pp": 10,
+        "remarks": [],
         "types": 4
     },
     {
@@ -4337,6 +5046,7 @@
         "name": "はなふぶき",
         "power": 90,
         "pp": 15,
+        "remarks": [],
         "types": 4
     },
     {
@@ -4347,6 +5057,7 @@
         "name": "はねやすめ",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 10
     },
     {
@@ -4357,6 +5068,7 @@
         "name": "はねる",
         "power": 0,
         "pp": 40,
+        "remarks": [],
         "types": 1
     },
     {
@@ -4367,6 +5079,9 @@
         "name": "バブルこうせん",
         "power": 65,
         "pp": 20,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 3
     },
     {
@@ -4377,6 +5092,7 @@
         "name": "はめつのねがい",
         "power": 140,
         "pp": 5,
+        "remarks": [],
         "types": 17
     },
     {
@@ -4387,6 +5103,7 @@
         "name": "はらだいこ",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 1
     },
     {
@@ -4397,6 +5114,7 @@
         "name": "パラボラチャージ",
         "power": 65,
         "pp": 20,
+        "remarks": [],
         "types": 5
     },
     {
@@ -4407,6 +5125,9 @@
         "name": "バレットパンチ",
         "power": 40,
         "pp": 30,
+        "remarks": [
+            "punch"
+        ],
         "types": 17
     },
     {
@@ -4417,6 +5138,7 @@
         "name": "ハロウィン",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 14
     },
     {
@@ -4427,6 +5149,7 @@
         "name": "パワーウィップ",
         "power": 120,
         "pp": 10,
+        "remarks": [],
         "types": 4
     },
     {
@@ -4437,6 +5160,7 @@
         "name": "パワーシェア",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 11
     },
     {
@@ -4447,6 +5171,7 @@
         "name": "パワージェム",
         "power": 80,
         "pp": 20,
+        "remarks": [],
         "types": 13
     },
     {
@@ -4457,6 +5182,7 @@
         "name": "パワースワップ",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 11
     },
     {
@@ -4467,6 +5193,7 @@
         "name": "パワートリック",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 11
     },
     {
@@ -4477,6 +5204,7 @@
         "name": "ヒートスタンプ",
         "power": 1,
         "pp": 10,
+        "remarks": [],
         "types": 2
     },
     {
@@ -4487,6 +5215,7 @@
         "name": "ひかりのかべ",
         "power": 0,
         "pp": 30,
+        "remarks": [],
         "types": 11
     },
     {
@@ -4497,6 +5226,7 @@
         "name": "ひっかく",
         "power": 40,
         "pp": 35,
+        "remarks": [],
         "types": 1
     },
     {
@@ -4507,6 +5237,7 @@
         "name": "ひっくりかえす",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 16
     },
     {
@@ -4517,6 +5248,9 @@
         "name": "ひのこ",
         "power": 40,
         "pp": 25,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 2
     },
     {
@@ -4527,6 +5261,9 @@
         "name": "びりびりちくちく",
         "power": 80,
         "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 5
     },
     {
@@ -4537,6 +5274,7 @@
         "name": "ビルドアップ",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 7
     },
     {
@@ -4547,6 +5285,7 @@
         "name": "ファストガード",
         "power": 0,
         "pp": 15,
+        "remarks": [],
         "types": 7
     },
     {
@@ -4557,6 +5296,7 @@
         "name": "ふいうち",
         "power": 70,
         "pp": 5,
+        "remarks": [],
         "types": 16
     },
     {
@@ -4567,6 +5307,7 @@
         "name": "ふういん",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 11
     },
     {
@@ -4577,6 +5318,7 @@
         "name": "フェアリーロック",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 18
     },
     {
@@ -4587,6 +5329,7 @@
         "name": "フェイント",
         "power": 30,
         "pp": 10,
+        "remarks": [],
         "types": 1
     },
     {
@@ -4597,6 +5340,7 @@
         "name": "フェザーダンス",
         "power": 0,
         "pp": 15,
+        "remarks": [],
         "types": 10
     },
     {
@@ -4607,6 +5351,7 @@
         "name": "フォトンゲイザー",
         "power": 100,
         "pp": 5,
+        "remarks": [],
         "types": 11
     },
     {
@@ -4617,6 +5362,7 @@
         "name": "ふきとばし",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 1
     },
     {
@@ -4627,6 +5373,7 @@
         "name": "ふくろだたき",
         "power": 1,
         "pp": 10,
+        "remarks": [],
         "types": 16
     },
     {
@@ -4637,6 +5384,7 @@
         "name": "ふしょくガス",
         "power": 0,
         "pp": 40,
+        "remarks": [],
         "types": 8
     },
     {
@@ -4647,6 +5395,9 @@
         "name": "ふぶき",
         "power": 110,
         "pp": 5,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 6
     },
     {
@@ -4657,6 +5408,9 @@
         "name": "ふみつけ",
         "power": 65,
         "pp": 20,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 1
     },
     {
@@ -4667,6 +5421,7 @@
         "name": "フライングプレス",
         "power": 100,
         "pp": 10,
+        "remarks": [],
         "types": 7
     },
     {
@@ -4677,6 +5432,7 @@
         "name": "ブラストバーン",
         "power": 150,
         "pp": 5,
+        "remarks": [],
         "types": 2
     },
     {
@@ -4687,6 +5443,9 @@
         "name": "プラズマフィスト",
         "power": 100,
         "pp": 15,
+        "remarks": [
+            "punch"
+        ],
         "types": 5
     },
     {
@@ -4697,6 +5456,7 @@
         "name": "フラフラダンス",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 1
     },
     {
@@ -4707,6 +5467,7 @@
         "name": "フラワーガード",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 18
     },
     {
@@ -4717,6 +5478,9 @@
         "name": "フリーズドライ",
         "power": 70,
         "pp": 20,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 6
     },
     {
@@ -4727,6 +5491,9 @@
         "name": "フリーズボルト",
         "power": 140,
         "pp": 5,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 6
     },
     {
@@ -4737,6 +5504,7 @@
         "name": "プリズムレーザー",
         "power": 160,
         "pp": 10,
+        "remarks": [],
         "types": 11
     },
     {
@@ -4747,6 +5515,7 @@
         "name": "ふるいたてる",
         "power": 0,
         "pp": 30,
+        "remarks": [],
         "types": 1
     },
     {
@@ -4757,6 +5526,9 @@
         "name": "フレアドライブ",
         "power": 120,
         "pp": 15,
+        "remarks": [
+            "reckless"
+        ],
         "types": 2
     },
     {
@@ -4767,6 +5539,9 @@
         "name": "ブレイククロー",
         "power": 75,
         "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 1
     },
     {
@@ -4777,6 +5552,9 @@
         "name": "ブレイズキック",
         "power": 85,
         "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 2
     },
     {
@@ -4787,6 +5565,9 @@
         "name": "ブレイブバード",
         "power": 120,
         "pp": 15,
+        "remarks": [
+            "reckless"
+        ],
         "types": 10
     },
     {
@@ -4797,6 +5578,7 @@
         "name": "プレゼント",
         "power": 1,
         "pp": 15,
+        "remarks": [],
         "types": 1
     },
     {
@@ -4807,6 +5589,7 @@
         "name": "ブロッキング",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 16
     },
     {
@@ -4817,6 +5600,9 @@
         "name": "ふんえん",
         "power": 80,
         "pp": 15,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 2
     },
     {
@@ -4827,6 +5613,7 @@
         "name": "ふんか",
         "power": 150,
         "pp": 5,
+        "remarks": [],
         "types": 2
     },
     {
@@ -4837,6 +5624,7 @@
         "name": "ぶんまわす",
         "power": 60,
         "pp": 20,
+        "remarks": [],
         "types": 16
     },
     {
@@ -4847,6 +5635,9 @@
         "name": "ヘドロウェーブ",
         "power": 95,
         "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 8
     },
     {
@@ -4857,6 +5648,9 @@
         "name": "ヘドロこうげき",
         "power": 65,
         "pp": 20,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 8
     },
     {
@@ -4867,6 +5661,10 @@
         "name": "ヘドロばくだん",
         "power": 90,
         "pp": 10,
+        "remarks": [
+            "bullet",
+            "sheer_force"
+        ],
         "types": 8
     },
     {
@@ -4877,6 +5675,7 @@
         "name": "ベノムショック",
         "power": 65,
         "pp": 10,
+        "remarks": [],
         "types": 8
     },
     {
@@ -4887,6 +5686,7 @@
         "name": "ベノムトラップ",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 8
     },
     {
@@ -4897,6 +5697,7 @@
         "name": "ヘビーボンバー",
         "power": 1,
         "pp": 10,
+        "remarks": [],
         "types": 17
     },
     {
@@ -4907,6 +5708,7 @@
         "name": "へびにらみ",
         "power": 0,
         "pp": 30,
+        "remarks": [],
         "types": 1
     },
     {
@@ -4917,6 +5719,7 @@
         "name": "へんしん",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 1
     },
     {
@@ -4927,6 +5730,9 @@
         "name": "ポイズンテール",
         "power": 50,
         "pp": 25,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 8
     },
     {
@@ -4937,6 +5743,7 @@
         "name": "ぼうぎょしれい",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 12
     },
     {
@@ -4947,6 +5754,9 @@
         "name": "ほうでん",
         "power": 80,
         "pp": 15,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 5
     },
     {
@@ -4957,6 +5767,9 @@
         "name": "ぼうふう",
         "power": 110,
         "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 10
     },
     {
@@ -4967,6 +5780,9 @@
         "name": "ほえる",
         "power": 0,
         "pp": 20,
+        "remarks": [
+            "sound"
+        ],
         "types": 1
     },
     {
@@ -4977,6 +5793,7 @@
         "name": "ほおばる",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 1
     },
     {
@@ -4987,6 +5804,7 @@
         "name": "ボーンラッシュ",
         "power": 25,
         "pp": 10,
+        "remarks": [],
         "types": 9
     },
     {
@@ -4997,6 +5815,7 @@
         "name": "ほしがる",
         "power": 60,
         "pp": 25,
+        "remarks": [],
         "types": 1
     },
     {
@@ -5007,6 +5826,9 @@
         "name": "ほっぺすりすり",
         "power": 20,
         "pp": 20,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 5
     },
     {
@@ -5017,6 +5839,7 @@
         "name": "ボディパージ",
         "power": 0,
         "pp": 15,
+        "remarks": [],
         "types": 17
     },
     {
@@ -5027,6 +5850,7 @@
         "name": "ボディプレス",
         "power": 80,
         "pp": 10,
+        "remarks": [],
         "types": 7
     },
     {
@@ -5037,6 +5861,7 @@
         "name": "ほのおのうず",
         "power": 35,
         "pp": 15,
+        "remarks": [],
         "types": 2
     },
     {
@@ -5047,6 +5872,10 @@
         "name": "ほのおのキバ",
         "power": 65,
         "pp": 15,
+        "remarks": [
+            "biting",
+            "sheer_force"
+        ],
         "types": 2
     },
     {
@@ -5057,6 +5886,7 @@
         "name": "ほのおのちかい",
         "power": 80,
         "pp": 10,
+        "remarks": [],
         "types": 2
     },
     {
@@ -5067,6 +5897,10 @@
         "name": "ほのおのパンチ",
         "power": 75,
         "pp": 15,
+        "remarks": [
+            "punch",
+            "sheer_force"
+        ],
         "types": 2
     },
     {
@@ -5077,6 +5911,9 @@
         "name": "ほのおのムチ",
         "power": 80,
         "pp": 15,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 2
     },
     {
@@ -5087,6 +5924,7 @@
         "name": "ポルターガイスト",
         "power": 110,
         "pp": 5,
+        "remarks": [],
         "types": 14
     },
     {
@@ -5097,6 +5935,10 @@
         "name": "ボルテッカー",
         "power": 120,
         "pp": 15,
+        "remarks": [
+            "reckless",
+            "sheer_force"
+        ],
         "types": 5
     },
     {
@@ -5107,6 +5949,7 @@
         "name": "ボルトチェンジ",
         "power": 70,
         "pp": 20,
+        "remarks": [],
         "types": 5
     },
     {
@@ -5117,6 +5960,9 @@
         "name": "ほろびのうた",
         "power": 0,
         "pp": 5,
+        "remarks": [
+            "sound"
+        ],
         "types": 1
     },
     {
@@ -5127,6 +5973,7 @@
         "name": "まきつく",
         "power": 15,
         "pp": 20,
+        "remarks": [],
         "types": 1
     },
     {
@@ -5137,6 +5984,7 @@
         "name": "まきびし",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 9
     },
     {
@@ -5147,6 +5995,7 @@
         "name": "マジカルシャイン",
         "power": 80,
         "pp": 10,
+        "remarks": [],
         "types": 18
     },
     {
@@ -5157,6 +6006,9 @@
         "name": "マジカルフレイム",
         "power": 75,
         "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 2
     },
     {
@@ -5167,6 +6019,7 @@
         "name": "マジカルリーフ",
         "power": 60,
         "pp": 20,
+        "remarks": [],
         "types": 4
     },
     {
@@ -5177,6 +6030,7 @@
         "name": "マジックコート",
         "power": 0,
         "pp": 15,
+        "remarks": [],
         "types": 11
     },
     {
@@ -5187,6 +6041,7 @@
         "name": "マジックルーム",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 11
     },
     {
@@ -5197,6 +6052,9 @@
         "name": "マッドショット",
         "power": 55,
         "pp": 15,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 9
     },
     {
@@ -5207,6 +6065,9 @@
         "name": "マッハパンチ",
         "power": 40,
         "pp": 30,
+        "remarks": [
+            "punch"
+        ],
         "types": 7
     },
     {
@@ -5217,6 +6078,7 @@
         "name": "まとわりつく",
         "power": 20,
         "pp": 20,
+        "remarks": [],
         "types": 12
     },
     {
@@ -5227,6 +6089,7 @@
         "name": "まねっこ",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 1
     },
     {
@@ -5237,6 +6100,7 @@
         "name": "まほうのこな",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 11
     },
     {
@@ -5247,6 +6111,7 @@
         "name": "まもる",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 1
     },
     {
@@ -5257,6 +6122,7 @@
         "name": "まるくなる",
         "power": 0,
         "pp": 40,
+        "remarks": [],
         "types": 1
     },
     {
@@ -5267,6 +6133,7 @@
         "name": "マルチアタック",
         "power": 120,
         "pp": 10,
+        "remarks": [],
         "types": 1
     },
     {
@@ -5277,6 +6144,7 @@
         "name": "みがわり",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 1
     },
     {
@@ -5287,6 +6155,7 @@
         "name": "みきり",
         "power": 0,
         "pp": 5,
+        "remarks": [],
         "types": 7
     },
     {
@@ -5297,6 +6166,7 @@
         "name": "ミサイルばり",
         "power": 25,
         "pp": 20,
+        "remarks": [],
         "types": 12
     },
     {
@@ -5307,6 +6177,7 @@
         "name": "みずしゅりけん",
         "power": 15,
         "pp": 20,
+        "remarks": [],
         "types": 3
     },
     {
@@ -5317,6 +6188,7 @@
         "name": "みずでっぽう",
         "power": 40,
         "pp": 25,
+        "remarks": [],
         "types": 3
     },
     {
@@ -5327,6 +6199,7 @@
         "name": "ミストバースト",
         "power": 100,
         "pp": 5,
+        "remarks": [],
         "types": 18
     },
     {
@@ -5337,6 +6210,7 @@
         "name": "ミストフィールド",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 18
     },
     {
@@ -5347,6 +6221,7 @@
         "name": "みずのちかい",
         "power": 80,
         "pp": 10,
+        "remarks": [],
         "types": 3
     },
     {
@@ -5357,6 +6232,10 @@
         "name": "みずのはどう",
         "power": 60,
         "pp": 20,
+        "remarks": [
+            "pulse",
+            "sheer_force"
+        ],
         "types": 3
     },
     {
@@ -5367,6 +6246,7 @@
         "name": "みずびたし",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 3
     },
     {
@@ -5377,6 +6257,7 @@
         "name": "みだれづき",
         "power": 15,
         "pp": 20,
+        "remarks": [],
         "types": 1
     },
     {
@@ -5387,6 +6268,7 @@
         "name": "みだれひっかき",
         "power": 18,
         "pp": 15,
+        "remarks": [],
         "types": 1
     },
     {
@@ -5397,6 +6279,7 @@
         "name": "みちづれ",
         "power": 0,
         "pp": 5,
+        "remarks": [],
         "types": 14
     },
     {
@@ -5407,6 +6290,7 @@
         "name": "みねうち",
         "power": 40,
         "pp": 40,
+        "remarks": [],
         "types": 1
     },
     {
@@ -5417,6 +6301,7 @@
         "name": "ミラーコート",
         "power": 1,
         "pp": 20,
+        "remarks": [],
         "types": 11
     },
     {
@@ -5427,6 +6312,7 @@
         "name": "ミラータイプ",
         "power": 0,
         "pp": 15,
+        "remarks": [],
         "types": 1
     },
     {
@@ -5437,6 +6323,7 @@
         "name": "みらいよち",
         "power": 120,
         "pp": 10,
+        "remarks": [],
         "types": 11
     },
     {
@@ -5447,6 +6334,9 @@
         "name": "ムーンフォース",
         "power": 95,
         "pp": 15,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 18
     },
     {
@@ -5457,6 +6347,7 @@
         "name": "ムゲンダイビーム",
         "power": 160,
         "pp": 5,
+        "remarks": [],
         "types": 15
     },
     {
@@ -5467,6 +6358,7 @@
         "name": "むしくい",
         "power": 60,
         "pp": 20,
+        "remarks": [],
         "types": 12
     },
     {
@@ -5477,6 +6369,10 @@
         "name": "むしのさざめき",
         "power": 90,
         "pp": 10,
+        "remarks": [
+            "sheer_force",
+            "sound"
+        ],
         "types": 12
     },
     {
@@ -5487,6 +6383,9 @@
         "name": "むしのていこう",
         "power": 50,
         "pp": 20,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 12
     },
     {
@@ -5497,6 +6396,7 @@
         "name": "めいそう",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 11
     },
     {
@@ -5507,6 +6407,7 @@
         "name": "メガドレイン",
         "power": 40,
         "pp": 15,
+        "remarks": [],
         "types": 4
     },
     {
@@ -5517,6 +6418,7 @@
         "name": "メガトンキック",
         "power": 120,
         "pp": 5,
+        "remarks": [],
         "types": 1
     },
     {
@@ -5527,6 +6429,9 @@
         "name": "メガトンパンチ",
         "power": 80,
         "pp": 20,
+        "remarks": [
+            "punch"
+        ],
         "types": 1
     },
     {
@@ -5537,6 +6442,7 @@
         "name": "メガホーン",
         "power": 120,
         "pp": 10,
+        "remarks": [],
         "types": 12
     },
     {
@@ -5547,6 +6453,9 @@
         "name": "メタルクロー",
         "power": 50,
         "pp": 35,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 17
     },
     {
@@ -5557,6 +6466,7 @@
         "name": "メタルバースト",
         "power": 1,
         "pp": 10,
+        "remarks": [],
         "types": 17
     },
     {
@@ -5567,6 +6477,7 @@
         "name": "メテオドライブ",
         "power": 100,
         "pp": 5,
+        "remarks": [],
         "types": 17
     },
     {
@@ -5577,6 +6488,7 @@
         "name": "メテオビーム",
         "power": 120,
         "pp": 10,
+        "remarks": [],
         "types": 13
     },
     {
@@ -5587,6 +6499,7 @@
         "name": "メロメロ",
         "power": 0,
         "pp": 15,
+        "remarks": [],
         "types": 1
     },
     {
@@ -5597,6 +6510,7 @@
         "name": "もえあがるいかり",
         "power": -1,
         "pp": -1,
+        "remarks": [],
         "types": 16
     },
     {
@@ -5607,6 +6521,7 @@
         "name": "もえつきる",
         "power": 130,
         "pp": 5,
+        "remarks": [],
         "types": 2
     },
     {
@@ -5617,6 +6532,7 @@
         "name": "ものまね",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 1
     },
     {
@@ -5627,6 +6543,7 @@
         "name": "もりののろい",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 4
     },
     {
@@ -5637,6 +6554,9 @@
         "name": "もろはのずつき",
         "power": 150,
         "pp": 5,
+        "remarks": [
+            "reckless"
+        ],
         "types": 13
     },
     {
@@ -5647,6 +6567,7 @@
         "name": "やきつくす",
         "power": 60,
         "pp": 15,
+        "remarks": [],
         "types": 2
     },
     {
@@ -5657,6 +6578,7 @@
         "name": "やどりぎのタネ",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 4
     },
     {
@@ -5667,6 +6589,7 @@
         "name": "やまあらし",
         "power": 60,
         "pp": 10,
+        "remarks": [],
         "types": 7
     },
     {
@@ -5677,6 +6600,7 @@
         "name": "ゆきなだれ",
         "power": 60,
         "pp": 10,
+        "remarks": [],
         "types": 6
     },
     {
@@ -5687,6 +6611,7 @@
         "name": "ゆびをふる",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 1
     },
     {
@@ -5697,6 +6622,7 @@
         "name": "ゆめくい",
         "power": 100,
         "pp": 15,
+        "remarks": [],
         "types": 11
     },
     {
@@ -5707,6 +6633,9 @@
         "name": "ようかいえき",
         "power": 40,
         "pp": 30,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 8
     },
     {
@@ -5717,6 +6646,7 @@
         "name": "ようせいのかぜ",
         "power": 40,
         "pp": 30,
+        "remarks": [],
         "types": 18
     },
     {
@@ -5727,6 +6657,9 @@
         "name": "らいげき",
         "power": 130,
         "pp": 5,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 5
     },
     {
@@ -5737,6 +6670,7 @@
         "name": "ライジングボルト",
         "power": 70,
         "pp": 20,
+        "remarks": [],
         "types": 5
     },
     {
@@ -5747,6 +6681,7 @@
         "name": "らいめいげり",
         "power": -1,
         "pp": -1,
+        "remarks": [],
         "types": 7
     },
     {
@@ -5757,6 +6692,9 @@
         "name": "ラスターカノン",
         "power": 80,
         "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 17
     },
     {
@@ -5767,6 +6705,7 @@
         "name": "リーフストーム",
         "power": 130,
         "pp": 5,
+        "remarks": [],
         "types": 4
     },
     {
@@ -5777,6 +6716,7 @@
         "name": "リーフブレード",
         "power": 90,
         "pp": 15,
+        "remarks": [],
         "types": 4
     },
     {
@@ -5787,6 +6727,7 @@
         "name": "リサイクル",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 1
     },
     {
@@ -5797,6 +6738,7 @@
         "name": "リフレクター",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 11
     },
     {
@@ -5807,6 +6749,7 @@
         "name": "リベンジ",
         "power": 60,
         "pp": 10,
+        "remarks": [],
         "types": 7
     },
     {
@@ -5817,6 +6760,7 @@
         "name": "りゅうせいぐん",
         "power": 130,
         "pp": 5,
+        "remarks": [],
         "types": 15
     },
     {
@@ -5827,6 +6771,9 @@
         "name": "りゅうのいぶき",
         "power": 60,
         "pp": 20,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 15
     },
     {
@@ -5837,6 +6784,9 @@
         "name": "りゅうのはどう",
         "power": 85,
         "pp": 10,
+        "remarks": [
+            "pulse"
+        ],
         "types": 15
     },
     {
@@ -5847,6 +6797,7 @@
         "name": "りゅうのまい",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 15
     },
     {
@@ -5857,6 +6808,9 @@
         "name": "りんごさん",
         "power": 80,
         "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 4
     },
     {
@@ -5867,6 +6821,9 @@
         "name": "りんしょう",
         "power": 60,
         "pp": 15,
+        "remarks": [
+            "sound"
+        ],
         "types": 1
     },
     {
@@ -5877,6 +6834,10 @@
         "name": "れいとうパンチ",
         "power": 75,
         "pp": 15,
+        "remarks": [
+            "punch",
+            "sheer_force"
+        ],
         "types": 6
     },
     {
@@ -5887,6 +6848,9 @@
         "name": "れいとうビーム",
         "power": 90,
         "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 6
     },
     {
@@ -5897,6 +6861,9 @@
         "name": "れんごく",
         "power": 100,
         "pp": 5,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 2
     },
     {
@@ -5907,6 +6874,7 @@
         "name": "れんぞくぎり",
         "power": 40,
         "pp": 20,
+        "remarks": [],
         "types": 12
     },
     {
@@ -5917,6 +6885,9 @@
         "name": "ローキック",
         "power": 65,
         "pp": 20,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 7
     },
     {
@@ -5927,6 +6898,7 @@
         "name": "ロケットずつき",
         "power": 130,
         "pp": 10,
+        "remarks": [],
         "types": 1
     },
     {
@@ -5937,6 +6909,7 @@
         "name": "ロックオン",
         "power": 0,
         "pp": 5,
+        "remarks": [],
         "types": 1
     },
     {
@@ -5947,6 +6920,7 @@
         "name": "ロックカット",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 13
     },
     {
@@ -5957,6 +6931,9 @@
         "name": "ロックブラスト",
         "power": 25,
         "pp": 10,
+        "remarks": [
+            "bullet"
+        ],
         "types": 13
     },
     {
@@ -5967,6 +6944,7 @@
         "name": "ワイドガード",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 13
     },
     {
@@ -5977,6 +6955,7 @@
         "name": "ワイドフォース",
         "power": 80,
         "pp": 10,
+        "remarks": [],
         "types": 11
     },
     {
@@ -5987,6 +6966,9 @@
         "name": "ワイドブレイカー",
         "power": 60,
         "pp": 15,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 15
     },
     {
@@ -5997,6 +6979,9 @@
         "name": "ワイルドボルト",
         "power": 90,
         "pp": 15,
+        "remarks": [
+            "reckless"
+        ],
         "types": 5
     },
     {
@@ -6007,6 +6992,7 @@
         "name": "わたほうし",
         "power": 0,
         "pp": 40,
+        "remarks": [],
         "types": 4
     },
     {
@@ -6017,6 +7003,7 @@
         "name": "わるあがき",
         "power": 50,
         "pp": 1,
+        "remarks": [],
         "types": 1
     },
     {
@@ -6027,6 +7014,7 @@
         "name": "わるだくみ",
         "power": 0,
         "pp": 20,
+        "remarks": [],
         "types": 16
     },
     {
@@ -6037,6 +7025,9 @@
         "name": "ワンダースチーム",
         "power": 90,
         "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
         "types": 18
     },
     {
@@ -6047,6 +7038,7 @@
         "name": "ワンダールーム",
         "power": 0,
         "pp": 10,
+        "remarks": [],
         "types": 11
     }
 ]

@@ -25,7 +25,7 @@ class PokemonData(dict):
         self["moves"] = moves
 
 class PokemonMoves(dict):
-    def __init__(self, id: int, name: str, types: str, category: int, power: int, accuracy: int, pp: int):
+    def __init__(self, id: int, name: str, types: str, category: int, power: int, accuracy: int, pp: int, remarks: list):
         self["id"] = id
         self["name"] = name
         int_types = utils.get_int_types(types)
@@ -34,6 +34,7 @@ class PokemonMoves(dict):
         self["power"] = power
         self["accuracy"] = accuracy
         self["pp"] = pp
+        self["remarks"] = remarks
         if category not in ["physical", "special"]:
             self["dynamax_power"] = 0
         else:

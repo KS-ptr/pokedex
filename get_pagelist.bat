@@ -6,6 +6,6 @@ call :get_urllist
 exit /b
 
 :get_urllist
-call python %~dp0\get_urllist.py
-echo "pokemon_url_list.txt done."
+call python %~dp0\get_pagelist.py
+echo "pokemon_page_list.txt done."
 exit /b
