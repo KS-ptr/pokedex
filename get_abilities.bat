@@ -3,7 +3,7 @@ setlocal
 cd "%~dp0"
 
 call :get_abilities
-call :get_items
+REM call :get_items
 exit /b
 
 :get_abilities

@@ -49,7 +49,7 @@ def save_json(filename, dict_list):
         dump(dict_list, f, ensure_ascii=False, indent=4, sort_keys=True, separators=(",", ": "))
 
 # 例外をログ出力する
-def except_logging():
-    with open("exception.log", encoding="utf-8", mode="a") as ef:
+def except_logging(section: int):
+    with open("exception_{0}.log".format(section), encoding="utf-8", mode="a") as ef:
         ef.write(datetime.datetime.now().strftime('%Y/%m/%d %H:%M:%S'))
         traceback.print_exc(file=ef)

@@ -21,7 +21,7 @@ def process(html):
             types_id = re.search(r'(\d+)', type_html.get('href'))
             types_id = types_id.group(1)
             types_name = type_html.text.rstrip("タイプ")
-            types_dict["id"] = types_id
+            types_dict["id"] = int(types_id)
             types_dict["name"] = types_name
             types.append(types_dict)
         else:
