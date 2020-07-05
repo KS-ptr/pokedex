@@ -30,28 +30,28 @@ def process(html):
                 if move_target == "1匹選択":
                     move_target = Move_Target.Single
                 elif move_target == "相手全体":
-                    move_target = "All_Foe"
+                    move_target = Move_Target.All_Foe
                 elif move_target == "味方全体":
-                    move_target = "All_Allies"
+                    move_target = Move_Target.All_Allies
                 elif move_target == "味方1匹":
-                    move_target = "Single_Ally"
+                    move_target = Move_Target.Single_Ally
                 elif move_target == "自分":
-                    move_target = "Self"
+                    move_target = Move_Target.Self
                 elif move_target == "ランダム":
-                    move_target = "Random"
+                    move_target = Move_Target.Random
                 elif move_target in ["全体", "周囲全体"]:
-                    move_target = "All"
+                    move_target = Move_Target.All
                 elif move_target == "味方場":
-                    move_target = "Ally_Field"
+                    move_target = Move_Target.Ally_Field
                 elif move_target == "相手場":
-                    move_target = "Foe_Field"
+                    move_target = Move_Target.Foe_Field
                 elif move_target == "全体場":
-                    move_target = "Field"
+                    move_target = Move_Target.Field
                 else:
                     raise pokedex_exception.Pokedex_Exception("Target Not Detected. Target said {0}. Move Name = {1}".format(move_target, move_name))
             except pokedex_exception.Pokedex_Exception:
                 move_target = "None"
-                utils.except_logging()
+                utils.except_logging(0)
     
         move_contact = move_tr[7].text
         if move_contact == "○":

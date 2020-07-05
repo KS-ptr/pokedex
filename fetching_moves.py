@@ -26,7 +26,7 @@ def process(html):
                 else:
                     moves.append(move_id)
         except pokedex_exception.MoveID_NotFound:
-            utils.except_logging()
+            utils.except_logging(0)
     moves.sort()
 
 if __name__ == "__main__":

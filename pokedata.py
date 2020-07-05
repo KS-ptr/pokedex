@@ -92,6 +92,9 @@ class Move_Target(IntEnum):
     All_Foe = 2
     All_Allies = 3
     Single_Ally = 4
-    Self = 5
-    Random = 6
-    Field = 7
+    All = 5
+    Self = 6
+    Random = 7
+    Ally_Field = 8
+    Foe_Field = 9
+    Field = 10
