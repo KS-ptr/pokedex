@@ -37,14 +37,14 @@ def get_pokemon(html, page: str, int_id: int, section: int) -> dict:
         utils.except_logging(section)
 
     # ガラルに登場するか否か
-    try:
-        on_galar = parsed_html.cssselect('#content_int > p > span')[0].text
-        if str.startswith(on_galar, "[ガラル地方に登場"):
-            on_galar = 1
-        else:
-            on_galar = 0
-    except pokedex_exception.Pokedex_Exception:
-        utils.except_logging(section)
+    # try:
+    #     on_galar = parsed_html.cssselect('#content_int > p > span')[0].text
+    #     if str.startswith(on_galar, "[ガラル地方に登場"):
+    #         on_galar = 1
+    #     else:
+    #         on_galar = 0
+    # except pokedex_exception.Pokedex_Exception:
+    #     utils.except_logging(section)
     
     # 禁止伝説か否か
     with open('banned_list.txt', encoding="utf-8") as f:
@@ -152,8 +152,13 @@ def get_pokemon(html, page: str, int_id: int, section: int) -> dict:
         OverAll = -1
         utils.except_logging(section)
 
-    # 覚える技
-    moves = get_moves_list(html, page, section)
+    # ガラルに登場するか否か, 覚える技
+    moveset = get_moves(html, page, section)
+    if moveset[0]:
+        on_galar = 0
+    else:
+        on_galar = 1
+    moves = moveset[1]
     
     # 読み込み終えたら辞書として値を格納
     one_pokemon = PokemonData(number, int_id, name, side_name, on_galar, banned, height, weight, types, abilities, egg_groups, final_exp, HP, Attack, Defence, SpAttack, SpDefence, Speed, OverAll, moves)
@@ -161,7 +166,7 @@ def get_pokemon(html, page: str, int_id: int, section: int) -> dict:
     return one_pokemon
 
 # ポケモンが覚える技のリストを取得する
-def get_moves_list(html, page, section) -> list:
+def get_moves(html, page, section):
     soup = BeautifulSoup(html, 'html.parser')
     td_moves = soup.select('#waza4 > table  tbody > tr > td:nth-child(2)')
     sm_moves = False
@@ -181,7 +186,7 @@ def get_moves_list(html, page, section) -> list:
         except pokedex_exception.MoveID_NotFound:
             utils.except_logging(section)
     moves.sort()
-    return moves
+    return (sm_moves, moves)
 
 # if __name__ == "__main__":
 #     main()

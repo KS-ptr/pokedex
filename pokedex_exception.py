@@ -1,6 +1,6 @@
 class Pokedex_Exception(Exception):
     """
-    スーパークラス(一応作ったけど使わなそう)
+    スーパークラス
     """
     pass
 
@@ -24,6 +24,6 @@ class AbilityID_NotFound(Pokedex_Exception):
 
 class MoveID_NotFound(Pokedex_Exception):
     """
-    技のjsonファイル内に、取得した技名が見つからなかったときに起こる例外
+    技のjsonファイル内に、取得した技IDが見つからなかったときに起こる例外
     """
     pass
