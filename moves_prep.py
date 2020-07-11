@@ -17,7 +17,8 @@ def main():
 
 def process(html, remarked_moves):
     parsed_html = lxml.html.fromstring(html)
-    moves_table = parsed_html.cssselect('#mw-content-text > div > table:nth-child(5) > tbody > tr')
+    # moves_table = parsed_html.cssselect('#mw-content-text > div > table:nth-child(5) > tbody > tr')
+    moves_table = parsed_html.cssselect('#mw-content-text > div > table:nth-child(6) > tbody > tr')
     move_id = 0
     for move_tr in moves_table:
         if str.isdecimal(move_tr[2].text_content()) or move_tr[2].text_content() == "":
