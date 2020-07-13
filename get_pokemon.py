@@ -88,7 +88,10 @@ def get_pokemon(html, page: str, int_id: int, section: int) -> dict:
         abilities = []
         abilities_td = parsed_html.cssselect('#col1 > table.ta1.f10mpef14mpk > tbody > tr > td.wsm121414m')
         for ability in abilities_td:
-            ability_name = ability.text
+            if ability.text == None:
+                ability_name = re.sub('\(.+?\)', "", ability.text_content())
+            else:
+                ability_name = re.sub('\(.+?\)', "", ability.text)
             if ability_name != '-':
                 ability_id = utils.number_property(1, ability_name)
                 if ability_id == None:

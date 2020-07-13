@@ -12,7 +12,7 @@ web_directry_string = 'https://pente.koro-pokemon.com/zukan/'
 def main():
     section_number = int(argv[1])
     page_list = get_urllist(section_number)
-    # page_list = ["055.shtml"]
+    # page_list = ["gochimu.shtml"]
     crawling(page_list, section_number)
     utils.save_json(filename, dex_list)
 
