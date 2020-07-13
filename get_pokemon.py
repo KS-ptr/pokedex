@@ -33,6 +33,8 @@ def get_pokemon(html, page: str, int_id: int, section: int) -> dict:
             side_name = name_full.group(2)
         if name is None or side_name is None:
             raise pokedex_exception.Pokedex_Exception("Page = {0}, name or side_name Not Found.".format(page))
+    except IndexError:
+        raise pokedex_exception.Pokedex_Exception("Page={0}, IndexError Occured at detecting Name.".format(page))
     except pokedex_exception.Pokedex_Exception:
         utils.except_logging(section)
 

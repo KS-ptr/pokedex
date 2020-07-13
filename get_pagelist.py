@@ -24,7 +24,7 @@ def process1(html):
     parsed_html = lxml.html.fromstring(html)
     pokemon_li = parsed_html.cssselect('#content_in > div > ul.ul2 > li > a')
     for li in pokemon_li:
-        page = str.lstrip(li.get('href'), '../zukan/')
+        page = li.get('href').replace('../zukan/', '')
         if page not in page_list:
             page_list.append(page)
 
@@ -32,7 +32,7 @@ def process2(html):
     parsed_html = lxml.html.fromstring(html)
     pokemon_li = parsed_html.cssselect('#sort_zno > div > ul.ul2 > li > a')
     for li in pokemon_li:
-        page = str.lstrip(li.get('href'), '../zukan/')
+        page = li.get('href').replace('../zukan/', '')
         if page not in page_list:
             page_list.append(page)
 
@@ -40,7 +40,7 @@ def process3(html):
     parsed_html = lxml.html.fromstring(html)
     pokemon_tr = parsed_html.cssselect('#content_in > div > table.ta2 > tbody > tr > td > a')
     for tr_a in pokemon_tr:
-        page = str.lstrip(tr_a.get('href'), '../zukan/')
+        page = tr_a.get('href').replace('../zukan/', '')
         if page not in page_list:
             page_list.append(page)
 
