@@ -50,7 +50,7 @@ def process(html):
                 else:
                     raise pokedex_exception.Pokedex_Exception("Target Not Detected. Target said {0}. Move Name = {1}".format(move_target, move_name))
             except pokedex_exception.Pokedex_Exception:
-                move_target = "None"
+                move_target = -1
                 utils.except_logging(0)
     
         move_contact = move_tr[7].text
