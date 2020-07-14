@@ -4,6 +4,12 @@ class Pokedex_Exception(Exception):
     """
     pass
 
+class Name_NumberNotFound(Pokedex_Exception):
+    """
+    名前、図鑑ナンバーが見つからなかったときに起こる例外
+    """
+    pass
+
 class SizeNotFound(Pokedex_Exception):
     """
     高さ、重さの数値を取得できなかったときに起こる例外

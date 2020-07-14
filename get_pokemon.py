@@ -22,7 +22,10 @@ def get_pokemon(html, page: str, int_id: int, section: int) -> dict:
     # 図鑑番号と名前
     try:
         number = re.search(r'(\d+)' ,parsed_html.cssselect('#col1 > table.ta1.f10mpef14mpk > tbody > tr:nth-child(1) > th')[0].text)
-        number = int(number.group(1))
+        if number is not None:
+            number = int(number.group(1))
+        else:
+            raise pokedex_exception.Name_NumberNotFound("Page = {0}, Dex Number Not Found.".format(page))
         h1_text = parsed_html.cssselect('h1')[0].text
         name_full = re.search(r'(\w+)\s*(\(\w+\))', h1_text)
         if name_full is None:
@@ -32,10 +35,11 @@ def get_pokemon(html, page: str, int_id: int, section: int) -> dict:
             name = name_full.group(1)
             side_name = name_full.group(2)
         if name is None or side_name is None:
-            raise pokedex_exception.Pokedex_Exception("Page = {0}, name or side_name Not Found.".format(page))
-    except IndexError:
-        raise pokedex_exception.Pokedex_Exception("Page={0}, IndexError Occured at detecting Name.".format(page))
+            raise pokedex_exception.Name_NumberNotFound("Page = {0}, name or side_name Not Found.".format(page))
     except pokedex_exception.Pokedex_Exception:
+        number = -1
+        name = page
+        side_name = page
         utils.except_logging(section)
 
     # ガラルに登場するか否か
@@ -61,11 +65,21 @@ def get_pokemon(html, page: str, int_id: int, section: int) -> dict:
         height_weight_td = parsed_html.cssselect('#col1 > table.ta1.f10mpef14mpk > tbody > tr:nth-child(2) > td > table > tbody > tr > td.typec.zcat')[0].text_content()
         height_weight = re.findall(r'(\d+.\d+)', height_weight_td)
         if len(height_weight) == 2:
-            height = float(height_weight[0])
-            weight = float(height_weight[1])
+            height = height_weight[0]
+            weight = height_weight[1]
+            if str.isdigit(height.replace(".", "", 1)):
+                height = float(height)
+            else:
+                height = -1
+                raise pokedex_exception.SizeNotFound("Height Not Found. Page = {0}".format(page))
+            if str.isdigit(weight.replace(".", "", 1)):
+                weight = float(weight)
+            else:
+                weight = -1
+                raise pokedex_exception.SizeNotFound("Weight Not Found. Page = {0}".format(page))
         else:
-            height = -1.0
-            weight = -1.0
+            height = -1
+            weight = -1
             raise pokedex_exception.SizeNotFound("Height or Weight Not Found. Page = {0}".format(page))
     except pokedex_exception.Pokedex_Exception:
         utils.except_logging(section)
@@ -100,7 +114,7 @@ def get_pokemon(html, page: str, int_id: int, section: int) -> dict:
                 else:
                     abilities.append(ability_id)
         if len(abilities) < 1 or len(abilities) > 3:
-            raise pokedex_exception.PropertyLength_Exception
+            raise pokedex_exception.PropertyLength_Exception("Page = {0}.".format(page))
     except pokedex_exception.PropertyLength_Exception:
         utils.except_logging(section)
     except pokedex_exception.AbilityID_NotFound:
@@ -113,7 +127,7 @@ def get_pokemon(html, page: str, int_id: int, section: int) -> dict:
             final_exp = int(final_exp)
         else:
             final_exp = -1
-            raise pokedex_exception.Pokedex_Exception("Final Exp Not Found. Page = {0}".format(page))
+            raise pokedex_exception.PropertyLength_Exception("Final Exp Not Found. Page = {0}".format(page))
     except pokedex_exception.Pokedex_Exception:
         utils.except_logging(section)
 
