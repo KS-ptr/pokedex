@@ -15,5 +15,5 @@ python3 get_pagelist.py
 #echo "pokemon_page_list.txt done."
 
 for i in {1..10} ; do
-    python3 get_pokemon.py ${i}
+    python3 crawling.py ${i}
 done
