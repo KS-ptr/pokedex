@@ -3,6 +3,6 @@ __pycache__
 config.ini
 .vscode
 dummy*
-pokedex_*.json
+# pokedex_*.json
 pokemon_page_list.txt
 banned_list.txt
