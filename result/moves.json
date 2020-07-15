@@ -1,66 +1,8 @@
 [
     {
-        "accuracy": 95,
-        "category": "physical",
-        "dynamax_power": 130,
-        "id": 1,
-        "name": "10まんばりき",
-        "power": 95,
-        "pp": 10,
-        "remarks": [],
-        "types": 9
-    },
-    {
-        "accuracy": 100,
-        "category": "special",
-        "dynamax_power": 130,
-        "id": 2,
-        "name": "10まんボルト",
-        "power": 90,
-        "pp": 15,
-        "remarks": [
-            "sheer_force"
-        ],
-        "types": 5
-    },
-    {
-        "accuracy": 100,
-        "category": "physical",
-        "dynamax_power": 130,
-        "id": 3,
-        "name": "DDラリアット",
-        "power": 85,
-        "pp": 10,
-        "remarks": [],
-        "types": 16
-    },
-    {
-        "accuracy": 100,
-        "category": "physical",
-        "dynamax_power": 130,
-        "id": 4,
-        "name": "Gのちから",
-        "power": 80,
-        "pp": 10,
-        "remarks": [
-            "sheer_force"
-        ],
-        "types": 4
-    },
-    {
-        "accuracy": 95,
-        "category": "physical",
-        "dynamax_power": 150,
-        "id": 5,
-        "name": "Vジェネレート",
-        "power": 180,
-        "pp": 5,
-        "remarks": [],
-        "types": 2
-    },
-    {
         "accuracy": 90,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 90,
         "id": 6,
         "name": "アームハンマー",
@@ -69,11 +11,13 @@
         "remarks": [
             "punch"
         ],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 75,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 7,
         "name": "アイアンテール",
@@ -82,11 +26,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 17
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 8,
         "name": "アイアンヘッド",
@@ -95,55 +41,65 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 17
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 140,
         "id": 9,
         "name": "アイアンローラー",
         "power": 130,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 17
     },
     {
         "accuracy": 85,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 140,
         "id": 10,
         "name": "あおいほのお",
         "power": 130,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 2
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 90,
         "id": 11,
         "name": "アクアジェット",
         "power": 40,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 3
     },
     {
         "accuracy": 90,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 12,
         "name": "アクアテール",
         "power": 90,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 3
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 13,
         "name": "アクアブレイク",
@@ -152,33 +108,39 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 3
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 14,
         "name": "アクアリング",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 6,
         "types": 3
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 90,
         "id": 15,
         "name": "アクセルロック",
         "power": 40,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 13
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 16,
         "name": "あくのはどう",
@@ -188,66 +150,78 @@
             "pulse",
             "sheer_force"
         ],
+        "target": 1,
         "types": 16
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 17,
         "name": "あくび",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 110,
         "id": 18,
         "name": "アクロバット",
         "power": 55,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 10
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 19,
         "name": "あさのひざし",
         "power": 0,
         "pp": 5,
         "remarks": [],
+        "target": 6,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 20,
         "name": "アシストギア",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 3,
         "types": 17
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 21,
         "name": "アシストパワー",
         "power": 20,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 11
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 70,
         "id": 22,
         "name": "アシッドボム",
@@ -257,44 +231,52 @@
             "bullet",
             "sheer_force"
         ],
+        "target": 1,
         "types": 8
     },
     {
         "accuracy": 0,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 85,
         "id": 23,
         "name": "あてみなげ",
         "power": 70,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 24,
         "name": "あなをほる",
         "power": 80,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 9
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 140,
         "id": 25,
         "name": "あばれる",
         "power": 120,
         "pp": 10,
         "remarks": [],
+        "target": 7,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 140,
         "id": 26,
         "name": "アフロブレイク",
@@ -303,88 +285,104 @@
         "remarks": [
             "reckless"
         ],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 27,
         "name": "あまいかおり",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 2,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 28,
         "name": "あまえる",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 18
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 29,
         "name": "あまごい",
         "power": 0,
         "pp": 5,
         "remarks": [],
+        "target": 10,
         "types": 3
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 30,
         "name": "あやしいひかり",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 14
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 31,
         "name": "あられ",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 10,
         "types": 6
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 32,
         "name": "アロマセラピー",
         "power": 0,
         "pp": 5,
         "remarks": [],
+        "target": 3,
         "types": 4
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 33,
         "name": "アロマミスト",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 4,
         "types": 18
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 34,
         "name": "アンカーショット",
@@ -393,22 +391,26 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 17
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 35,
         "name": "アンコール",
         "power": 0,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 36,
         "name": "あんこくきょうだ",
@@ -417,143 +419,156 @@
         "remarks": [
             "punch"
         ],
+        "target": 1,
         "types": 16
     },
     {
         "accuracy": 95,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 100,
         "id": 37,
         "name": "いあいぎり",
         "power": 50,
         "pp": 30,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 38,
         "name": "いえき",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 8
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 39,
         "name": "イカサマ",
         "power": 95,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 16
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 40,
         "name": "いかりのこな",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 6,
         "types": 12
     },
     {
         "accuracy": 90,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 100,
         "id": 41,
         "name": "いかりのまえば",
         "power": 1,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 42,
         "name": "いたみわけ",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 43,
         "name": "いちゃもん",
         "power": 0,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 16
-    },
-    {
-        "accuracy": -1,
-        "category": "special",
-        "dynamax_power": 90,
-        "id": 44,
-        "name": "いてつくしせん",
-        "power": -1,
-        "pp": -1,
-        "remarks": [],
-        "types": 11
     },
     {
         "accuracy": 95,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 45,
         "name": "いとをはく",
         "power": 0,
         "pp": 40,
         "remarks": [],
+        "target": 2,
         "types": 12
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 1,
         "dynamax_power": 100,
         "id": 46,
         "name": "いのちがけ",
         "power": 1,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 47,
         "name": "いのちのしずく",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 3,
         "types": 3
     },
     {
         "accuracy": 85,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 48,
         "name": "いばる",
         "power": 0,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 100,
         "id": 49,
         "name": "いびき",
@@ -563,11 +578,13 @@
             "sheer_force",
             "sound"
         ],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 50,
         "name": "いやしのすず",
@@ -576,33 +593,39 @@
         "remarks": [
             "sound"
         ],
+        "target": 3,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 51,
         "name": "いやしのねがい",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 6,
         "types": 11
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 52,
         "name": "いやしのはどう",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 11
     },
     {
         "accuracy": 85,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 53,
         "name": "いやなおと",
@@ -611,22 +634,26 @@
         "remarks": [
             "sound"
         ],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 90,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 100,
         "id": 54,
         "name": "いわおとし",
         "power": 50,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 13
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 70,
         "id": 55,
         "name": "いわくだき",
@@ -635,11 +662,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 90,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 56,
         "name": "いわなだれ",
@@ -648,22 +677,26 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 2,
         "types": 13
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 95,
         "id": 57,
         "name": "インファイト",
         "power": 120,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 58,
         "name": "ウェザーボール",
@@ -672,33 +705,39 @@
         "remarks": [
             "bullet"
         ],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 85,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 90,
         "id": 59,
         "name": "うずしお",
         "power": 35,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 3
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 60,
         "name": "うそなき",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 16
     },
     {
         "accuracy": 55,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 61,
         "name": "うたう",
@@ -707,11 +746,13 @@
         "remarks": [
             "sound"
         ],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 62,
         "name": "うたかたのアリア",
@@ -721,22 +762,26 @@
             "sheer_force",
             "sound"
         ],
+        "target": 1,
         "types": 3
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 100,
         "id": 63,
         "name": "うちおとす",
         "power": 50,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 13
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 140,
         "id": 64,
         "name": "ウッドハンマー",
@@ -745,55 +790,65 @@
         "remarks": [
             "reckless"
         ],
+        "target": 1,
         "types": 4
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 65,
         "name": "ウッドホーン",
         "power": 75,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 4
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 66,
         "name": "うっぷんばらし",
         "power": 75,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 16
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 67,
         "name": "うらみ",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 14
     },
     {
         "accuracy": 95,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 110,
         "id": 68,
         "name": "エアカッター",
         "power": 60,
         "pp": 25,
         "remarks": [],
+        "target": 2,
         "types": 10
     },
     {
         "accuracy": 95,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 69,
         "name": "エアスラッシュ",
@@ -802,11 +857,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 10
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 90,
         "id": 70,
         "name": "エコーボイス",
@@ -815,22 +872,26 @@
         "remarks": [
             "sound"
         ],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 90,
         "id": 71,
         "name": "えだづき",
         "power": 40,
         "pp": 40,
         "remarks": [],
+        "target": 1,
         "types": 4
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 72,
         "name": "エナジーボール",
@@ -840,11 +901,13 @@
             "bullet",
             "sheer_force"
         ],
+        "target": 1,
         "types": 4
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 73,
         "name": "エラがみ",
@@ -853,11 +916,13 @@
         "remarks": [
             "biting"
         ],
+        "target": 1,
         "types": 3
     },
     {
         "accuracy": 95,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 110,
         "id": 74,
         "name": "エレキネット",
@@ -866,22 +931,26 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 2,
         "types": 5
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 75,
         "name": "エレキフィールド",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 10,
         "types": 5
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 76,
         "name": "エレキボール",
@@ -890,44 +959,52 @@
         "remarks": [
             "bullet"
         ],
+        "target": 1,
         "types": 5
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 77,
         "name": "えんまく",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 78,
         "name": "おいかぜ",
         "power": 0,
         "pp": 15,
         "remarks": [],
+        "target": 8,
         "types": 10
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 79,
         "name": "おいわい",
         "power": 0,
         "pp": 40,
         "remarks": [],
+        "target": 6,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 80,
         "name": "オーバードライブ",
@@ -936,22 +1013,26 @@
         "remarks": [
             "sound"
         ],
+        "target": 2,
         "types": 5
     },
     {
         "accuracy": 90,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 140,
         "id": 81,
         "name": "オーバーヒート",
         "power": 130,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 2
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 140,
         "id": 82,
         "name": "オーラぐるま",
@@ -960,11 +1041,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 5
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 120,
         "id": 83,
         "name": "オーロラビーム",
@@ -973,33 +1056,39 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 6
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 84,
         "name": "オーロラベール",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 8,
         "types": 6
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 85,
         "name": "おきみやげ",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 16
     },
     {
         "accuracy": 85,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 120,
         "id": 86,
         "name": "オクタンほう",
@@ -1009,22 +1098,26 @@
             "bullet",
             "sheer_force"
         ],
+        "target": 1,
         "types": 3
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 87,
         "name": "おさきにどうぞ",
         "power": 0,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 88,
         "name": "おたけび",
@@ -1033,33 +1126,39 @@
         "remarks": [
             "sound"
         ],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 89,
         "name": "おだてる",
         "power": 0,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 16
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 90,
         "name": "おちゃかい",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 5,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 90,
         "id": 91,
         "name": "おどろかす",
@@ -1068,99 +1167,117 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 14
     },
     {
         "accuracy": 85,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 92,
         "name": "おにび",
         "power": 0,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 2
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 93,
         "name": "おんねん",
         "power": 0,
         "pp": 5,
         "remarks": [],
+        "target": 6,
         "types": 14
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 94,
         "name": "ガードシェア",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 11
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 95,
         "name": "ガードスワップ",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 11
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 96,
         "name": "かいでんぱ",
         "power": 0,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 5
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 97,
         "name": "かいりき",
         "power": 80,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 75,
         "id": 98,
         "name": "カウンター",
         "power": 1,
         "pp": 20,
         "remarks": [],
+        "target": 6,
         "types": 7
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 110,
         "id": 99,
         "name": "かえんぐるま",
         "power": 60,
         "pp": 25,
         "remarks": [],
+        "target": 1,
         "types": 2
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 100,
         "name": "かえんほうしゃ",
@@ -1169,11 +1286,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 2
     },
     {
         "accuracy": 90,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 140,
         "id": 101,
         "name": "かえんボール",
@@ -1183,22 +1302,26 @@
             "bullet",
             "sheer_force"
         ],
+        "target": 1,
         "types": 2
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 90,
         "id": 102,
         "name": "かげうち",
         "power": 40,
         "pp": 30,
         "remarks": [],
+        "target": 1,
         "types": 14
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 103,
         "name": "かげぬい",
@@ -1207,66 +1330,78 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 14
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 104,
         "name": "かげぶんしん",
         "power": 0,
         "pp": 15,
         "remarks": [],
+        "target": 6,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 90,
         "id": 105,
         "name": "かぜおこし",
         "power": 40,
         "pp": 35,
         "remarks": [],
+        "target": 1,
         "types": 10
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 120,
         "id": 106,
         "name": "かたきうち",
         "power": 70,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 107,
         "name": "かたくなる",
         "power": 0,
         "pp": 30,
         "remarks": [],
+        "target": 6,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 108,
         "name": "かなしばり",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 109,
         "name": "かふんだんご",
@@ -1275,11 +1410,13 @@
         "remarks": [
             "bullet"
         ],
+        "target": 1,
         "types": 12
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 110,
         "name": "かみくだく",
@@ -1289,11 +1426,13 @@
             "biting",
             "sheer_force"
         ],
+        "target": 1,
         "types": 16
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 110,
         "id": 111,
         "name": "かみつく",
@@ -1303,11 +1442,13 @@
             "biting",
             "sheer_force"
         ],
+        "target": 1,
         "types": 16
     },
     {
         "accuracy": 70,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 140,
         "id": 112,
         "name": "かみなり",
@@ -1316,11 +1457,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 5
     },
     {
         "accuracy": 95,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 120,
         "id": 113,
         "name": "かみなりのキバ",
@@ -1330,11 +1473,13 @@
             "biting",
             "sheer_force"
         ],
+        "target": 1,
         "types": 5
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 114,
         "name": "かみなりパンチ",
@@ -1344,66 +1489,78 @@
             "punch",
             "sheer_force"
         ],
+        "target": 1,
         "types": 5
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 115,
         "name": "がむしゃら",
         "power": 1,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 120,
         "id": 116,
         "name": "からげんき",
         "power": 70,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 117,
         "name": "からにこもる",
         "power": 0,
         "pp": 40,
         "remarks": [],
+        "target": 6,
         "types": 3
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 118,
         "name": "からをやぶる",
         "power": 0,
         "pp": 15,
         "remarks": [],
+        "target": 6,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 90,
         "id": 119,
         "name": "かわらわり",
         "power": 75,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 95,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 110,
         "id": 120,
         "name": "がんせきふうじ",
@@ -1412,11 +1569,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 13
     },
     {
         "accuracy": 90,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 150,
         "id": 121,
         "name": "がんせきほう",
@@ -1425,11 +1584,13 @@
         "remarks": [
             "bullet"
         ],
+        "target": 1,
         "types": 13
     },
     {
         "accuracy": 70,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 95,
         "id": 122,
         "name": "きあいだま",
@@ -1439,22 +1600,26 @@
             "bullet",
             "sheer_force"
         ],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 123,
         "name": "きあいだめ",
         "power": 0,
         "pp": 30,
         "remarks": [],
+        "target": 6,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 100,
         "id": 124,
         "name": "きあいパンチ",
@@ -1463,143 +1628,169 @@
         "remarks": [
             "punch"
         ],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 85,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 125,
         "name": "ギアソーサー",
         "power": 50,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 17
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 126,
         "name": "ギアチェンジ",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 6,
         "types": 17
     },
     {
         "accuracy": 90,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 150,
         "id": 127,
         "name": "ギガインパクト",
         "power": 150,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 128,
         "name": "ギガドレイン",
         "power": 75,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 4
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 100,
         "id": 129,
         "name": "きしかいせい",
         "power": 1,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 130,
         "name": "キノコのほうし",
         "power": 0,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 4
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 131,
         "name": "きゅうけつ",
         "power": 80,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 12
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 132,
         "name": "きょじゅうざん",
         "power": 100,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 17
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 133,
         "name": "きょじゅうだん",
         "power": 100,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 17
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 120,
         "id": 134,
         "name": "きりさく",
         "power": 70,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 135,
         "name": "きりばらい",
         "power": 0,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 10
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 136,
         "name": "キングシールド",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 6,
         "types": 17
     },
     {
         "accuracy": 85,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 137,
         "name": "きんぞくおん",
@@ -1608,55 +1799,65 @@
         "remarks": [
             "sound"
         ],
+        "target": 1,
         "types": 17
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 110,
         "id": 138,
         "name": "クイックターン",
         "power": 60,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 3
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 139,
         "name": "くさのちかい",
         "power": 80,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 4
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 140,
         "name": "くさむすび",
         "power": 1,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 4
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 141,
         "name": "くすぐる",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 142,
         "name": "くらいつく",
@@ -1665,33 +1866,39 @@
         "remarks": [
             "biting"
         ],
+        "target": 1,
         "types": 16
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 120,
         "id": 143,
         "name": "グラススライダー",
         "power": 70,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 4
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 144,
         "name": "グラスフィールド",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 10,
         "types": 4
     },
     {
         "accuracy": 90,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 120,
         "id": 145,
         "name": "グラスミキサー",
@@ -1700,55 +1907,65 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 4
     },
     {
         "accuracy": 90,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 146,
         "name": "クラブハンマー",
         "power": 100,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 3
     },
     {
         "accuracy": 0,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 75,
         "id": 147,
         "name": "クリアスモッグ",
         "power": 50,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 8
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 148,
         "name": "くろいきり",
         "power": 0,
         "pp": 30,
         "remarks": [],
+        "target": 10,
         "types": 6
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 149,
         "name": "くろいまなざし",
         "power": 0,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 70,
         "id": 150,
         "name": "グロウパンチ",
@@ -1758,44 +1975,52 @@
             "punch",
             "sheer_force"
         ],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 151,
         "name": "クロスサンダー",
         "power": 100,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 5
     },
     {
         "accuracy": 80,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 90,
         "id": 152,
         "name": "クロスチョップ",
         "power": 100,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 153,
         "name": "クロスフレイム",
         "power": 100,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 2
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 85,
         "id": 154,
         "name": "クロスポイズン",
@@ -1804,22 +2029,26 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 8
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 140,
         "id": 155,
         "name": "げきりん",
         "power": 120,
         "pp": 10,
         "remarks": [],
+        "target": 7,
         "types": 15
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 100,
         "id": 156,
         "name": "けたぐり",
@@ -1828,22 +2057,26 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 90,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 95,
         "id": 157,
         "name": "ゲップ",
         "power": 120,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 8
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 110,
         "id": 158,
         "name": "げんしのちから",
@@ -1852,44 +2085,52 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 13
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 159,
         "name": "こうげきしれい",
         "power": 90,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 12
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 160,
         "name": "こうごうせい",
         "power": 0,
         "pp": 5,
         "remarks": [],
+        "target": 6,
         "types": 4
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 161,
         "name": "こうそくいどう",
         "power": 0,
         "pp": 30,
         "remarks": [],
+        "target": 6,
         "types": 11
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 100,
         "id": 162,
         "name": "こうそくスピン",
@@ -1898,55 +2139,65 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 163,
         "name": "ゴーストダイブ",
         "power": 90,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 14
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 164,
         "name": "コーチング",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 3,
         "types": 7
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 165,
         "name": "コートチェンジ",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 10,
         "types": 1
     },
     {
         "accuracy": 90,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 110,
         "id": 166,
         "name": "こおりのいぶき",
         "power": 60,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 6
     },
     {
         "accuracy": 95,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 120,
         "id": 167,
         "name": "こおりのキバ",
@@ -1956,35 +2207,26 @@
             "biting",
             "sheer_force"
         ],
+        "target": 1,
         "types": 6
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 90,
         "id": 168,
         "name": "こおりのつぶて",
         "power": 40,
         "pp": 30,
         "remarks": [],
-        "types": 6
-    },
-    {
-        "accuracy": 90,
-        "category": "special",
-        "dynamax_power": 140,
-        "id": 169,
-        "name": "コールドフレア",
-        "power": 140,
-        "pp": 5,
-        "remarks": [
-            "sheer_force"
-        ],
+        "target": 1,
         "types": 6
     },
     {
         "accuracy": 95,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 110,
         "id": 170,
         "name": "こごえるかぜ",
@@ -1993,11 +2235,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 2,
         "types": 6
     },
     {
         "accuracy": 95,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 120,
         "id": 171,
         "name": "こごえるせかい",
@@ -2006,33 +2250,39 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 2,
         "types": 6
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 172,
         "name": "こころのめ",
         "power": 0,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 173,
         "name": "コスモパワー",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 6,
         "types": 11
     },
     {
         "accuracy": 90,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 140,
         "id": 174,
         "name": "ゴッドバード",
@@ -2041,22 +2291,26 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 10
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 175,
         "name": "コットンガード",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 6,
         "types": 4
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 90,
         "id": 176,
         "name": "こなゆき",
@@ -2065,33 +2319,39 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 2,
         "types": 6
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 90,
         "id": 177,
         "name": "このは",
         "power": 40,
         "pp": 40,
         "remarks": [],
+        "target": 1,
         "types": 4
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 178,
         "name": "このゆびとまれ",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 6,
         "types": 1
     },
     {
         "accuracy": 90,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 179,
         "name": "コメットパンチ",
@@ -2101,44 +2361,95 @@
             "punch",
             "sheer_force"
         ],
+        "target": 1,
         "types": 17
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 180,
         "name": "こらえる",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 6,
         "types": 1
     },
     {
         "accuracy": 90,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 90,
         "id": 181,
         "name": "ころがる",
         "power": 30,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 13
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 182,
         "name": "こわいかお",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 1
+    },
+    {
+        "accuracy": 95,
+        "category": "physical",
+        "contact": 1,
+        "dynamax_power": 130,
+        "id": 1,
+        "name": "10まんばりき",
+        "power": 95,
+        "pp": 10,
+        "remarks": [],
+        "target": 1,
+        "types": 9
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
+        "dynamax_power": 130,
+        "id": 2,
+        "name": "10まんボルト",
+        "power": 90,
+        "pp": 15,
+        "remarks": [
+            "sheer_force"
+        ],
+        "target": 1,
+        "types": 5
+    },
+    {
+        "accuracy": 100,
+        "category": "physical",
+        "contact": 0,
+        "dynamax_power": 130,
+        "id": 4,
+        "name": "Gのちから",
+        "power": 80,
+        "pp": 10,
+        "remarks": [
+            "sheer_force"
+        ],
+        "target": 1,
+        "types": 4
+    },
+    {
+        "accuracy": 100,
+        "category": "special",
+        "contact": 0,
         "dynamax_power": 120,
         "id": 183,
         "name": "サイケこうせん",
@@ -2147,22 +2458,26 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 11
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 120,
         "id": 184,
         "name": "サイコカッター",
         "power": 70,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 11
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 185,
         "name": "サイコキネシス",
@@ -2171,33 +2486,39 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 11
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 186,
         "name": "サイコシフト",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 11
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 187,
         "name": "サイコショック",
         "power": 80,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 11
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 188,
         "name": "サイコファング",
@@ -2206,77 +2527,91 @@
         "remarks": [
             "biting"
         ],
+        "target": 1,
         "types": 11
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 189,
         "name": "サイコフィールド",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 10,
         "types": 11
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 190,
         "name": "サイコブレイク",
         "power": 100,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 11
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 191,
         "name": "サイドチェンジ",
         "power": 0,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 11
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 192,
         "name": "さいはい",
         "power": 0,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 11
     },
     {
         "accuracy": 60,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 193,
         "name": "さいみんじゅつ",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 11
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 194,
         "name": "さきおくり",
         "power": 0,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 16
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 195,
         "name": "さわぐ",
@@ -2285,22 +2620,13 @@
         "remarks": [
             "sound"
         ],
+        "target": 7,
         "types": 1
-    },
-    {
-        "accuracy": -1,
-        "category": "special",
-        "dynamax_power": 90,
-        "id": 196,
-        "name": "サンダープリズン",
-        "power": -1,
-        "pp": -1,
-        "remarks": [],
-        "types": 5
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 90,
         "id": 197,
         "name": "シェルアームズ",
@@ -2309,11 +2635,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 8
     },
     {
         "accuracy": 95,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 198,
         "name": "シェルブレード",
@@ -2322,44 +2650,52 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 3
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 150,
         "id": 199,
         "name": "しおふき",
         "power": 150,
         "pp": 5,
         "remarks": [],
+        "target": 2,
         "types": 3
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 120,
         "id": 200,
         "name": "しおみず",
         "power": 65,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 3
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 201,
         "name": "じこあんじ",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 80,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 90,
         "id": 202,
         "name": "じごくぐるま",
@@ -2368,11 +2704,13 @@
         "remarks": [
             "reckless"
         ],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 203,
         "name": "じごくづき",
@@ -2381,88 +2719,104 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 16
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 204,
         "name": "じこさいせい",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 6,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 205,
         "name": "シザークロス",
         "power": 80,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 12
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 206,
         "name": "じしん",
         "power": 100,
         "pp": 10,
         "remarks": [],
+        "target": 5,
         "types": 9
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 207,
         "name": "しぜんのちから",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": -1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 90,
         "id": 208,
         "name": "したでなめる",
         "power": 30,
         "pp": 30,
         "remarks": [],
+        "target": 1,
         "types": 14
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 209,
         "name": "じたばた",
         "power": 1,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 210,
         "name": "じだんだ",
         "power": 75,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 9
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 120,
         "id": 211,
         "name": "しっとのほのお",
@@ -2471,33 +2825,39 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 2,
         "types": 2
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 100,
         "id": 212,
         "name": "しっぺがえし",
         "power": 50,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 16
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 213,
         "name": "しっぽをふる",
         "power": 0,
         "pp": 30,
         "remarks": [],
+        "target": 2,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 110,
         "id": 214,
         "name": "じならし",
@@ -2506,11 +2866,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 5,
         "types": 9
     },
     {
         "accuracy": 90,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 215,
         "name": "しねんのずつき",
@@ -2519,55 +2881,65 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 11
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 150,
         "id": 216,
         "name": "じばく",
         "power": 200,
         "pp": 5,
         "remarks": [],
+        "target": 5,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 217,
         "name": "じばそうさ",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 3,
         "types": 5
     },
     {
         "accuracy": 75,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 218,
         "name": "しびれごな",
         "power": 0,
         "pp": 30,
         "remarks": [],
+        "target": 1,
         "types": 4
     },
     {
         "accuracy": 85,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 90,
         "id": 219,
         "name": "しめつける",
         "power": 15,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 220,
         "name": "ジャイロボール",
@@ -2576,33 +2948,39 @@
         "remarks": [
             "bullet"
         ],
+        "target": 1,
         "types": 17
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 120,
         "id": 221,
         "name": "シャドークロー",
         "power": 70,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 14
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 222,
         "name": "シャドースチール",
         "power": 90,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 14
     },
     {
         "accuracy": 0,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 110,
         "id": 223,
         "name": "シャドーパンチ",
@@ -2611,11 +2989,13 @@
         "remarks": [
             "punch"
         ],
+        "target": 1,
         "types": 14
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 224,
         "name": "シャドーボール",
@@ -2625,11 +3005,13 @@
             "bullet",
             "sheer_force"
         ],
+        "target": 1,
         "types": 14
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 225,
         "name": "シャドーボーン",
@@ -2638,22 +3020,26 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 14
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 226,
         "name": "シャドーレイ",
         "power": 100,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 14
     },
     {
         "accuracy": 90,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 227,
         "name": "じゃれつく",
@@ -2662,99 +3048,117 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 18
     },
     {
         "accuracy": -1,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 228,
         "name": "ジャングルヒール",
         "power": -1,
         "pp": -1,
         "remarks": [],
+        "target": 3,
         "types": 4
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 229,
         "name": "じゅうでん",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 6,
         "types": 5
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 230,
         "name": "じゅうりょく",
         "power": 0,
         "pp": 5,
         "remarks": [],
+        "target": 10,
         "types": 11
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 231,
         "name": "じょうか",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 8
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 232,
         "name": "しろいきり",
         "power": 0,
         "pp": 30,
         "remarks": [],
+        "target": 8,
         "types": 6
     },
     {
         "accuracy": 30,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 233,
         "name": "じわれ",
         "power": 1,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 9
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 70,
         "id": 234,
         "name": "しんくうは",
         "power": 40,
         "pp": 30,
         "remarks": [],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 235,
         "name": "しんそく",
         "power": 80,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 236,
         "name": "じんつうりき",
@@ -2763,67 +3167,79 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 11
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 90,
         "id": 237,
         "name": "しんぴのつるぎ",
         "power": 85,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 238,
         "name": "しんぴのまもり",
         "power": 0,
         "pp": 25,
         "remarks": [],
+        "target": 8,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 239,
         "name": "シンプルビーム",
         "power": 0,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 85,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 240,
         "name": "スイープビンタ",
         "power": 25,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 90,
         "id": 241,
         "name": "すいとる",
         "power": 20,
         "pp": 25,
         "remarks": [],
+        "target": 1,
         "types": 4
     },
     {
         "accuracy": 100,
         "category": "physical",
-        "dynamax_power": 90,
+        "contact": 1,
+        "dynamax_power": 130,
         "id": 242,
         "name": "すいりゅうれんだ",
         "power": 25,
@@ -2831,33 +3247,39 @@
         "remarks": [
             "punch"
         ],
+        "target": 1,
         "types": 3
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 243,
         "name": "スキルスワップ",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 11
     },
     {
         "accuracy": 90,
         "category": "physical",
-        "dynamax_power": 90,
+        "contact": 0,
+        "dynamax_power": 130,
         "id": 244,
         "name": "スケイルショット",
         "power": 25,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 15
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 140,
         "id": 245,
         "name": "スケイルノイズ",
@@ -2866,22 +3288,26 @@
         "remarks": [
             "sound"
         ],
+        "target": 2,
         "types": 15
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 100,
         "id": 246,
         "name": "スターアサルト",
         "power": 150,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 120,
         "id": 247,
         "name": "ずつき",
@@ -2890,11 +3316,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 248,
         "name": "すてゼリフ",
@@ -2903,11 +3331,13 @@
         "remarks": [
             "sound"
         ],
+        "target": 1,
         "types": 16
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 140,
         "id": 249,
         "name": "すてみタックル",
@@ -2916,77 +3346,91 @@
         "remarks": [
             "reckless"
         ],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 250,
         "name": "ステルスロック",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 9,
         "types": 13
     },
     {
         "accuracy": 80,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 251,
         "name": "ストーンエッジ",
         "power": 100,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 13
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 252,
         "name": "すなあつめ",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 6,
         "types": 9
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 253,
         "name": "すなあらし",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 10,
         "types": 13
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 254,
         "name": "すなかけ",
         "power": 0,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 9
     },
     {
         "accuracy": 85,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 90,
         "id": 255,
         "name": "すなじごく",
         "power": 35,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 9
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 120,
         "id": 256,
         "name": "スパーク",
@@ -2995,55 +3439,65 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 5
     },
     {
         "accuracy": 0,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 110,
         "id": 257,
         "name": "スピードスター",
         "power": 60,
         "pp": 20,
         "remarks": [],
+        "target": 2,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 258,
         "name": "スピードスワップ",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 11
     },
     {
         "accuracy": 80,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 259,
         "name": "スプーンまげ",
         "power": 0,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 11
     },
     {
         "accuracy": 0,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 120,
         "id": 260,
         "name": "スマートホーン",
         "power": 70,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 17
     },
     {
         "accuracy": 70,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 70,
         "id": 261,
         "name": "スモッグ",
@@ -3052,66 +3506,78 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 8
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 262,
         "name": "すりかえ",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 16
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 263,
         "name": "せいちょう",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 6,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 90,
         "id": 264,
         "name": "せいなるつるぎ",
         "power": 90,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 30,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 265,
         "name": "ぜったいれいど",
         "power": 1,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 6
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 266,
         "name": "そうでん",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 5
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 267,
         "name": "ソウルクラッシュ",
@@ -3120,11 +3586,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 18
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 268,
         "name": "ソウルビート",
@@ -3133,66 +3601,91 @@
         "remarks": [
             "sound"
         ],
+        "target": 6,
         "types": 15
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 140,
         "id": 269,
         "name": "ソーラービーム",
         "power": 120,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 4
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 140,
         "id": 270,
         "name": "ソーラーブレード",
         "power": 125,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 4
     },
     {
         "accuracy": 95,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 271,
         "name": "そらをとぶ",
         "power": 90,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 10
     },
     {
         "accuracy": 100,
+        "category": "physical",
+        "contact": 1,
+        "dynamax_power": 130,
+        "id": 3,
+        "name": "DDラリアット",
+        "power": 85,
+        "pp": 10,
+        "remarks": [],
+        "target": 1,
+        "types": 16
+    },
+    {
+        "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 272,
         "name": "タールショット",
         "power": 0,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 13
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 90,
         "id": 273,
         "name": "たいあたり",
         "power": 40,
         "pp": 35,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 274,
         "name": "だいちのちから",
@@ -3201,12 +3694,14 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 9
     },
     {
         "accuracy": 100,
         "category": "special",
-        "dynamax_power": 100,
+        "contact": 0,
+        "dynamax_power": 130,
         "id": 275,
         "name": "だいちのはどう",
         "power": 50,
@@ -3214,44 +3709,52 @@
         "remarks": [
             "pulse"
         ],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 150,
         "id": 276,
         "name": "だいばくはつ",
         "power": 250,
         "pp": 5,
         "remarks": [],
+        "target": 5,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 277,
         "name": "ダイビング",
         "power": 80,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 3
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 140,
         "id": 278,
         "name": "ダイマックスほう",
         "power": 100,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 15
     },
     {
         "accuracy": 85,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 140,
         "id": 279,
         "name": "だいもんじ",
@@ -3260,11 +3763,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 2
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 280,
         "name": "たきのぼり",
@@ -3273,11 +3778,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 3
     },
     {
         "accuracy": 85,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 281,
         "name": "だくりゅう",
@@ -3286,33 +3793,39 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 2,
         "types": 3
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 282,
         "name": "たくわえる",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 6,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 283,
         "name": "たこがため",
         "power": 0,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 80,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 95,
         "id": 284,
         "name": "ダストシュート",
@@ -3321,44 +3834,52 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 8
     },
     {
         "accuracy": 75,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 285,
         "name": "たたきつける",
         "power": 80,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 286,
         "name": "たたみがえし",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 8,
         "types": 7
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 120,
         "id": 287,
         "name": "たたりめ",
         "power": 65,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 14
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 90,
         "id": 288,
         "name": "たつまき",
@@ -3367,11 +3888,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 2,
         "types": 15
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 289,
         "name": "タネばくだん",
@@ -3380,11 +3903,13 @@
         "remarks": [
             "bullet"
         ],
+        "target": 1,
         "types": 4
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 290,
         "name": "タネマシンガン",
@@ -3393,44 +3918,52 @@
         "remarks": [
             "bullet"
         ],
+        "target": 1,
         "types": 4
     },
     {
         "accuracy": 90,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 120,
         "id": 291,
         "name": "ダブルアタック",
         "power": 35,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 90,
         "category": "physical",
-        "dynamax_power": 90,
+        "contact": 1,
+        "dynamax_power": 130,
         "id": 292,
         "name": "ダブルウイング",
         "power": 40,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 10
     },
     {
         "accuracy": 90,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 293,
         "name": "ダブルチョップ",
         "power": 40,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 15
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 140,
         "id": 294,
         "name": "ダブルパンツァー",
@@ -3440,66 +3973,78 @@
             "punch",
             "sheer_force"
         ],
+        "target": 1,
         "types": 17
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 295,
         "name": "タマゴうみ",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 6,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 110,
         "id": 296,
         "name": "ダメおし",
         "power": 60,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 16
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 297,
         "name": "ちいさくなる",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 6,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 298,
         "name": "ちからをすいとる",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 4
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 75,
         "id": 299,
         "name": "ちきゅうなげ",
         "power": 1,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 90,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 100,
         "id": 300,
         "name": "チャージビーム",
@@ -3508,11 +4053,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 5
     },
     {
         "accuracy": 0,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 90,
         "id": 301,
         "name": "チャームボイス",
@@ -3521,11 +4068,13 @@
         "remarks": [
             "sound"
         ],
+        "target": 2,
         "types": 18
     },
     {
         "accuracy": 55,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 302,
         "name": "ちょうおんぱ",
@@ -3534,176 +4083,208 @@
         "remarks": [
             "sound"
         ],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 303,
         "name": "ちょうのまい",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 6,
         "types": 12
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 304,
         "name": "ちょうはつ",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 16
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 110,
         "id": 305,
         "name": "ついばむ",
         "power": 60,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 10
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 306,
         "name": "つきのひかり",
         "power": 0,
         "pp": 5,
         "remarks": [],
+        "target": 6,
         "types": 18
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 307,
         "name": "つけあがる",
         "power": 20,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 16
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 120,
         "id": 308,
         "name": "つじぎり",
         "power": 70,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 16
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 90,
         "id": 309,
         "name": "つつく",
         "power": 35,
         "pp": 35,
         "remarks": [],
+        "target": 1,
         "types": 10
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 70,
         "id": 310,
         "name": "つっぱり",
         "power": 15,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 120,
         "id": 311,
         "name": "つのでつく",
         "power": 65,
         "pp": 25,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 30,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 312,
         "name": "つのドリル",
         "power": 1,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 110,
         "id": 313,
         "name": "つばさでうつ",
         "power": 60,
         "pp": 35,
         "remarks": [],
+        "target": 1,
         "types": 10
     },
     {
         "accuracy": 0,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 110,
         "id": 314,
         "name": "つばめがえし",
         "power": 60,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 10
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 315,
         "name": "つぶらなひとみ",
         "power": 0,
         "pp": 30,
         "remarks": [],
+        "target": 1,
         "types": 18
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 316,
         "name": "つぼをつく",
         "power": 0,
         "pp": 30,
         "remarks": [],
+        "target": 4,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 317,
         "name": "つめとぎ",
         "power": 0,
         "pp": 15,
         "remarks": [],
+        "target": 6,
         "types": 16
     },
     {
         "accuracy": 90,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 318,
         "name": "つららおとし",
@@ -3712,154 +4293,182 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 6
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 319,
         "name": "つららばり",
         "power": 25,
         "pp": 30,
         "remarks": [],
+        "target": 1,
         "types": 6
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 320,
         "name": "つるぎのまい",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 6,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 100,
         "id": 321,
         "name": "つるのムチ",
         "power": 45,
         "pp": 25,
         "remarks": [],
+        "target": 1,
         "types": 4
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 322,
         "name": "であいがしら",
         "power": 90,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 12
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 90,
         "id": 323,
         "name": "てかげん",
         "power": 40,
         "pp": 40,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 324,
         "name": "テクスチャー",
         "power": 0,
         "pp": 30,
         "remarks": [],
+        "target": 6,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 325,
         "name": "テクスチャー2",
         "power": 0,
         "pp": 30,
         "remarks": [],
+        "target": 6,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 326,
         "name": "デコレーション",
         "power": 0,
         "pp": 15,
         "remarks": [],
+        "target": 4,
         "types": 18
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 327,
         "name": "てだすけ",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 4,
         "types": 1
     },
     {
         "accuracy": 95,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 140,
         "id": 328,
         "name": "てっていこうせん",
         "power": 140,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 17
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 329,
         "name": "てっぺき",
         "power": 0,
         "pp": 15,
         "remarks": [],
+        "target": 6,
         "types": 17
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 330,
         "name": "テレポート",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 6,
         "types": 11
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 331,
         "name": "てをつなぐ",
         "power": 0,
         "pp": 40,
         "remarks": [],
+        "target": 6,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 90,
         "id": 332,
         "name": "でんきショック",
@@ -3868,77 +4477,91 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 5
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 333,
         "name": "でんげきくちばし",
         "power": 85,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 5
     },
     {
         "accuracy": 0,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 110,
         "id": 334,
         "name": "でんげきは",
         "power": 60,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 5
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 90,
         "id": 335,
         "name": "でんこうせっか",
         "power": 40,
         "pp": 30,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 75,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 336,
         "name": "てんしのキッス",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 18
     },
     {
         "accuracy": 90,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 337,
         "name": "でんじは",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 5
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 338,
         "name": "でんじふゆう",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 6,
         "types": 5
     },
     {
         "accuracy": 50,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 140,
         "id": 339,
         "name": "でんじほう",
@@ -3948,33 +4571,39 @@
             "bullet",
             "sheer_force"
         ],
+        "target": 1,
         "types": 5
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 340,
         "name": "とおせんぼう",
         "power": 0,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 341,
         "name": "トーチカ",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 6,
         "types": 8
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 342,
         "name": "とおぼえ",
@@ -3983,33 +4612,39 @@
         "remarks": [
             "sound"
         ],
+        "target": 6,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 343,
         "name": "とぎすます",
         "power": 0,
         "pp": 30,
         "remarks": [],
+        "target": 6,
         "types": 1
     },
     {
         "accuracy": 90,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 344,
         "name": "どくガス",
         "power": 0,
         "pp": 40,
         "remarks": [],
+        "target": 2,
         "types": 8
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 90,
         "id": 345,
         "name": "どくづき",
@@ -4018,22 +4653,26 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 8
     },
     {
         "accuracy": 90,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 346,
         "name": "どくどく",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 8
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 75,
         "id": 347,
         "name": "どくどくのキバ",
@@ -4043,22 +4682,26 @@
             "biting",
             "sheer_force"
         ],
+        "target": 1,
         "types": 8
     },
     {
         "accuracy": 75,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 348,
         "name": "どくのこな",
         "power": 0,
         "pp": 35,
         "remarks": [],
+        "target": 1,
         "types": 8
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 70,
         "id": 349,
         "name": "どくばり",
@@ -4067,55 +4710,65 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 8
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 350,
         "name": "どくびし",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 9,
         "types": 8
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 351,
         "name": "とぐろをまく",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 6,
         "types": 8
     },
     {
         "accuracy": 0,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 352,
         "name": "どげざつき",
         "power": 80,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 16
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 353,
         "name": "とける",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 6,
         "types": 8
     },
     {
         "accuracy": 85,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 354,
         "name": "とっしん",
@@ -4124,33 +4777,39 @@
         "remarks": [
             "reckless"
         ],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 140,
         "id": 355,
         "name": "とっておき",
         "power": 140,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 100,
         "id": 356,
         "name": "とどめばり",
         "power": 50,
         "pp": 25,
         "remarks": [],
+        "target": 1,
         "types": 12
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 357,
         "name": "とびかかる",
@@ -4159,11 +4818,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 12
     },
     {
         "accuracy": 85,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 358,
         "name": "とびはねる",
@@ -4172,11 +4833,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 10
     },
     {
         "accuracy": 90,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 95,
         "id": 359,
         "name": "とびひざげり",
@@ -4185,22 +4848,26 @@
         "remarks": [
             "reckless"
         ],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 90,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 80,
         "id": 360,
         "name": "ともえなげ",
         "power": 60,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 361,
         "name": "トライアタック",
@@ -4209,44 +4876,39 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 362,
         "name": "ドラゴンアロー",
         "power": 50,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 15
-    },
-    {
-        "accuracy": -1,
-        "category": "Missing",
-        "dynamax_power": 0,
-        "id": 363,
-        "name": "ドラゴンエナジー",
-        "power": -1,
-        "pp": -1,
-        "remarks": [],
-        "types": 0
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 364,
         "name": "ドラゴンクロー",
         "power": 80,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 15
     },
     {
         "accuracy": 75,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 365,
         "name": "ドラゴンダイブ",
@@ -4255,55 +4917,65 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 15
     },
     {
         "accuracy": 90,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 110,
         "id": 366,
         "name": "ドラゴンテール",
         "power": 60,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 15
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 367,
         "name": "ドラゴンハンマー",
         "power": 90,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 15
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 150,
         "id": 368,
         "name": "トラップシェル",
         "power": 150,
         "pp": 5,
         "remarks": [],
+        "target": 2,
         "types": 2
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 90,
         "id": 369,
         "name": "トラバサミ",
         "power": 35,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 4
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 370,
         "name": "ドラムアタック",
@@ -4312,99 +4984,117 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 4
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 371,
         "name": "トリック",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 11
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 372,
         "name": "トリックガード",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 8,
         "types": 18
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 373,
         "name": "トリックルーム",
         "power": 0,
         "pp": 5,
         "remarks": [],
+        "target": 10,
         "types": 11
     },
     {
         "accuracy": 90,
         "category": "physical",
-        "dynamax_power": 90,
+        "contact": 1,
+        "dynamax_power": 140,
         "id": 374,
         "name": "トリプルアクセル",
         "power": 20,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 6
     },
     {
         "accuracy": 90,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 80,
         "id": 375,
         "name": "トリプルキック",
         "power": 10,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 376,
         "name": "ドリルくちばし",
         "power": 80,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 10
     },
     {
         "accuracy": 95,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 377,
         "name": "ドリルライナー",
         "power": 80,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 9
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 1,
         "dynamax_power": 100,
         "id": 378,
         "name": "ドレインキッス",
         "power": 50,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 18
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 90,
         "id": 379,
         "name": "ドレインパンチ",
@@ -4413,11 +5103,13 @@
         "remarks": [
             "punch"
         ],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 90,
         "id": 380,
         "name": "どろかけ",
@@ -4426,11 +5118,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 9
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 120,
         "id": 381,
         "name": "トロピカルキック",
@@ -4439,44 +5133,52 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 4
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 110,
         "id": 382,
         "name": "どろぼう",
         "power": 60,
         "pp": 25,
         "remarks": [],
+        "target": 1,
         "types": 16
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 383,
         "name": "ドわすれ",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 6,
         "types": 11
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 120,
         "id": 384,
         "name": "とんぼがえり",
         "power": 70,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 12
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 385,
         "name": "ないしょばなし",
@@ -4485,11 +5187,13 @@
         "remarks": [
             "sound"
         ],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 95,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 386,
         "name": "ナイトバースト",
@@ -4498,44 +5202,52 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 16
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 100,
         "id": 387,
         "name": "ナイトヘッド",
         "power": 1,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 14
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 388,
         "name": "なかまづくり",
         "power": 0,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 389,
         "name": "なかよくする",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 390,
         "name": "なきごえ",
@@ -4544,11 +5256,13 @@
         "remarks": [
             "sound"
         ],
+        "target": 2,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 100,
         "id": 391,
         "name": "なげつける",
@@ -4557,88 +5271,104 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 16
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 392,
         "name": "なまける",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 6,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 393,
         "name": "なみだめ",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 394,
         "name": "なみのり",
         "power": 90,
         "pp": 15,
         "remarks": [],
+        "target": 5,
         "types": 3
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 395,
         "name": "なやみのタネ",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 4
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 396,
         "name": "なりきり",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 11
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 397,
         "name": "ニードルガード",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 6,
         "types": 4
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 80,
         "id": 398,
         "name": "にどげり",
         "power": 30,
         "pp": 30,
         "remarks": [],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 100,
         "id": 399,
         "name": "ニトロチャージ",
@@ -4647,44 +5377,52 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 2
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 400,
         "name": "にほんばれ",
         "power": 0,
         "pp": 5,
         "remarks": [],
+        "target": 10,
         "types": 2
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 401,
         "name": "にらみつける",
         "power": 0,
         "pp": 30,
         "remarks": [],
+        "target": 2,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 402,
         "name": "ねがいごと",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 6,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 90,
         "id": 403,
         "name": "ねこだまし",
@@ -4693,33 +5431,39 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 404,
         "name": "ねごと",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": -1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 90,
         "id": 405,
         "name": "ネコにこばん",
         "power": 40,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 120,
         "id": 406,
         "name": "ねっさのだいち",
@@ -4728,11 +5472,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 9
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 407,
         "name": "ねっとう",
@@ -4741,11 +5487,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 3
     },
     {
         "accuracy": 90,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 408,
         "name": "ねっぷう",
@@ -4754,66 +5502,78 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 2,
         "types": 2
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 409,
         "name": "ねばねばネット",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 9,
         "types": 12
     },
     {
         "accuracy": 75,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 410,
         "name": "ねむりごな",
         "power": 0,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 4
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 411,
         "name": "ねむる",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 6,
         "types": 11
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 412,
         "name": "ねらいうち",
         "power": 80,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 3
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 413,
         "name": "ねをはる",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 6,
         "types": 4
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 100,
         "id": 414,
         "name": "ねんりき",
@@ -4822,11 +5582,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 11
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 415,
         "name": "のしかかり",
@@ -4835,33 +5597,65 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 416,
         "name": "のみこむ",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 6,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 417,
         "name": "のろい",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 6,
+        "types": 14
+    },
+    {
+        "accuracy": 0,
+        "category": "non-damaging",
+        "contact": 0,
+        "dynamax_power": 0,
+        "id": 417,
+        "name": "のろい",
+        "power": 0,
+        "pp": 10,
+        "remarks": [],
+        "target": 6,
         "types": 14
     },
     {
         "accuracy": 95,
+        "category": "physical",
+        "contact": 1,
+        "dynamax_power": 150,
+        "id": 5,
+        "name": "Vジェネレート",
+        "power": 180,
+        "pp": 5,
+        "remarks": [],
+        "target": 1,
+        "types": 2
+    },
+    {
+        "accuracy": 95,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 110,
         "id": 418,
         "name": "バークアウト",
@@ -4871,55 +5665,65 @@
             "sheer_force",
             "sound"
         ],
+        "target": 2,
         "types": 16
     },
     {
         "accuracy": 90,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 150,
         "id": 419,
         "name": "ハードプラント",
         "power": 150,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 4
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 420,
         "name": "はいすいのじん",
         "power": 0,
         "pp": 5,
         "remarks": [],
+        "target": 6,
         "types": 7
     },
     {
         "accuracy": 90,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 150,
         "id": 421,
         "name": "ハイドロカノン",
         "power": 150,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 3
     },
     {
         "accuracy": 80,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 140,
         "id": 422,
         "name": "ハイドロポンプ",
         "power": 110,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 3
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 423,
         "name": "ハイパーボイス",
@@ -4928,11 +5732,13 @@
         "remarks": [
             "sound"
         ],
+        "target": 2,
         "types": 1
     },
     {
         "accuracy": 90,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 120,
         "id": 424,
         "name": "はいよるいちげき",
@@ -4941,33 +5747,39 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 12
     },
     {
         "accuracy": 90,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 150,
         "id": 425,
         "name": "はかいこうせん",
         "power": 150,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 95,
         "id": 426,
         "name": "ばかぢから",
         "power": 120,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 90,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 120,
         "id": 427,
         "name": "はがねのつばさ",
@@ -4976,22 +5788,26 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 17
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 100,
         "id": 428,
         "name": "はきだす",
         "power": 1,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 140,
         "id": 429,
         "name": "ばくおんぱ",
@@ -5000,11 +5816,13 @@
         "remarks": [
             "sound"
         ],
+        "target": 5,
         "types": 1
     },
     {
         "accuracy": 50,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 90,
         "id": 430,
         "name": "ばくれつパンチ",
@@ -5014,55 +5832,65 @@
             "punch",
             "sheer_force"
         ],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 30,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 431,
         "name": "ハサミギロチン",
         "power": 1,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 110,
         "id": 432,
         "name": "はさむ",
         "power": 55,
         "pp": 30,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 120,
         "id": 433,
         "name": "はたきおとす",
         "power": 65,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 16
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 90,
         "id": 434,
         "name": "はたく",
         "power": 40,
         "pp": 35,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 80,
         "id": 435,
         "name": "はっけい",
@@ -5071,33 +5899,39 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 95,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 110,
         "id": 436,
         "name": "はっぱカッター",
         "power": 55,
         "pp": 25,
         "remarks": [],
+        "target": 2,
         "types": 4
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 437,
         "name": "ハッピータイム",
         "power": 0,
         "pp": 30,
         "remarks": [],
+        "target": 5,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 90,
         "id": 438,
         "name": "はどうだん",
@@ -5107,66 +5941,78 @@
             "bullet",
             "pulse"
         ],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 439,
         "name": "バトンタッチ",
         "power": 0,
         "pp": 40,
         "remarks": [],
+        "target": 6,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 1,
         "dynamax_power": 140,
         "id": 440,
         "name": "はなびらのまい",
         "power": 120,
         "pp": 10,
         "remarks": [],
+        "target": 7,
         "types": 4
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 441,
         "name": "はなふぶき",
         "power": 90,
         "pp": 15,
         "remarks": [],
+        "target": 5,
         "types": 4
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 442,
         "name": "はねやすめ",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 6,
         "types": 10
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 443,
         "name": "はねる",
         "power": 0,
         "pp": 40,
         "remarks": [],
+        "target": 6,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 120,
         "id": 444,
         "name": "バブルこうせん",
@@ -5175,44 +6021,52 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 3
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 140,
         "id": 445,
         "name": "はめつのねがい",
         "power": 140,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 17
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 446,
         "name": "はらだいこ",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 6,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 120,
         "id": 447,
         "name": "パラボラチャージ",
         "power": 65,
         "pp": 20,
         "remarks": [],
+        "target": 5,
         "types": 5
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 90,
         "id": 448,
         "name": "バレットパンチ",
@@ -5221,121 +6075,143 @@
         "remarks": [
             "punch"
         ],
+        "target": 1,
         "types": 17
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 449,
         "name": "ハロウィン",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 14
     },
     {
         "accuracy": 85,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 140,
         "id": 450,
         "name": "パワーウィップ",
         "power": 120,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 4
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 451,
         "name": "パワーシェア",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 11
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 452,
         "name": "パワージェム",
         "power": 80,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 13
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 453,
         "name": "パワースワップ",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 11
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 454,
         "name": "パワートリック",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 6,
         "types": 11
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 455,
         "name": "ヒートスタンプ",
         "power": 1,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 2
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 456,
         "name": "ひかりのかべ",
         "power": 0,
         "pp": 30,
         "remarks": [],
+        "target": 8,
         "types": 11
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 90,
         "id": 457,
         "name": "ひっかく",
         "power": 40,
         "pp": 35,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 458,
         "name": "ひっくりかえす",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 16
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 90,
         "id": 459,
         "name": "ひのこ",
@@ -5344,11 +6220,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 2
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 460,
         "name": "びりびりちくちく",
@@ -5357,132 +6235,156 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 5
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 461,
         "name": "ビルドアップ",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 6,
         "types": 7
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 1,
         "dynamax_power": 0,
         "id": 462,
         "name": "ファストガード",
         "power": 0,
         "pp": 15,
         "remarks": [],
+        "target": 8,
         "types": 7
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 120,
         "id": 463,
         "name": "ふいうち",
         "power": 70,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 16
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 464,
         "name": "ふういん",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 6,
         "types": 11
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 465,
         "name": "フェアリーロック",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 10,
         "types": 18
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 90,
         "id": 466,
         "name": "フェイント",
         "power": 30,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 467,
         "name": "フェザーダンス",
         "power": 0,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 10
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 468,
         "name": "フォトンゲイザー",
         "power": 100,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 11
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 469,
         "name": "ふきとばし",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 100,
         "id": 470,
         "name": "ふくろだたき",
         "power": 1,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 16
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 471,
         "name": "ふしょくガス",
         "power": 0,
         "pp": 40,
         "remarks": [],
+        "target": 5,
         "types": 8
     },
     {
         "accuracy": 70,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 140,
         "id": 472,
         "name": "ふぶき",
@@ -5491,11 +6393,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 2,
         "types": 6
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 120,
         "id": 473,
         "name": "ふみつけ",
@@ -5504,33 +6408,39 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 95,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 90,
         "id": 474,
         "name": "フライングプレス",
         "power": 100,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 90,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 150,
         "id": 475,
         "name": "ブラストバーン",
         "power": 150,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 2
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 476,
         "name": "プラズマフィスト",
@@ -5539,44 +6449,52 @@
         "remarks": [
             "punch"
         ],
+        "target": 1,
         "types": 5
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 477,
         "name": "フラフラダンス",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 5,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 478,
         "name": "フラワーガード",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 3,
         "types": 18
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 479,
         "name": "フラワーヒール",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 6,
         "types": 18
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 120,
         "id": 480,
         "name": "フリーズドライ",
@@ -5585,11 +6503,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 6
     },
     {
         "accuracy": 90,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 140,
         "id": 481,
         "name": "フリーズボルト",
@@ -5598,44 +6518,52 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 6
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 150,
         "id": 482,
         "name": "プリズムレーザー",
         "power": 160,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 11
     },
     {
         "accuracy": 90,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 140,
         "id": 483,
         "name": "フルールカノン",
         "power": 130,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 18
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 484,
         "name": "ふるいたてる",
         "power": 0,
         "pp": 30,
         "remarks": [],
+        "target": 6,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 140,
         "id": 485,
         "name": "フレアドライブ",
@@ -5644,11 +6572,13 @@
         "remarks": [
             "reckless"
         ],
+        "target": 1,
         "types": 2
     },
     {
         "accuracy": 95,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 486,
         "name": "ブレイククロー",
@@ -5657,11 +6587,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 90,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 487,
         "name": "ブレイズキック",
@@ -5670,11 +6602,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 2
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 140,
         "id": 488,
         "name": "ブレイブバード",
@@ -5683,33 +6617,39 @@
         "remarks": [
             "reckless"
         ],
+        "target": 1,
         "types": 10
     },
     {
         "accuracy": 90,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 100,
         "id": 489,
         "name": "プレゼント",
         "power": 1,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 490,
         "name": "ブロッキング",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 6,
         "types": 16
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 491,
         "name": "ふんえん",
@@ -5718,33 +6658,39 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 5,
         "types": 2
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 150,
         "id": 492,
         "name": "ふんか",
         "power": 150,
         "pp": 5,
         "remarks": [],
+        "target": 2,
         "types": 2
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 110,
         "id": 493,
         "name": "ぶんまわす",
         "power": 60,
         "pp": 20,
         "remarks": [],
+        "target": 5,
         "types": 16
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 90,
         "id": 494,
         "name": "ヘドロウェーブ",
@@ -5753,11 +6699,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 5,
         "types": 8
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 85,
         "id": 495,
         "name": "ヘドロこうげき",
@@ -5766,11 +6714,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 8
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 90,
         "id": 496,
         "name": "ヘドロばくだん",
@@ -5780,66 +6730,78 @@
             "bullet",
             "sheer_force"
         ],
+        "target": 1,
         "types": 8
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 1,
         "dynamax_power": 85,
         "id": 497,
         "name": "ベノムショック",
         "power": 65,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 8
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 498,
         "name": "ベノムトラップ",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 2,
         "types": 8
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 499,
         "name": "ヘビーボンバー",
         "power": 1,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 17
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 500,
         "name": "へびにらみ",
         "power": 0,
         "pp": 30,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 501,
         "name": "へんしん",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 75,
         "id": 502,
         "name": "ポイズンテール",
@@ -5848,22 +6810,26 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 8
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 503,
         "name": "ぼうぎょしれい",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 6,
         "types": 12
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 504,
         "name": "ほうでん",
@@ -5872,11 +6838,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 5,
         "types": 5
     },
     {
         "accuracy": 70,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 140,
         "id": 505,
         "name": "ぼうふう",
@@ -5885,11 +6853,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 10
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 506,
         "name": "ほえる",
@@ -5898,44 +6868,52 @@
         "remarks": [
             "sound"
         ],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 507,
         "name": "ほおばる",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 6,
         "types": 1
     },
     {
         "accuracy": 90,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 508,
         "name": "ボーンラッシュ",
         "power": 25,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 9
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 110,
         "id": 509,
         "name": "ほしがる",
         "power": 60,
         "pp": 25,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 90,
         "id": 510,
         "name": "ほっぺすりすり",
@@ -5944,55 +6922,65 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 5
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 511,
         "name": "ボディパージ",
         "power": 0,
         "pp": 15,
         "remarks": [],
+        "target": 6,
         "types": 17
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 90,
         "id": 512,
         "name": "ボディプレス",
         "power": 80,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 90,
         "category": "physical",
-        "dynamax_power": 100,
+        "contact": 0,
+        "dynamax_power": 130,
         "id": 513,
         "name": "ホネブーメラン",
         "power": 50,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 9
     },
     {
         "accuracy": 85,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 90,
         "id": 514,
         "name": "ほのおのうず",
         "power": 35,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 2
     },
     {
         "accuracy": 95,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 120,
         "id": 515,
         "name": "ほのおのキバ",
@@ -6002,22 +6990,26 @@
             "biting",
             "sheer_force"
         ],
+        "target": 1,
         "types": 2
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 516,
         "name": "ほのおのちかい",
         "power": 80,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 2
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 517,
         "name": "ほのおのパンチ",
@@ -6027,11 +7019,13 @@
             "punch",
             "sheer_force"
         ],
+        "target": 1,
         "types": 2
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 518,
         "name": "ほのおのまい",
@@ -6040,11 +7034,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 2
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 519,
         "name": "ほのおのムチ",
@@ -6053,22 +7049,26 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 2
     },
     {
         "accuracy": 90,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 140,
         "id": 520,
         "name": "ポルターガイスト",
         "power": 110,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 14
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 140,
         "id": 521,
         "name": "ボルテッカー",
@@ -6078,22 +7078,26 @@
             "reckless",
             "sheer_force"
         ],
+        "target": 1,
         "types": 5
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 120,
         "id": 522,
         "name": "ボルトチェンジ",
         "power": 70,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 5
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 523,
         "name": "ほろびのうた",
@@ -6102,44 +7106,52 @@
         "remarks": [
             "sound"
         ],
+        "target": 5,
         "types": 1
     },
     {
         "accuracy": 90,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 90,
         "id": 524,
         "name": "まきつく",
         "power": 15,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 525,
         "name": "まきびし",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 9,
         "types": 9
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 526,
         "name": "マジカルシャイン",
         "power": 80,
         "pp": 10,
         "remarks": [],
+        "target": 2,
         "types": 18
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 527,
         "name": "マジカルフレイム",
@@ -6148,44 +7160,52 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 2
     },
     {
         "accuracy": 0,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 110,
         "id": 528,
         "name": "マジカルリーフ",
         "power": 60,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 4
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 529,
         "name": "マジックコート",
         "power": 0,
         "pp": 15,
         "remarks": [],
+        "target": 6,
         "types": 11
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 530,
         "name": "マジックルーム",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 10,
         "types": 11
     },
     {
         "accuracy": 95,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 110,
         "id": 531,
         "name": "マッドショット",
@@ -6194,11 +7214,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 9
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 70,
         "id": 532,
         "name": "マッハパンチ",
@@ -6207,165 +7229,195 @@
         "remarks": [
             "punch"
         ],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 1,
         "dynamax_power": 90,
         "id": 533,
         "name": "まとわりつく",
         "power": 20,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 12
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 534,
         "name": "まねっこ",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": -1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 535,
         "name": "まほうのこな",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 11
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 536,
         "name": "まもる",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 6,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 537,
         "name": "まるくなる",
         "power": 0,
         "pp": 40,
         "remarks": [],
+        "target": 6,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 95,
         "id": 538,
         "name": "マルチアタック",
         "power": 120,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 539,
         "name": "みがわり",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 6,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 540,
         "name": "みきり",
         "power": 0,
         "pp": 5,
         "remarks": [],
+        "target": 6,
         "types": 7
     },
     {
         "accuracy": 95,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 541,
         "name": "ミサイルばり",
         "power": 25,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 12
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 90,
         "id": 542,
         "name": "みずしゅりけん",
         "power": 15,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 3
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 90,
         "id": 543,
         "name": "みずでっぽう",
         "power": 40,
         "pp": 25,
         "remarks": [],
+        "target": 1,
         "types": 3
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 544,
         "name": "ミストバースト",
         "power": 100,
         "pp": 5,
         "remarks": [],
+        "target": 5,
         "types": 18
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 545,
         "name": "ミストフィールド",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 10,
         "types": 18
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 546,
         "name": "みずのちかい",
         "power": 80,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 3
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 110,
         "id": 547,
         "name": "みずのはどう",
@@ -6375,110 +7427,130 @@
             "pulse",
             "sheer_force"
         ],
+        "target": 1,
         "types": 3
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 548,
         "name": "みずびたし",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 3
     },
     {
         "accuracy": 85,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 90,
         "id": 549,
         "name": "みだれづき",
         "power": 15,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 80,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 100,
         "id": 550,
         "name": "みだれひっかき",
         "power": 18,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 551,
         "name": "みちづれ",
         "power": 0,
         "pp": 5,
         "remarks": [],
+        "target": 6,
         "types": 14
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 90,
         "id": 552,
         "name": "みねうち",
         "power": 40,
         "pp": 40,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 100,
         "id": 553,
         "name": "ミラーコート",
         "power": 1,
         "pp": 20,
         "remarks": [],
+        "target": 6,
         "types": 11
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 554,
         "name": "ミラータイプ",
         "power": 0,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 140,
         "id": 555,
         "name": "みらいよち",
         "power": 120,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 11
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 556,
         "name": "ミルクのみ",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 6,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 557,
         "name": "ムーンフォース",
@@ -6487,33 +7559,39 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 18
     },
     {
         "accuracy": 90,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 150,
         "id": 558,
         "name": "ムゲンダイビーム",
         "power": 160,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 15
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 110,
         "id": 559,
         "name": "むしくい",
         "power": 60,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 12
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 560,
         "name": "むしのさざめき",
@@ -6523,11 +7601,13 @@
             "sheer_force",
             "sound"
         ],
+        "target": 1,
         "types": 12
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 100,
         "id": 561,
         "name": "むしのていこう",
@@ -6536,44 +7616,52 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 2,
         "types": 12
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 562,
         "name": "めいそう",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 6,
         "types": 11
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 90,
         "id": 563,
         "name": "メガドレイン",
         "power": 40,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 4
     },
     {
         "accuracy": 75,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 140,
         "id": 564,
         "name": "メガトンキック",
         "power": 120,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 85,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 565,
         "name": "メガトンパンチ",
@@ -6582,22 +7670,26 @@
         "remarks": [
             "punch"
         ],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 85,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 140,
         "id": 566,
         "name": "メガホーン",
         "power": 120,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 12
     },
     {
         "accuracy": 95,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 100,
         "id": 567,
         "name": "メタルクロー",
@@ -6606,99 +7698,104 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 17
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 100,
         "id": 568,
         "name": "メタルバースト",
         "power": 1,
         "pp": 10,
         "remarks": [],
+        "target": 6,
         "types": 17
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 569,
         "name": "メテオドライブ",
         "power": 100,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 17
     },
     {
         "accuracy": 90,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 140,
         "id": 570,
         "name": "メテオビーム",
         "power": 120,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 13
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 571,
         "name": "メロメロ",
         "power": 0,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 1
-    },
-    {
-        "accuracy": -1,
-        "category": "special",
-        "dynamax_power": 90,
-        "id": 572,
-        "name": "もえあがるいかり",
-        "power": -1,
-        "pp": -1,
-        "remarks": [],
-        "types": 16
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 140,
         "id": 573,
         "name": "もえつきる",
         "power": 130,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 2
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 574,
         "name": "ものまね",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 575,
         "name": "もりののろい",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 4
     },
     {
         "accuracy": 80,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 150,
         "id": 576,
         "name": "もろはのずつき",
@@ -6707,77 +7804,91 @@
         "remarks": [
             "reckless"
         ],
+        "target": 1,
         "types": 13
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 110,
         "id": 577,
         "name": "やきつくす",
         "power": 60,
         "pp": 15,
         "remarks": [],
+        "target": 2,
         "types": 2
     },
     {
         "accuracy": 90,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 578,
         "name": "やどりぎのタネ",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 4
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 80,
         "id": 579,
         "name": "やまあらし",
         "power": 60,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 110,
         "id": 580,
         "name": "ゆきなだれ",
         "power": 60,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 6
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 581,
         "name": "ゆびをふる",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": -1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 582,
         "name": "ゆめくい",
         "power": 100,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 11
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 70,
         "id": 583,
         "name": "ようかいえき",
@@ -6786,22 +7897,26 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 2,
         "types": 8
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 90,
         "id": 584,
         "name": "ようせいのかぜ",
         "power": 40,
         "pp": 30,
         "remarks": [],
+        "target": 1,
         "types": 18
     },
     {
         "accuracy": 85,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 140,
         "id": 585,
         "name": "らいげき",
@@ -6810,33 +7925,26 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 5
     },
     {
         "accuracy": 100,
         "category": "special",
-        "dynamax_power": 120,
+        "contact": 0,
+        "dynamax_power": 140,
         "id": 586,
         "name": "ライジングボルト",
         "power": 70,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 5
-    },
-    {
-        "accuracy": -1,
-        "category": "physical",
-        "dynamax_power": 70,
-        "id": 587,
-        "name": "らいめいげり",
-        "power": -1,
-        "pp": -1,
-        "remarks": [],
-        "types": 7
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 588,
         "name": "ラスターカノン",
@@ -6845,77 +7953,91 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 17
     },
     {
         "accuracy": 90,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 140,
         "id": 589,
         "name": "リーフストーム",
         "power": 130,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 4
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 590,
         "name": "リーフブレード",
         "power": 90,
         "pp": 15,
         "remarks": [],
+        "target": 1,
         "types": 4
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 591,
         "name": "リサイクル",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 6,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 592,
         "name": "リフレクター",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 8,
         "types": 11
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 80,
         "id": 593,
         "name": "リベンジ",
         "power": 60,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 90,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 140,
         "id": 594,
         "name": "りゅうせいぐん",
         "power": 130,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 15
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 110,
         "id": 595,
         "name": "りゅうのいぶき",
@@ -6924,11 +8046,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 15
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 596,
         "name": "りゅうのはどう",
@@ -6937,22 +8061,26 @@
         "remarks": [
             "pulse"
         ],
+        "target": 1,
         "types": 15
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 597,
         "name": "りゅうのまい",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 6,
         "types": 15
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 598,
         "name": "りんごさん",
@@ -6961,11 +8089,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 4
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 110,
         "id": 599,
         "name": "りんしょう",
@@ -6974,11 +8104,13 @@
         "remarks": [
             "sound"
         ],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 600,
         "name": "れいとうパンチ",
@@ -6988,11 +8120,13 @@
             "punch",
             "sheer_force"
         ],
+        "target": 1,
         "types": 6
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 601,
         "name": "れいとうビーム",
@@ -7001,11 +8135,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 6
     },
     {
         "accuracy": 50,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 602,
         "name": "れんごく",
@@ -7014,22 +8150,26 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 2
     },
     {
         "accuracy": 95,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 90,
         "id": 603,
         "name": "れんぞくぎり",
         "power": 40,
         "pp": 20,
         "remarks": [],
+        "target": 1,
         "types": 12
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 85,
         "id": 604,
         "name": "ローキック",
@@ -7038,44 +8178,52 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 7
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 140,
         "id": 605,
         "name": "ロケットずつき",
         "power": 130,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 606,
         "name": "ロックオン",
         "power": 0,
         "pp": 5,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 607,
         "name": "ロックカット",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 6,
         "types": 13
     },
     {
         "accuracy": 90,
         "category": "physical",
+        "contact": 0,
         "dynamax_power": 90,
         "id": 608,
         "name": "ロックブラスト",
@@ -7084,33 +8232,39 @@
         "remarks": [
             "bullet"
         ],
+        "target": 1,
         "types": 13
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 609,
         "name": "ワイドガード",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 8,
         "types": 13
     },
     {
         "accuracy": 100,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 610,
         "name": "ワイドフォース",
         "power": 80,
         "pp": 10,
         "remarks": [],
+        "target": 1,
         "types": 11
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 110,
         "id": 611,
         "name": "ワイドブレイカー",
@@ -7119,11 +8273,13 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 2,
         "types": 15
     },
     {
         "accuracy": 100,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 130,
         "id": 612,
         "name": "ワイルドボルト",
@@ -7132,44 +8288,52 @@
         "remarks": [
             "reckless"
         ],
+        "target": 1,
         "types": 5
     },
     {
         "accuracy": 100,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 613,
         "name": "わたほうし",
         "power": 0,
         "pp": 40,
         "remarks": [],
+        "target": 1,
         "types": 4
     },
     {
         "accuracy": 0,
         "category": "physical",
+        "contact": 1,
         "dynamax_power": 100,
         "id": 614,
         "name": "わるあがき",
         "power": 50,
         "pp": 1,
         "remarks": [],
+        "target": 1,
         "types": 1
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 615,
         "name": "わるだくみ",
         "power": 0,
         "pp": 20,
         "remarks": [],
+        "target": 6,
         "types": 16
     },
     {
         "accuracy": 95,
         "category": "special",
+        "contact": 0,
         "dynamax_power": 130,
         "id": 616,
         "name": "ワンダースチーム",
@@ -7178,17 +8342,20 @@
         "remarks": [
             "sheer_force"
         ],
+        "target": 1,
         "types": 18
     },
     {
         "accuracy": 0,
         "category": "non-damaging",
+        "contact": 0,
         "dynamax_power": 0,
         "id": 617,
         "name": "ワンダールーム",
         "power": 0,
         "pp": 10,
         "remarks": [],
+        "target": 10,
         "types": 11
     }
 ]

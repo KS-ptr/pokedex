@@ -4,6 +4,7 @@ cd "%~dp0"
 
 call :get_types
 call :get_remarks
+call :get_special_case_dynamax_power
 call :get_moves_prep
 call :get_moves
 exit /b
@@ -16,6 +17,11 @@ exit /b
 :get_remarks
 call python %~dp0\moves_with_remarks.py
 echo "remarked_moves.json done."
+exit /b
+
+:get_special_case_dynamax_power
+call python %~dp0\special_dynamax_power.py
+echo "special_case_dynamax_power.json done."
 exit /b
 
 :get_moves_prep
