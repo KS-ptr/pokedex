@@ -1,0 +1,4692 @@
+[
+    {
+        "eviolite": 1,
+        "name": "フシギダネ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "フシギソウ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "フシギバナ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヒトカゲ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "リザード",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "リザードン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ゼニガメ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "カメール",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "カメックス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "キャタピー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "トランセル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "バタフリー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ビードル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "コクーン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "スピアー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ポッポ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ピジョン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ピジョット",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "コラッタ",
+        "side_name": "(カントーのすがた)"
+    },
+    {
+        "eviolite": 0,
+        "name": "ラッタ",
+        "side_name": "(カントーのすがた)"
+    },
+    {
+        "eviolite": 1,
+        "name": "コラッタ",
+        "side_name": "(アローラのすがた)"
+    },
+    {
+        "eviolite": 0,
+        "name": "ラッタ",
+        "side_name": "(アローラのすがた)"
+    },
+    {
+        "eviolite": 1,
+        "name": "オニスズメ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "オニドリル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "アーボ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "アーボック",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "サンド",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "サンドパン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ニドラン♀",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ニドリーナ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ニドクイン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ニドラン♂",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ニドリーノ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ニドキング",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ロコン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "キュウコン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ロコン",
+        "side_name": "(アローラのすがた)"
+    },
+    {
+        "eviolite": 0,
+        "name": "キュウコン",
+        "side_name": "(アローラのすがた)"
+    },
+    {
+        "eviolite": 1,
+        "name": "ズバット",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ゴルバット",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "クロバット",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ナゾノクサ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "クサイハナ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ラフレシア",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "キレイハナ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "パラス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "パラセクト",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "コンパン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "モルフォン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ディグダ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ダグトリオ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ディグダ",
+        "side_name": "(アローラのすがた)"
+    },
+    {
+        "eviolite": 0,
+        "name": "ダグトリオ",
+        "side_name": "(アローラのすがた)"
+    },
+    {
+        "eviolite": 1,
+        "name": "ニャース",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ペルシアン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ニャース",
+        "side_name": "(アローラのすがた)"
+    },
+    {
+        "eviolite": 0,
+        "name": "ペルシアン",
+        "side_name": "(アローラのすがた)"
+    },
+    {
+        "eviolite": 1,
+        "name": "コダック",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ゴルダック",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "マンキー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "オコリザル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ガーディ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ウインディ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ニョロモ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ニョロゾ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ニョロボン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ニョロトノ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ケーシィ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ユンゲラー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "フーディン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ワンリキー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ゴーリキー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "カイリキー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "マダツボミ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ウツドン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ウツボット",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "メノクラゲ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ドククラゲ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "イシツブテ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ゴローン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ゴローニャ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "イシツブテ",
+        "side_name": "(アローラのすがた)"
+    },
+    {
+        "eviolite": 1,
+        "name": "ゴローン",
+        "side_name": "(アローラのすがた)"
+    },
+    {
+        "eviolite": 0,
+        "name": "ゴローニャ",
+        "side_name": "(アローラのすがた)"
+    },
+    {
+        "eviolite": 1,
+        "name": "ポニータ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ギャロップ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ポニータ",
+        "side_name": "(ガラルのすがた)"
+    },
+    {
+        "eviolite": 0,
+        "name": "ギャロップ",
+        "side_name": "(ガラルのすがた)"
+    },
+    {
+        "eviolite": 1,
+        "name": "ヤドン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ヤドラン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ヤドキング",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヤドン",
+        "side_name": "(ガラルのすがた)"
+    },
+    {
+        "eviolite": 0,
+        "name": "ヤドラン",
+        "side_name": "(ガラルのすがた)"
+    },
+    {
+        "eviolite": 0,
+        "name": "ヤドキング",
+        "side_name": "(ガラルのすがた)"
+    },
+    {
+        "eviolite": 1,
+        "name": "コイル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "レアコイル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ジバコイル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "カモネギ",
+        "side_name": "(カントーのすがた)"
+    },
+    {
+        "eviolite": 1,
+        "name": "カモネギ",
+        "side_name": "(ガラルのすがた)"
+    },
+    {
+        "eviolite": 0,
+        "name": "ネギガナイト",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ドードー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ドードリオ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "パウワウ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ジュゴン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ベトベター",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ベトベトン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ベトベター",
+        "side_name": "(アローラのすがた)"
+    },
+    {
+        "eviolite": 0,
+        "name": "ベトベトン",
+        "side_name": "(アローラのすがた)"
+    },
+    {
+        "eviolite": 1,
+        "name": "シェルダー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "パルシェン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ゴース",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ゴースト",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ゲンガー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "イワーク",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ハガネール",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "スリープ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "スリーパー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "クラブ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "キングラー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ビリリダマ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "マルマイン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "タマタマ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ナッシー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ナッシー",
+        "side_name": "(アローラのすがた)"
+    },
+    {
+        "eviolite": 1,
+        "name": "カラカラ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ガラガラ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ガラガラ",
+        "side_name": "(アローラのすがた)"
+    },
+    {
+        "eviolite": 1,
+        "name": "ベロリンガ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ベロベルト",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ドガース",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "マタドガス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "マタドガス",
+        "side_name": "(ガラルのすがた)"
+    },
+    {
+        "eviolite": 1,
+        "name": "サイホーン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "サイドン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ドサイドン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "モンジャラ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "モジャンボ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ガルーラ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "タッツー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "シードラ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "キングドラ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "トサキント",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "アズマオウ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヒトデマン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "スターミー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ストライク",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ハッサム",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "カイロス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ケンタロス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "コイキング",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ギャラドス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ラプラス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "メタモン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "イーブイ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "シャワーズ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "サンダース",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ブースター",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "エーフィ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ブラッキー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "リーフィア",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "グレイシア",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ニンフィア",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ポリゴン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ポリゴン2",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ポリゴンZ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "オムナイト",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "オムスター",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "カブト",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "カブトプス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "プテラ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "フリーザー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "フリーザー",
+        "side_name": "(ガラルのすがた)"
+    },
+    {
+        "eviolite": 0,
+        "name": "サンダー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "サンダー",
+        "side_name": "(ガラルのすがた)"
+    },
+    {
+        "eviolite": 0,
+        "name": "ファイヤー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ファイヤー",
+        "side_name": "(ガラルのすがた)"
+    },
+    {
+        "eviolite": 1,
+        "name": "ミニリュウ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ハクリュー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "カイリュー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ミュウツー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ミュウ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "チコリータ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ベイリーフ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "メガニウム",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヒノアラシ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "マグマラシ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "バクフーン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ワニノコ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "アリゲイツ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "オーダイル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "オタチ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "オオタチ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ホーホー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ヨルノズク",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "レディバ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "レディアン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "イトマル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "アリアドス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "チョンチー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ランターン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ピチュー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ピカチュウ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ライチュウ",
+        "side_name": "(カントーのすがた)"
+    },
+    {
+        "eviolite": 0,
+        "name": "ライチュウ",
+        "side_name": "(アローラのすがた)"
+    },
+    {
+        "eviolite": 1,
+        "name": "ピィ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ピッピ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ピクシー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ププリン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "プリン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "プクリン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "トゲピー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "トゲチック",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "トゲキッス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ネイティ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ネイティオ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "メリープ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "モココ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "デンリュウ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ハネッコ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ポポッコ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ワタッコ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "エイパム",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "エテボース",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヒマナッツ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "キマワリ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヤンヤンマ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "メガヤンマ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ウパー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ヌオー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヤミカラス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ドンカラス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ムウマ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ムウマージ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "アンノーン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "キリンリキ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "クヌギダマ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "フォレトス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ノコッチ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "グライガー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "グライオン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ブルー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "グランブル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ハリーセン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ツボツボ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ヘラクロス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ニューラ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "マニューラ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヒメグマ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "リングマ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "マグマッグ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "マグカルゴ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ウリムー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "イノムー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "マンムー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "サニーゴ",
+        "side_name": "(ジョウトのすがた)"
+    },
+    {
+        "eviolite": 1,
+        "name": "サニーゴ",
+        "side_name": "(ガラルのすがた)"
+    },
+    {
+        "eviolite": 0,
+        "name": "サニゴーン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "テッポウオ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "オクタン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "デリバード",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "エアームド",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "デルビル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ヘルガー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ゴマゾウ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ドンファン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "オドシシ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ドーブル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "バルキー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "サワムラー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "エビワラー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "カポエラー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ムチュール",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ルージュラ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "エレキッド",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "エレブー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "エレキブル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ブビィ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ブーバー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ブーバーン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ミルタンク",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ライコウ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "エンテイ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "スイクン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヨーギラス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "サナギラス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "バンギラス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ルギア",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ホウオウ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "セレビィ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "キモリ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ジュプトル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ジュカイン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "アチャモ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ワカシャモ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "バシャーモ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ミズゴロウ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヌマクロー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ラグラージ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ポチエナ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "グラエナ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ジグザグマ",
+        "side_name": "(ホウエンのすがた)"
+    },
+    {
+        "eviolite": 0,
+        "name": "マッスグマ",
+        "side_name": "(ホウエンのすがた)"
+    },
+    {
+        "eviolite": 1,
+        "name": "ジグザグマ",
+        "side_name": "(ガラルのすがた)"
+    },
+    {
+        "eviolite": 1,
+        "name": "マッスグマ",
+        "side_name": "(ガラルのすがた)"
+    },
+    {
+        "eviolite": 0,
+        "name": "タチフサグマ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ケムッソ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "カラサリス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "アゲハント",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "マユルド",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ドクケイル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ハスボー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ハスブレロ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ルンパッパ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "タネボー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "コノハナ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ダーテング",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "スバメ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "オオスバメ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "キャモメ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ペリッパー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ラルトス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "キルリア",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "サーナイト",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "エルレイド",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "アメタマ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "アメモース",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "キノココ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "キノガッサ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ナマケロ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヤルキモノ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ケッキング",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ツチニン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "テッカニン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ヌケニン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ゴニョニョ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ドゴーム",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "バクオング",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "マクノシタ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ハリテヤマ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ルリリ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "マリル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "マリルリ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ノズパス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ダイノーズ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "エネコ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "エネコロロ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ヤミラミ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "クチート",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ココドラ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "コドラ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ボスゴドラ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "アサナン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "チャーレム",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ラクライ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ライボルト",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "プラスル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "マイナン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "バルビート",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "イルミーゼ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ゴクリン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "マルノーム",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "キバニア",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "サメハダー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ホエルコ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ホエルオー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ドンメル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "バクーダ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "コータス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "バネブー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ブーピッグ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "パッチール",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ナックラー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ビブラーバ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "フライゴン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "サボネア",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ノクタス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "チルット",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "チルタリス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ザングース",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ハブネーク",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ルナトーン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ソルロック",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ドジョッチ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ナマズン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヘイガニ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "シザリガー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヤジロン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ネンドール",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "リリーラ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ユレイドル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "アノプス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "アーマルド",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヒンバス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ミロカロス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ポワルン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "カクレオン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "カゲボウズ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ジュペッタ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヨマワル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "サマヨール",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ヨノワール",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "トロピウス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "アブソル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ソーナノ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ソーナンス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ユキワラシ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "オニゴーリ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ユキメノコ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "タマザラシ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "トドグラー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "トドゼルガ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "パールル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ハンテール",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "サクラビス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ジーランス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ラブカス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "タツベイ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "コモルー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ボーマンダ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ダンバル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "メタング",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "メタグロス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "レジロック",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "レジアイス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "レジスチル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ラティアス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ラティオス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "カイオーガ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "グラードン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "レックウザ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ジラーチ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "デオキシス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ナエトル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ハヤシガメ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ドダイトス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヒコザル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "モウカザル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ゴウカザル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ポッチャマ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ポッタイシ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "エンペルト",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ムックル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ムクバード",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ムクホーク",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ビッパ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ビーダル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "コロボーシ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "コロトック",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "コリンク",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ルクシオ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "レントラー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "スボミー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ロゼリア",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ロズレイド",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ズガイドス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ラムパルド",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "タテトプス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "トリデプス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ミノムッチ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ミノマダム",
+        "side_name": "(くさきのミノ)"
+    },
+    {
+        "eviolite": 0,
+        "name": "ミノマダム",
+        "side_name": "(すなちのミノ)"
+    },
+    {
+        "eviolite": 0,
+        "name": "ミノマダム",
+        "side_name": "(ゴミのミノ)"
+    },
+    {
+        "eviolite": 1,
+        "name": "ミツハニー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ビークイン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "パチリス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ブイゼル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "フローゼル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "チェリンボ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "チェリム",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "カラナクシ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "トリトドン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "フワンテ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "フワライド",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ミミロル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ミミロップ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ニャルマー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ブニャット",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "リーシャン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "チリーン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "スカンプー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "スカタンク",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ドーミラー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ドータクン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ウソハチ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ウソッキー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "マネネ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "バリヤード",
+        "side_name": "(カントーのすがた)"
+    },
+    {
+        "eviolite": 1,
+        "name": "バリヤード",
+        "side_name": "(ガラルのすがた)"
+    },
+    {
+        "eviolite": 0,
+        "name": "バリコオル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ピンプク",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ラッキー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ハピナス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ペラップ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ミカルゲ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "フカマル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ガバイト",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ガブリアス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ゴンベ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "カビゴン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "リオル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ルカリオ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヒポポタス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "カバルドン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "スコルピ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ドラピオン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "グレッグル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ドクロッグ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "マスキッパ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ケイコウオ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ネオラント",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "タマンタ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "マンタイン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ユキカブリ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ユキノオー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ロトム",
+        "side_name": "(ノーマルフォルム)"
+    },
+    {
+        "eviolite": 0,
+        "name": "ロトム",
+        "side_name": "(ヒートロトム)"
+    },
+    {
+        "eviolite": 0,
+        "name": "ロトム",
+        "side_name": "(ウォッシュロトム)"
+    },
+    {
+        "eviolite": 0,
+        "name": "ロトム",
+        "side_name": "(フロストロトム)"
+    },
+    {
+        "eviolite": 0,
+        "name": "ロトム",
+        "side_name": "(スピンロトム)"
+    },
+    {
+        "eviolite": 0,
+        "name": "ロトム",
+        "side_name": "(カットロトム)"
+    },
+    {
+        "eviolite": 0,
+        "name": "ユクシー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "エムリット",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "アグノム",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ディアルガ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "パルキア",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ヒードラン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "レジギガス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ギラティナ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "クレセリア",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "フィオネ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "マナフィ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ダークライ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "シェイミ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "アルセウス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ビクティニ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ツタージャ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ジャノビー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ジャローダ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ポカブ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "チャオブー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "エンブオー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ミジュマル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "フタチマル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ダイケンキ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ミネズミ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ミルホッグ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヨーテリー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ハーデリア",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ムーランド",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "チョロネコ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "レパルダス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヤナップ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ヤナッキー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "バオップ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "バオッキー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヒヤップ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ヒヤッキー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ムンナ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ムシャーナ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "マメパト",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ハトーボー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ケンホロウ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "シママ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ゼブライカ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ダンゴロ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ガントル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ギガイアス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "コロモリ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ココロモリ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "モグリュー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ドリュウズ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "タブンネ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ドッコラー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ドテッコツ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ローブシン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "オタマロ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ガマガル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ガマゲロゲ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ナゲキ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ダゲキ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "クルミル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "クルマユ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ハハコモリ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "フシデ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ホイーガ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ペンドラー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "モンメン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "エルフーン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "チュリネ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ドレディア",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "バスラオ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "メグロコ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ワルビル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ワルビアル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ダルマッカ",
+        "side_name": "(イッシュのすがた)"
+    },
+    {
+        "eviolite": 0,
+        "name": "ヒヒダルマ",
+        "side_name": "(イッシュのすがた)"
+    },
+    {
+        "eviolite": 1,
+        "name": "ダルマッカ",
+        "side_name": "(ガラルのすがた)"
+    },
+    {
+        "eviolite": 0,
+        "name": "ヒヒダルマ",
+        "side_name": "(ガラルのすがた)"
+    },
+    {
+        "eviolite": 0,
+        "name": "マラカッチ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "イシズマイ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "イワパレス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ズルッグ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ズルズキン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "シンボラー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "デスマス",
+        "side_name": "(イッシュのすがた)"
+    },
+    {
+        "eviolite": 0,
+        "name": "デスカーン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "デスマス",
+        "side_name": "(ガラルのすがた)"
+    },
+    {
+        "eviolite": 0,
+        "name": "デスバーン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "プロトーガ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "アバゴーラ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "アーケン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "アーケオス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヤブクロン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ダストダス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ゾロア",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ゾロアーク",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "チラーミィ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "チラチーノ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ゴチム",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ゴチミル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ゴチルゼル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ユニラン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ダブラン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ランクルス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "コアルヒー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "スワンナ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "バニプッチ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "バニリッチ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "バイバニラ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "シキジカ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "メブキジカ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "エモンガ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "カブルモ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "シュバルゴ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "タマゲタケ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "モロバレル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "プルリル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ブルンゲル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ママンボウ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "バチュル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "デンチュラ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "テッシード",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ナットレイ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ギアル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ギギアル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ギギギアル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "シビシラス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "シビビール",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "シビルドン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "リグレー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "オーベム",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヒトモシ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ランプラー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "シャンデラ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "キバゴ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "オノンド",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "オノノクス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "クマシュン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ツンベアー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "フリージオ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "チョボマキ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "アギルダー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "マッギョ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "マッギョ",
+        "side_name": "(ガラルのすがた)"
+    },
+    {
+        "eviolite": 1,
+        "name": "コジョフー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "コジョンド",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "クリムガン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ゴビット",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ゴルーグ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "コマタナ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "キリキザン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "バッフロン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ワシボン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ウォーグル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "バルチャイ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "バルジーナ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "クイタラン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "アイアント",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "モノズ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ジヘッド",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "サザンドラ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "メラルバ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ウルガモス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "コバルオン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "テラキオン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ビリジオン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "トルネロス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ボルトロス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "レシラム",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ゼクロム",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ランドロス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "キュレム",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ケルディオ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "メロエッタ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ゲノセクト",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ハリマロン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ハリボーグ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ブリガロン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "フォッコ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "テールナー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "マフォクシー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ケロマツ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ゲコガシラ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ゲッコウガ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ホルビー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ホルード",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヤヤコマ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヒノヤコマ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ファイアロー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "コフキムシ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "コフーライ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ビビヨン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "シシコ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "カエンジシ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "フラベベ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "フラエッテ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "フラージェス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "メェークル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ゴーゴート",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヤンチャム",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ゴロンダ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "トリミアン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ニャスパー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ニャオニクス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヒトツキ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ニダンギル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ギルガルド",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "シュシュプ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "フレフワン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ペロッパフ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ペロリーム",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "マーイーカ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "カラマネロ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "カメテテ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ガメノデス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "クズモー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ドラミドロ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ウデッポウ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ブロスター",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "エリキテル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "エレザード",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "チゴラス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ガチゴラス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "アマルス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "アマルルガ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ルチャブル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "デデンネ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "メレシー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヌメラ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヌメイル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ヌメルゴン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "クレッフィ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ボクレー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "オーロット",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "バケッチャ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "パンプジン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "カチコール",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "クレベース",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "オンバット",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "オンバーン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ゼルネアス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "イベルタル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ジガルデ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ディアンシー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "フーパ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ボルケニオン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "モクロー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "フクスロー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ジュナイパー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ニャビー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ニャヒート",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ガオガエン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "アシマリ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "オシャマリ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "アシレーヌ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ツツケラ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ケララッパ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ドデカバシ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヤングース",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "デカグース",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "アゴジムシ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "デンヂムシ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "クワガノン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "マケンカニ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ケケンカニ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "オドリドリ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "アブリー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "アブリボン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "イワンコ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ルガルガン",
+        "side_name": "(まひるのすがた)"
+    },
+    {
+        "eviolite": 0,
+        "name": "ルガルガン",
+        "side_name": "(まよなかのすがた)"
+    },
+    {
+        "eviolite": 0,
+        "name": "ルガルガン",
+        "side_name": "(たそがれのすがた)"
+    },
+    {
+        "eviolite": 0,
+        "name": "ヨワシ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヒドイデ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ドヒドイデ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ドロバンコ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "バンバドロ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "シズクモ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "オニシズクモ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "カリキリ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ラランテス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ネマシュ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "マシェード",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヤトウモリ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "エンニュート",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヌイコグマ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "キテルグマ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "アマカジ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "アママイコ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "アマージョ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "キュワワー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ヤレユータン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ナゲツケサル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "コソクムシ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "グソクムシャ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "スナバァ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "シロデスナ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ナマコブシ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "タイプ:ヌル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "シルヴァディ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "メテノ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ネッコアラ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "バクガメス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "トゲデマル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ミミッキュ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ハギギシリ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ジジーロン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ダダリン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ジャラコ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ジャランゴ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ジャラランガ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "カプ・コケコ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "カプ・テテフ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "カプ・ブルル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "カプ・レヒレ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "コスモッグ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "コスモウム",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ソルガレオ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ルナアーラ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ウツロイド",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "マッシブーン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "フェローチェ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "デンジュモク",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "テッカグヤ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "カミツルギ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "アクジキング",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ネクロズマ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "マギアナ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "マーシャドー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ベベノム",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "アーゴヨン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ツンデツンデ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ズガドーン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ゼラオラ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "メルタン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "メルメタル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "サルノリ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "バチンキー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ゴリランダー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヒバニー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ラビフット",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "エースバーン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "メッソン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ジメレオン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "インテレオン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ホシガリス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ヨクバリス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ココガラ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "アオガラス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "アーマーガア",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "サッチムシ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "レドームシ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "イオルブ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "クスネ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "フォクスライ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヒメンカ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ワタシラガ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ウールー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "バイウールー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "カムカメ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "カジリガメ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ワンパチ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "パルスワン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "タンドン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "トロッゴン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "セキタンザン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "カジッチュ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "アップリュー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "タルップル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "スナヘビ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "サダイジャ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ウッウ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "サシカマス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "カマスジョー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "エレズン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ストリンダー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヤクデ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "マルヤクデ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "タタッコ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "オトスパス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ヤバチャ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ポットデス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ミブリム",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "テブリム",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ブリムオン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ベロバー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ギモー",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "オーロンゲ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "マホミル",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "マホイップ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "タイレーツ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "バチンウニ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ユキハミ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "モスノウ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "イシヘンジン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "コオリッポ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "イエッサン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "モルペコ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ゾウドウ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ダイオウドウ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "パッチラゴン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "パッチルドン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ウオノラゴン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ウオチルドン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ジュラルドン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ドラメシヤ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ドロンチ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ドラパルト",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ザシアン",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ザマゼンタ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ムゲンダイナ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 1,
+        "name": "ダクマ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "ウーラオス",
+        "side_name": "(いちげきのかた)"
+    },
+    {
+        "eviolite": 0,
+        "name": "ウーラオス",
+        "side_name": "(れんげきのかた)"
+    },
+    {
+        "eviolite": 0,
+        "name": "ザルード",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "バドレックス",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "レジエレキ",
+        "side_name": ""
+    },
+    {
+        "eviolite": 0,
+        "name": "レジドラゴ",
+        "side_name": ""
+    }
+]
