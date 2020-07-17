@@ -12,7 +12,7 @@ def main():
 
 def search(search_term, condition):
     section = ceil(search_term / 100)
-    with open('pokedex_{0}.json'.format(section), encoding="utf-8") as f:
+    with open('./result/pokedex_{0}.json'.format(section), encoding="utf-8") as f:
         dex_list = load(f)
         for dex in dex_list:
             if condition == 1:
@@ -25,19 +25,19 @@ def search(search_term, condition):
 
 def show_dex(dex):
     dex_moves = []
-    with open('moves.json', encoding="utf-8") as f:
+    with open('./result/moves.json', encoding="utf-8") as f:
         moves_list = load(f)
         for move in moves_list:
             if move["id"] in dex["moves"]:
                 dex_moves.append(move["name"])
     dex_abilities = []
-    with open('abilities.json', encoding="utf-8") as f:
+    with open('./result/abilities.json', encoding="utf-8") as f:
         abilities_list = load(f)
         for ability in abilities_list:
             if ability["id"] in dex["abilities"]:
                 dex_abilities.append(ability["name"])
     dex_types = []
-    with open('types.json', encoding="utf-8") as f:
+    with open('./result/types.json', encoding="utf-8") as f:
         types_list = load(f)
         for poke_type in types_list:
             if poke_type["id"] in dex["types"]:
