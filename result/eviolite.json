@@ -132,12 +132,12 @@
     {
         "eviolite": 1,
         "name": "サンド",
-        "side_name": ""
+        "side_name": "(カントーのすがた)"
     },
     {
         "eviolite": 0,
         "name": "サンドパン",
-        "side_name": ""
+        "side_name": "(カントーのすがた)"
     },
     {
         "eviolite": 1,
@@ -172,12 +172,12 @@
     {
         "eviolite": 1,
         "name": "ロコン",
-        "side_name": ""
+        "side_name": "(カントーのすがた)"
     },
     {
         "eviolite": 0,
         "name": "キュウコン",
-        "side_name": ""
+        "side_name": "(カントーのすがた)"
     },
     {
         "eviolite": 1,
@@ -247,12 +247,12 @@
     {
         "eviolite": 1,
         "name": "ディグダ",
-        "side_name": ""
+        "side_name": "(カントーのすがた)"
     },
     {
         "eviolite": 0,
         "name": "ダグトリオ",
-        "side_name": ""
+        "side_name": "(カントーのすがた)"
     },
     {
         "eviolite": 1,
@@ -267,12 +267,12 @@
     {
         "eviolite": 1,
         "name": "ニャース",
-        "side_name": ""
+        "side_name": "(カントーのすがた)"
     },
     {
         "eviolite": 0,
         "name": "ペルシアン",
-        "side_name": ""
+        "side_name": "(カントーのすがた)"
     },
     {
         "eviolite": 1,
@@ -283,6 +283,11 @@
         "eviolite": 0,
         "name": "ペルシアン",
         "side_name": "(アローラのすがた)"
+    },
+    {
+        "eviolite": 1,
+        "name": "ニャース",
+        "side_name": "(ガラルのすがた)"
     },
     {
         "eviolite": 1,
@@ -392,17 +397,17 @@
     {
         "eviolite": 1,
         "name": "イシツブテ",
-        "side_name": ""
+        "side_name": "(カントーのすがた)"
     },
     {
         "eviolite": 1,
         "name": "ゴローン",
-        "side_name": ""
+        "side_name": "(カントーのすがた)"
     },
     {
         "eviolite": 0,
         "name": "ゴローニャ",
-        "side_name": ""
+        "side_name": "(カントーのすがた)"
     },
     {
         "eviolite": 1,
@@ -422,12 +427,12 @@
     {
         "eviolite": 1,
         "name": "ポニータ",
-        "side_name": ""
+        "side_name": "(カントーのすがた)"
     },
     {
         "eviolite": 0,
         "name": "ギャロップ",
-        "side_name": ""
+        "side_name": "(カントーのすがた)"
     },
     {
         "eviolite": 1,
@@ -442,17 +447,17 @@
     {
         "eviolite": 1,
         "name": "ヤドン",
-        "side_name": ""
+        "side_name": "(カントーのすがた)"
     },
     {
         "eviolite": 0,
         "name": "ヤドラン",
-        "side_name": ""
+        "side_name": "(カントーのすがた)"
     },
     {
         "eviolite": 0,
         "name": "ヤドキング",
-        "side_name": ""
+        "side_name": "(ジョウトのすがた)"
     },
     {
         "eviolite": 1,
@@ -522,12 +527,12 @@
     {
         "eviolite": 1,
         "name": "ベトベター",
-        "side_name": ""
+        "side_name": "(カントーのすがた)"
     },
     {
         "eviolite": 0,
         "name": "ベトベトン",
-        "side_name": ""
+        "side_name": "(カントーのすがた)"
     },
     {
         "eviolite": 1,
