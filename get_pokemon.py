@@ -16,7 +16,7 @@ from bs4 import BeautifulSoup
 #     get_pokemon(html, page, -1)
 #     utils.save_json(dex_filename, dex_list)
 
-def get_pokemon(html, page: str, int_id: int, section: int) -> dict:
+def get_pokemon(html, page: str, section: int) -> dict:
     parsed_html = lxml.html.fromstring(html)
 
     # 図鑑番号と名前
@@ -166,7 +166,7 @@ def get_pokemon(html, page: str, int_id: int, section: int) -> dict:
     moves = moveset[1]
     
     # 読み込み終えたら辞書として値を格納
-    one_pokemon = PokemonData(number, int_id, name, side_name, on_galar, banned, height, weight, types, abilities, egg_groups, final_exp, HP, Attack, Defence, SpAttack, SpDefence, Speed, OverAll, moves)
+    one_pokemon = PokemonData(number, name, side_name, on_galar, banned, height, weight, types, abilities, egg_groups, final_exp, HP, Attack, Defence, SpAttack, SpDefence, Speed, OverAll, moves)
 
     return one_pokemon
 

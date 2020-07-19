@@ -34,14 +34,12 @@ def crawling(page_list: list, section_number: int):
     mail_address = config.get('User-Agent', 'mail_address')
     ses = Session()
     ses.headers.update({"User-Agent": "Mozzila/5.0@{0}".format(mail_address)})
-    int_id = 0 + (section_number - 1) * 100
     for page in page_list:
-        int_id += 1
         url = web_directry_string + page
         res = ses.get(url)
         encoding = res.apparent_encoding
         html = res.content.decode(encoding=encoding)
-        dex_list.append(get_pokemon(html, page, int_id, section_number))
+        dex_list.append(get_pokemon(html, page, section_number))
         sleep(1)
 
 if __name__ == "__main__":
