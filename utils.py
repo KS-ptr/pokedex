@@ -2,8 +2,6 @@ from json import dump, load
 import urllib.request
 import datetime
 import traceback
-import requests
-import configparser
 
 # タイプの文字列からタイプのインデックスを取得する
 def get_int_types(str_types) -> int:
